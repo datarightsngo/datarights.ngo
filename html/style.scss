@@ -1,0 +1,271 @@
+@import "assets/bootstrap/scss/bootstrap.scss";
+@import "assets/fonts/metropolis.scss";
+
+body {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    background: url('/assets/teufelsberg.jpg') no-repeat fixed;
+    background-size: cover;
+    display: grid;
+
+    & > .site-nav, .title, a.page-parent {
+        font-family: "Metropolis";
+    }
+}
+a, a:link, a:hover {
+    text-decoration: none;
+}
+body {
+    & > .site-head > .site-nav, & > main.content > *, & > .site-block > *, & > .site-bottom > *  {
+        max-width: 980px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    & > .site-head {
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0.9), rgba(255,255,255,1));
+    }
+ & > .site-head > .site-nav {
+    min-height: 7vh;
+    display: grid;
+    width: 100%;
+
+    & > * {
+        margin-top: 1rem;
+    }
+    a {
+    color: black;
+    }
+
+    grid-column: 1;
+    grid-row: 1;
+
+    .back-home {
+        color: black;
+        display: inline-block;
+        min-width: max-content;
+        margin-right: 2em;
+    }
+    .back-home .org-name {
+        margin-top: 0.35rem;
+    }
+    .back-home .org-name:before, .back-home .org-name {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    }
+
+    *:not(.no-svg) & {
+        .back-home .org-name {
+            .data, .rights {display: none;}
+            background: url('/logo/data-rights.svg') no-repeat;
+            background-size: contain;
+            width: 90px;
+            height: 40px;
+        }
+    }
+    .no-svg & {
+        .back-home .org-name:before {
+            content: "•";
+            margin-right: 0.3em;
+        border: 2.5px solid black;
+        line-height: 0.5rem;
+        display: inline-block;
+        border-radius: 50px;
+        font-size: 1.6rem;
+        padding: 1px 0 0.5px 0;
+        width: 1.25rem;
+        text-align: right;
+        margin-top: 0.75rem;
+        background: rgba(255,255,255,0.9);
+        }
+    }
+    .menu {
+    grid-column: 2 / 8;
+    grid-row: 1;
+    padding-top: 0.6em;
+    padding-bottom: 1em;
+    text-align: right;
+    a {
+        font-weight: 500;
+        display: inline-block;
+        padding-top: 0.35em;
+        padding-bottom: 0.25em;
+        padding-left: 1em;
+        padding-right: 1em;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            border-bottom: 2px solid #da7a99;
+            transition: border-bottom 3s 0s ease;
+        }
+        &.current {
+            opacity: 0.7;
+            background: #ffda7a;
+            border-radius: 5px 5px;
+        }
+    }
+    }
+ }
+}
+main.content {
+    font-size: 20px;
+    min-height: 60vh;
+    background: #FFFFFF;
+    margin-top: 0;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    display: grid;
+
+    & > header, & .e-content {
+        width: 100%;
+    }
+
+    body.sidebar & {
+        // FIXME
+        & > header {
+            grid-row: 1;
+        }
+        .e-content {
+            grid-row: 2;
+            grid-column: 1 / 2;
+        }
+        aside.sidebar {
+            grid-row: 2;
+            grid-column: 2;
+        }
+    }
+}
+a.learn-more {
+    display: inline-block;
+}
+main.content a[href] {
+    // color: #1A659E;
+    color: #da7a99;
+}
+main.content .page-parent {
+    display: inline-block;
+
+    &:after {
+        content: " ›";
+    }
+
+    &:hover:after {
+        content: " ›";
+        padding-left: 0.4em;
+        transition: padding-left 1s 0s ease;
+    }
+}
+main.content .title {
+    font-size: 3em;
+    font-weight: 500;
+    // color: #004E89;
+    border-bottom: 1px solid #ffda7a;
+    margin-bottom: 0.5em;
+}
+main.content section.intro {
+    font-size: 130%;
+    font-weight: 500;
+}
+.site-bottom {
+    background: #da7a99;
+    min-height: 30vh;
+    padding-top: 3em;
+    opacity: 0.8;
+}
+.site-bottom > * {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+.site-bottom a[href] {
+    color: inherit;
+    text-decoration: underline;
+}
+.site-bottom .menu a[href], .site-bottom .translations a[href] {
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    text-decoration: none;
+
+    &:hover {
+        background: rgba(255,255,255,0.3);
+        transition: background 1s 0s ease;
+        border-radius: 5px;
+    }
+}
+.site-bottom .menu a:before {
+    content: "/ ";
+    opacity: 0.5;
+}
+.site-bottom .menu a {
+    padding-right: 0.4em;
+    margin-right: 1em;
+}
+.site-bottom .translations {
+    display: none;
+    // until translations are made
+}
+.site-bottom .translations svg, .site-bottom .translations .choose-lang {
+    display: inline-block;
+}
+.site-bottom .ngo .drngo {
+    font-weight: 700;
+}
+body.home {
+    font-family: "Metropolis";
+}
+body.home > .site-nav {
+    display: none;
+}
+body.home > main.content {
+    min-height: 100vh;
+    background: linear-gradient(rgba(255,255,255,0.0), rgba(255,255,255,0.8));
+}
+body.home .landing {
+font-size: 4em;
+font-weight: bold;
+display: grid;
+width: max-content;
+padding: 2em 0; 
+
+    .org-name {
+
+        *:not(.no-svg) & {
+            background: url('/logo/data-rights-large.svg') no-repeat;
+            background-size: contain;
+            width: 404px;
+            height: 190px;
+            .data, .rights {
+                display: none;
+            }
+        }
+
+        .no-svg & {
+            &:before {
+            content: "•";
+            border: 6px solid black;
+            line-height: 1.35rem;
+            display: inline-block;
+            border-radius: 50px;
+            width: 0.75em;
+            margin-left: -0.8em;
+            text-align: right;
+            grid-column: 1 / 2;
+            grid-row: 1;
+            margin-top: 0.75rem;
+            margin-right: 0.3rem;
+            padding: 2px 0px;
+            background: rgba(255,255,255,0.9);
+            }
+            &  {
+            grid-column: 2 / 4;
+            grid-row: 1 / 3;
+            line-height: 0.9em;
+            }
+            .rights {
+            display: block;
+            }
+        }
+    }
+}
