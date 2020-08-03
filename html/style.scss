@@ -235,6 +235,7 @@ padding: 2em 0;
             background: url('/logo/data-rights-large.svg') no-repeat;
             background-size: contain;
             width: 404px;
+            max-width: 91vw;
             height: 190px;
             .data, .rights {
                 display: none;

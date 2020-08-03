@@ -10268,6 +10268,7 @@ body.home .landing {
   background: url("/logo/data-rights-large.svg") no-repeat;
   background-size: contain;
   width: 404px;
+  max-width: 91vw;
   height: 190px;
 }
 *:not(.no-svg) body.home .landing .org-name .data, *:not(.no-svg) body.home .landing .org-name .rights {
