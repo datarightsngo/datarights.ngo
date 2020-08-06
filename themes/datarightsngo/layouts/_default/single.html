@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <header class="page-header">
+    {{- if isset .Params "drngoParent" -}}
+    <a class="page-parent" href=".Params.DrngoParent.url">{{ .Params.DrngoParent.Name }}</a>
+    {{- end -}}
+    <h1 class="title">{{ .Title }}</h1>
+    {{- if isset .Params "date" -}}
+    <div class="metadata">
+      <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+    {{- end -}}
+  </header>
+  <div class="e-content">
+    {{- if isset .Params "introduction" -}}
+    <section class="intro">
+      {{ .Params.Introduction }}
+    </section>
+    {{- end -}}
+    {{- .Content -}}
+  </div>
+{{ end }}

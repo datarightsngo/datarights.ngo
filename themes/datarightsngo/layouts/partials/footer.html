@@ -1,0 +1,36 @@
+<footer class="site-bottom">
+  <nav class="menu">
+    {{ range .Site.Menus.footer.ByWeight }}
+      {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+    {{ end }}
+  </nav>
+  <div class="translations">
+    <nav class="choose-lang">
+      <a href="#" class="current">English</a>
+      <a href="./fr/" hreflang="fr" rel="alternate" lang="fr">Français</a>
+    </nav>
+    <div class="translate">
+      <a href="/action/translate/">Help us translate this page in your language :-)</a>
+    </div>
+  </div>
+  <div class="copying">
+    <p id="license">
+      You may share and modify the content of this page. The content of this website is, unless otherwise noted, made available under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC-BY-SA</a> licence.
+    </p>
+    <p id="credits">
+      {{ .Site.Params.copyright }}
+      Background picture: <a href="https://www.flickr.com/photos/whoisthatfreakwiththecamera/7402543426/">“Geodesic” by Michael Day</a> used under <a href="https://creativecommons.org/licenses/by/2.0/">CC BY SA</a>. Image from inside a radome of the former NSA listening station Berlin Teufelsberg.
+    </p>
+  </div>
+  <div class="ngo">
+    <div class="drngo"><span class="stichting">Stichting</span> Data Rights</div>
+    <div class="nonprofit">Registered as a foundation in Amsterdam, the Netherlands.</div>
+    <div class="registered">
+      <span class="kvk">Chamber of Commerce (Kamer van Koophandel) Amsterdam: 76158799</span>
+      <span class="rsin"><abbr title="Legal Entities and Partnerships Information Number (Rechtspersonen Samenwerkingsverbanden Informatie Nummer">RSIN</abbr>: 860528601</span>
+    </div>
+    <div class="social-media">
+        <a href="https://twitter.com/datarightsngo" class="twitter">@DataRightsNGO</a>
+    </div>
+  </div>
+</footer>

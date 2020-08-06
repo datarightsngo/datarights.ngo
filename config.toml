@@ -6,7 +6,7 @@ title = "Data Rights"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "datarights"
+theme = "datarightsngo"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
