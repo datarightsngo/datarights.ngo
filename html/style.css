@@ -10188,6 +10188,13 @@ main.content .title {
   margin-bottom: 0.5em;
 }
 
+main.content .title.boring {
+  font-size: 1em;
+  font-weight: 300;
+  border-bottom: 1px solid #ffda7a;
+  margin-bottom: 0.5em;
+}
+
 main.content section.intro {
   font-size: 130%;
   font-weight: 500;
@@ -10232,7 +10239,7 @@ main.content section.intro {
   margin-right: 1em;
 }
 
-.site-bottom .translations {
+.home .site-bottom .translations {
   display: none;
 }
 
