@@ -10307,8 +10307,9 @@ body.home .landing {
   display: block;
 }
 
-.receive-announcements input, button {
-    max-width: 100%;
+.receive-announcements input {
+    width: 100%;
+    max-width: 400px;
 }
 
 .receive-announcements button[type=submit] {
