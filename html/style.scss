@@ -165,6 +165,10 @@ main.content .title {
     border-bottom: 1px solid #ffda7a;
     margin-bottom: 0.5em;
 }
+main.content .title.boring {
+  font-size: 1em;
+  font-weight: 300;
+}
 main.content section.intro {
     font-size: 130%;
     font-weight: 500;
@@ -270,4 +274,21 @@ padding: 2em 0;
             }
         }
     }
+}
+
+.receive-announcements button[type=submit] {
+    font-weight: 500;
+    font-size: 90%;
+    border: 0;
+    color: inherit;
+    border-radius: 5px;
+    background-color: #ffda7a;
+    margin: 0.25em 0;
+    padding: 0.25em 0.5em;
+}
+
+.receive-announcements .privacy-policy-short {
+    font-size: 80%;
+    margin-top: 1em;
+    max-width: 60%;
 }

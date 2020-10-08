@@ -10310,10 +10310,10 @@ body.home .landing {
 .receive-announcements button[type=submit] {
     font-weight: 500;
     font-size: 90%;
-    color: white;
+    color: inherit;
     border: 0;
     border-radius: 5px;
-    background-color: #da7a99;
+    background-color: #ffda7a;
     margin: 0.25em 0;
     padding: 0.25em 0.5em;
 }
