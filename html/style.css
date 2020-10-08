@@ -10148,6 +10148,7 @@ main.content {
 }
 main.content > header, main.content .e-content {
   width: 100%;
+  margin-bottom: 2em;
 }
 body.sidebar main.content > header {
   grid-row: 1;
