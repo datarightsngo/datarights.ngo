@@ -207,9 +207,9 @@ main.content section.intro {
     padding-right: 0.4em;
     margin-right: 1em;
 }
-.site-bottom .translations {
+.site-bottom .translations .translate {
     display: none;
-    // until translations are made
+    // until translations contrib are possible
 }
 .site-bottom .translations svg, .site-bottom .translations .choose-lang {
     display: inline-block;
@@ -295,5 +295,6 @@ padding: 2em 0;
 .receive-announcements .privacy-policy-short {
     font-size: 80%;
     margin-top: 1em;
-    max-width: 60%;
+    width: 60%;
+    min-width: 380px;
 }

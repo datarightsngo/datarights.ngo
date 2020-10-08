@@ -10192,8 +10192,6 @@ main.content .title {
 main.content .title.boring {
   font-size: 1em;
   font-weight: 300;
-  border-bottom: 1px solid #ffda7a;
-  margin-bottom: 0.5em;
 }
 
 main.content section.intro {
@@ -10240,7 +10238,7 @@ main.content section.intro {
   margin-right: 1em;
 }
 
-.home .site-bottom .translations {
+.site-bottom .translations .translate {
   display: none;
 }
 
@@ -10308,25 +10306,26 @@ body.home .landing {
 }
 
 .receive-announcements input {
-    width: 100%;
-    max-width: 400px;
+  width: 100%;
+  max-width: 400px;
 }
 
 .receive-announcements button[type=submit] {
-    font-weight: 500;
-    font-size: 90%;
-    color: inherit;
-    border: 0;
-    border-radius: 5px;
-    background-color: #ffda7a;
-    margin: 0.25em 0;
-    padding: 0.25em 0.5em;
+  font-weight: 500;
+  font-size: 90%;
+  border: 0;
+  color: inherit;
+  border-radius: 5px;
+  background-color: #ffda7a;
+  margin: 0.25em 0;
+  padding: 0.25em 0.5em;
 }
 
 .receive-announcements .privacy-policy-short {
-    font-size: 80%;
-    margin-top: 1em;
-    max-width: 60%;
+  font-size: 80%;
+  margin-top: 1em;
+  width: 60%;
+  min-width: 380px;
 }
 
 /*# sourceMappingURL=style.css.map */
