@@ -10307,6 +10307,10 @@ body.home .landing {
   display: block;
 }
 
+.receive-announcements input, button {
+    max-width: 100%;
+}
+
 .receive-announcements button[type=submit] {
     font-weight: 500;
     font-size: 90%;
