@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Thin"), 
+         url("/assets/fonts/Metropolis-Thin.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Thin Italic"), 
+         url("/assets/fonts/Metropolis-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Extra Light"), 
+         url("/assets/fonts/Metropolis-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Extra Light Italic"), 
+         url("/assets/fonts/Metropolis-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Light"), 
+         url("/assets/fonts/Metropolis-Light.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Light Italic"), 
+         url("/assets/fonts/Metropolis-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis"), local("Metropolis Regular"), local("Metropolis-Regular"), 
+         url("/assets/fonts/Metropolis-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Italic"), local("Metropolis Regular Italic"),
+         url("/assets/fonts/Metropolis-RegularItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Medium"), 
+         url("/assets/fonts/Metropolis-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Medium Italic"), 
+         url("/assets/fonts/Metropolis-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Semi Bold"), 
+         url("/assets/fonts/Metropolis-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Semi Bold Italic"), 
+         url("/assets/fonts/Metropolis-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Bold"), local("Metropolis-Bold"),
+         url("/assets/fonts/Metropolis-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Bold Italic"), 
+         url("/assets/fonts/Metropolis-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Extra Bold"), 
+         url("/assets/fonts/Metropolis-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Extra Bold Italic"), 
+         url("/assets/fonts/Metropolis-ExtraBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: local("Metropolis Black"), 
+         url("/assets/fonts/Metropolis-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Metropolis";
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+    src: local("Metropolis Black Italic"), 
+         url("/assets/fonts/Metropolis-BlackItalic.woff2") format("woff2");
+}
