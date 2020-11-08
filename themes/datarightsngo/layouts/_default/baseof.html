@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  {{- partial "head.html" . -}}
+  <body class="{{ .Params.drngoClass }}">
+    {{- partial "header.html" . -}}
+    <main class="content">
+    {{- block "main" . }}{{- end }}
+    </main>
+    <!--section class="subscribe site-block">
+      <p>
+        Get our updates:
+      </p>
+      <form>
+        [your email ________] [Subscribe]
+      </form>
+    </section-->
+    {{- partial "footer.html" . -}}
+  </body>
+</html>
