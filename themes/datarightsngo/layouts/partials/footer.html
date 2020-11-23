@@ -14,7 +14,7 @@
     </nav>
     {{ else }}
     <div class="translate">
-      <a class="action" href="/action/translate/">{{ i18n "helptranslate" }}</a> <a href="https://gitlab.com/datarights/website/-/tree/master/content/{{ .File.Path }}" class="gitlab">{{ i18n "sourcewebpage" }}</a>
+      <a class="action" href="/action/translate/">{{ i18n "helptranslate" }}</a> {{ if .File }}<a href="https://gitlab.com/datarights/website/-/tree/master/content/{{ .File.Path }}" class="gitlab">{{ i18n "sourcewebpage" }}</a>{{ end }}
     </div>
     {{ end }}
   </div>

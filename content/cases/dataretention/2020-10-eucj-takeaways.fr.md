@@ -1,5 +1,5 @@
 ---
-TitleMeta: "Points clefs des décisions de la CJUE «Privacy International» et «La Quadrature du Net, French Data Network et a.» pour Data Rights"
+titleMeta: "Points clefs des décisions de la CJUE «Privacy International» et «La Quadrature du Net, French Data Network et a.» pour Data Rights"
 drngoClass: cases article enumerate-headings enumerate-h2 cover-title cover-servers
 drngoParent: Affaires en justice / Conservation des données et Loi Renseignement 
 drngoParentUrl: /cases/dataretention/
@@ -69,8 +69,3 @@ credits: "Image de couverture: Wikimedia Foundation Servers by Victorgrigas - CC
 </li>
 </ol>
 </section>
-
-<footer class="meta credits">
-    Image de couverture: <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg">Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0</a>
-</footer>
-

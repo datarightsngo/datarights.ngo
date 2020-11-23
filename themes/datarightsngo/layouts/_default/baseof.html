@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Lang }}">
   {{- partial "head.html" . -}}
-  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }} id-{{ .File.TranslationBaseName }}">
+  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }} {{ with .File }} id-{{ .TranslationBaseName }}{{ end }}">
     {{- partial "header.html" . -}}
     <main class="content">
     {{- block "main" . }}{{- end }}
