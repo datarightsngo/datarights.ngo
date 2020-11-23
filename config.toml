@@ -38,7 +38,7 @@ defaultContentLanguageInSubdir = false
 
 [Author]
   name = "DataRights Authors"
-  email = "contact@datarights.ngo"
+  email = "inbox@datarights.ngo"
 #  facebook = "username"
 #  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
 #  gitlab = "username"
@@ -90,89 +90,89 @@ defaultContentLanguageInSubdir = false
     title = "Data Rights"
     weight = 1
     languageName = "English"
-    [[languages.en.menu.main]]
-        name = "News"
-        url = "/news/"
-        weight = 1
+    # [[languages.en.menu.main]]
+    #     name = "News"
+    #     url = "/news/"
+    #     weight = 1
 
-    [[languages.en.menu.main]]
-        name = "About"
-        url = "/about/"
-        weight = 2
+    # [[languages.en.menu.main]]
+    #     name = "About"
+    #     url = "/about/"
+    #     weight = 2
 
-    [[languages.en.menu.main]]
-        name = "Campaigns"
-        url = "/campaigns/"
-        weight = 3
+    # [[languages.en.menu.main]]
+    #     name = "Campaigns"
+    #     url = "/campaigns/"
+    #     weight = 3
 
-    [[languages.en.menu.main]]
-        name = "Cases"
-        url = "/cases/"
-        weight = 4
+    # [[languages.en.menu.main]]
+    #     name = "Cases"
+    #     url = "/cases/"
+    #     weight = 4
 
     [[languages.en.menu.footer]]
         name = "Contact"
         url = "/contact/"
         weight = 1
 
-    [[languages.en.menu.footer]]
-        name = "Legal Info"
-        url = "/info/legal/"
-        weight = 2
+    # [[languages.en.menu.footer]]
+    #     name = "Legal Info"
+    #     url = "/info/legal/"
+    #     weight = 2
 
-    [[languages.en.menu.footer]]
-        name = "Data Protection Policy"
-        url = "/info/data-policy/"
-        weight = 3
+    # [[languages.en.menu.footer]]
+    #     name = "Data Protection Policy"
+    #     url = "/info/data-policy/"
+    #     weight = 3
 
-    [[languages.en.menu.footer]]
-        name = "Transparency Commitment"
-        url = "/info/transparency/"
-        weight = 4
+    # [[languages.en.menu.footer]]
+    #     name = "Transparency Commitment"
+    #     url = "/info/transparency/"
+    #     weight = 4
 
   [languages.fr]
     title = "Data Rights"
     languageName = "Français"
     weight = 2
-    [[languages.fr.menu.main]]
-        name = "Actus"
-        url = "/news/fr/"
-        weight = 1
+    # [[languages.fr.menu.main]]
+    #     name = "Actus"
+    #     url = "/fr/news/"
+    #     weight = 1
 
-    [[languages.fr.menu.main]]
-        name = "À propos"
-        url = "/about/fr/"
-        weight = 2
+    # [[languages.fr.menu.main]]
+    #     name = "À propos"
+    #     url = "/fr/about/"
+    #     weight = 2
 
-    [[languages.fr.menu.main]]
-        name = "Campagnes"
-        url = "/campaigns/fr/"
-        weight = 3
+    # [[languages.fr.menu.main]]
+    #     name = "Campagnes"
+    #     url = "/campaigns/fr/"
+    #     weight = 3
 
-    [[languages.fr.menu.main]]
-        name = "Affaires"
-        url = "/cases/fr/"
-        weight = 4
+    # [[languages.fr.menu.main]]
+    #     name = "Affaires"
+    #     url = "/fr/cases/"
+    #     weight = 4
 
     [[languages.fr.menu.footer]]
         name = "Contact"
-        url = "/contact/fr/"
+        url = "/fr/contact/"
         weight = 1
 
-    [[languages.fr.menu.footer]]
-        name = "Info Légales"
-        url = "/info/legal/fr/"
-        weight = 2
+    # [[languages.fr.menu.footer]]
+    #     name = "Info Légales"
+    #     url = "/info/legal/fr/"
+    #     weight = 2
 
-    [[languages.fr.menu.footer]]
-        name = "Politique de protection des données"
-        url = "/info/data-policy/fr/"
-        weight = 3
+    # [[languages.fr.menu.footer]]
+    #     name = "Politique de protection des données"
+    #     url = "/info/data-policy/fr/"
+    #     weight = 3
 
-    [[languages.fr.menu.footer]]
-        name = "Engagement de transparence"
-        url = "/info/transparency/fr/"
-        weight = 4
+    # [[languages.fr.menu.footer]]
+    #     name = "Engagement de transparence"
+    #     url = "/info/transparency/fr/"
+    #     weight = 4
 
 [markup.goldmark.renderer]
 unsafe = true
