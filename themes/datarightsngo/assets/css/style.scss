@@ -247,6 +247,16 @@ main.content .page-header {
         min-height: 60vh;
         text-shadow: white 0px 0px 1px, white 1px 0 10px;
     }
+    body.cover.cover-teufelsberg & {
+        background-image: url(/assets/teufelsbergpinkbackground.jpg);
+        text-shadow: rgba(0,0,0,0.35) 0px 0px 1px, rgba(0,0,0,0.35) 1px 0 10px;
+        .title {
+            border-color: #da7a99;
+        }
+        .title, .cover {
+            color: white;
+        }
+    }
     body.cover-title & {
         background-image: url(/assets/teufelsberg.jpg);
         background-size: cover;
