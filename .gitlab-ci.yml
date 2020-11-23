@@ -1,19 +1,85 @@
 image: registry.gitlab.com/pages/hugo:latest
 
+include:
+  - template: 'Workflows/Branch-Pipelines.gitlab-ci.yml'
+
+stages:
+  - test
+  - deploy
+  - release
+
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
 
-test:
+before_script:
+  - apk add --update brotli
+
+.semantic-release:
+  image: node:lts-alpine
+  stage: release
+  before_script:
+    - |
+      # add deps
+      apk --no-cache add git jq
+      yarn global add @semantic-release/changelog \
+        @semantic-release/commit-analyzer \
+        @semantic-release/git \
+        @semantic-release/gitlab \
+        @semantic-release/npm \
+        @semantic-release/release-notes-generator \
+        semantic-release
   script:
+    - |
+      # release
+      semantic-release $EXTRA_ARGS -b $CI_COMMIT_REF_NAME
+
+test:
+  stage: test
+  script:
+  # Change baseurl to allow navigation in test artifacts.
+  - sed -i 's|baseurl = "https://datarights.ngo"|baseurl = "https://datarights.gitlab.io/-/website/-/jobs/'$CI_JOB_ID'/artifacts/html/"|' config.toml 
+  # Check version
+  - hugo version
+  # Generation and checks
   - hugo
-  except:
-  - live
+  # Compress assets
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
+  # Generate MR artifacts
+  - echo "Copying public files generated during tests phase to html directory. ./html directory will be uploaded to an artifact."
+  - cp -R public html
+  artifacts:
+    expose_as: 'hugo generated public html'
+    name: "$CI_JOB_NAME-$CI_COMMIT_REF_NAME"
+    paths: ['html/']
+    expire_in: 4 weeks
+  rules:
+    - if: '$CI_COMMIT_BRANCH'
 
 pages:
+  stage: deploy
   script:
   - hugo
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec brotli -f -k {} \;
   artifacts:
     paths:
     - public
-  only:
-  - live
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "live"'
+
+release dryRun:
+  extends: .semantic-release
+  variables:
+    EXTRA_ARGS: "-d"
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "live"'
+      when: never
+    - if: '$CI_COMMIT_BRANCH'
+
+release publish:
+  extends: .semantic-release
+  dependencies:
+    - pages
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "live"'
