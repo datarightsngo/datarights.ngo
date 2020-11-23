@@ -456,8 +456,17 @@ main.content footer.meta {
     margin-right: 1em;
 }
 .site-bottom .translations .translate {
-    display: none;
-    // until translations contrib are possible
+    display: inline-block;
+}
+.site-bottom .translations .translate .gitlab {
+    display: inline-block;
+    font-weight: 300;
+    &:before {
+        content: "[";
+    }
+    &:after {
+        content: "]";
+    }
 }
 .site-bottom .translations svg, .site-bottom .translations .choose-lang {
     display: inline-block;

@@ -10742,7 +10742,18 @@ main.content footer.meta {
 }
 
 .site-bottom .translations .translate {
-  display: none;
+  display: inline-block;
+}
+
+.site-bottom .translations .translate .gitlab {
+  display: inline-block;
+  font-weight: 300;
+}
+.site-bottom .translations .translate .gitlab:before {
+  content: "[";
+}
+.site-bottom .translations .translate .gitlab:after {
+  content: "]";
 }
 
 .site-bottom .translations svg, .site-bottom .translations .choose-lang {
