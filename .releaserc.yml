@@ -1,0 +1,14 @@
+plugins:
+- '@semantic-release/commit-analyzer'
+- '@semantic-release/release-notes-generator'
+- '@semantic-release/gitlab'
+- '@semantic-release/git'
+publish:
+- '@semantic-release/gitlab'
+verifyConditions:
+- '@semantic-release/gitlab'
+success: false
+fail: false
+npmPublish: false
+branches:
+- live
