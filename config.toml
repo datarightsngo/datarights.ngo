@@ -1,0 +1,178 @@
+baseurl = "https://datarights.ngo"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+title = "Data Rights"
+canonifyurls  = true
+
+theme = "datarightsngo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+
+[Params]
+  subtitle = "DataRights"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "2 January 2006"
+  commit = false
+  rss = true
+  comments = false
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "DataRights Authors"
+  email = "inbox@datarights.ngo"
+#  facebook = "username"
+#  googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+#  gitlab = "username"
+#  github = "username"
+#  twitter = "username"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  instagram = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  keybase = "username"
+
+#[[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+#[[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
+
+#[[menu.main]]
+#    name = "Tags"
+#    url = "tags"
+#    weight = 3
+
+[languages]
+  [languages.en]
+    title = "Data Rights"
+    weight = 1
+    languageName = "English"
+    # [[languages.en.menu.main]]
+    #     name = "News"
+    #     url = "/news/"
+    #     weight = 1
+
+    # [[languages.en.menu.main]]
+    #     name = "About"
+    #     url = "/about/"
+    #     weight = 2
+
+    # [[languages.en.menu.main]]
+    #     name = "Campaigns"
+    #     url = "/campaigns/"
+    #     weight = 3
+
+    # [[languages.en.menu.main]]
+    #     name = "Cases"
+    #     url = "/cases/"
+    #     weight = 4
+
+    [[languages.en.menu.footer]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 1
+
+    # [[languages.en.menu.footer]]
+    #     name = "Legal Info"
+    #     url = "/info/legal/"
+    #     weight = 2
+
+    # [[languages.en.menu.footer]]
+    #     name = "Data Protection Policy"
+    #     url = "/info/data-policy/"
+    #     weight = 3
+
+    # [[languages.en.menu.footer]]
+    #     name = "Transparency Commitment"
+    #     url = "/info/transparency/"
+    #     weight = 4
+
+  [languages.fr]
+    title = "Data Rights"
+    languageName = "Français"
+    weight = 2
+    # [[languages.fr.menu.main]]
+    #     name = "Actus"
+    #     url = "/fr/news/"
+    #     weight = 1
+
+    # [[languages.fr.menu.main]]
+    #     name = "À propos"
+    #     url = "/fr/about/"
+    #     weight = 2
+
+    # [[languages.fr.menu.main]]
+    #     name = "Campagnes"
+    #     url = "/campaigns/fr/"
+    #     weight = 3
+
+    # [[languages.fr.menu.main]]
+    #     name = "Affaires"
+    #     url = "/fr/cases/"
+    #     weight = 4
+
+    [[languages.fr.menu.footer]]
+        name = "Contact"
+        url = "/fr/contact/"
+        weight = 1
+
+    # [[languages.fr.menu.footer]]
+    #     name = "Info Légales"
+    #     url = "/info/legal/fr/"
+    #     weight = 2
+
+    # [[languages.fr.menu.footer]]
+    #     name = "Politique de protection des données"
+    #     url = "/info/data-policy/fr/"
+    #     weight = 3
+
+    # [[languages.fr.menu.footer]]
+    #     name = "Engagement de transparence"
+    #     url = "/info/transparency/fr/"
+    #     weight = 4
+
+[markup.goldmark.renderer]
+unsafe = true

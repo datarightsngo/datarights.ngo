@@ -1,0 +1,66 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="{{ .Site.Title }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="msapplication-TileColor" content="#ffda7a">
+
+    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="icon" sizes="512x512" href="/application_icon_x512.png">
+    <link rel="icon" sizes="256x256" href="/application_icon_x256.png">
+    <link rel="icon" sizes="228x228" href="/application_icon_x228.png">
+    <link rel="icon" sizes="196x196" href="/application_icon_x196.png">
+    <link rel="icon" sizes="192x192" href="/application_icon_x192.png">
+    <link rel="icon" sizes="128x128" href="/application_icon_x128.png">
+    <meta name="msapplication-TileImage" content="/application_icon_x144.png">
+
+    {{ with .OutputFormats.Get "rss" -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
+
+    {{ $resources := slice -}}
+
+    {{ $resources = $resources | append (resources.Get "css/style.css") -}}
+
+    {{ $css := $resources | resources.Concat "css/style.min.css" | minify }}
+    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+
+    {{ if .Params.TitleMeta }}
+    <title>{{ if .Params.MetaParent }}{{ .Params.MetaParent }} :: {{ end }}{{ .Params.TitleMeta }} :: {{ .Site.Title }}</title>
+    {{else}}
+    {{if .Params.Title }}
+    <title>{{ .Title }} :: {{  .Site.Title }}</title>
+    {{- else -}}
+    <title>{{ .Site.Title }}</title>
+    {{end}}
+    {{end}}
+    {{ if .Params.author }}
+    <meta name="author" content="{{ . }}">
+    {{ end }}
+    {{ with .Params.description -}}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    <!-- TODO Making the below variable per page -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Data Rights">
+    <meta property="og:title" content="Data Rights">
+    <meta property="og:image" content="http://datarights.ngo/application_icon_x144.png">
+    <meta property="og:image:width" content="144">
+    <meta property="og:image:height" content="144">
+    <meta property="og:url" content="http://datarights.ngo/">
+
+    {{ if .IsTranslated }}
+        {{ range .Translations }}
+    <link rel="alternate" type="text/html" lang="{{ .Lang }}" hreflang="{{ .Lang }}" title="[{{ .Lang }}] {{ .Title }}" href="{{ .Permalink }}">
+        {{ end }}
+    {{ end }}
+</head>

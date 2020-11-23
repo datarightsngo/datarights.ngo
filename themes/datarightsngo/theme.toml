@@ -1,0 +1,12 @@
+name = "Data Rights Hugo theme"
+license = "MIT"
+licenselink = "https://spdx.org/licenses/MIT.html"
+description = "Theme started from https://github.com/LukasJoswiak/etch"
+homepage = "https://datarights.ngo"
+tags = ["simple", "minimal", "clean", "fast", "blog", "responsive", "dark mode", "privacy"]
+features = ["fast", "blog", "syntax highlighting", "dark mode"]
+min_version = "0.41"
+
+[author]
+  name = "Hugo"
+  homepage = "https://hroy.eu"
