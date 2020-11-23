@@ -10394,10 +10394,10 @@ body > .site-head > .site-nav, body > main.content > *, body > .site-block > *, 
 body.full-width > .site-head > .site-nav, body.full-width > main.content > *, body.full-width > .site-block > *, body.full-width > .site-bottom > * {
   max-width: none;
 }
-body.cover > main.content > .page-header {
+body.cover > main.content > .page-header, body.cover-title > main.content > .page-header {
   max-width: none;
 }
-body.cover > main.content > .page-header .page-parent, body.cover > main.content > .page-header h1.title, body.cover > main.content > .page-header .title.h1 {
+body.cover > main.content > .page-header .page-parent, body.cover > main.content > .page-header h1.title, body.cover > main.content > .page-header .title.h1, body.cover > main.content > .page-header .cover, body.cover-title > main.content > .page-header .page-parent, body.cover-title > main.content > .page-header h1.title, body.cover-title > main.content > .page-header .title.h1, body.cover-title > main.content > .page-header .cover {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
@@ -10406,6 +10406,9 @@ body.cover > main.content > .page-header .page-parent, body.cover > main.content
 }
 body > .site-head {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), white);
+}
+body.cover > .site-head {
+  background: white;
 }
 body > .site-head > .site-nav {
   min-height: 7vh;
@@ -10482,13 +10485,15 @@ body > .site-head > .site-nav .menu a.current {
   background: #ffda7a;
   border-radius: 5px 5px;
 }
+body > .site-head > .site-nav .menu a.donate, body > .site-head > .site-nav .menu a.dons {
+  font-weight: 600;
+}
 
 main.content {
   font-size: 16px;
   min-height: 60vh;
   background: #FFFFFF;
   margin-top: 0;
-  padding-top: 2em;
   padding-bottom: 5em;
   display: grid;
 }
@@ -10517,21 +10522,33 @@ a.learn-more {
   display: inline-block;
 }
 
+main.content .page-header {
+  padding-top: 2em;
+}
+
 main.content a[href] {
   color: #da7a99;
 }
 
 body.cover main.content .page-header {
+  background-image: url(/assets/silobackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4em 1em 6em 1em;
+  min-height: 60vh;
+  text-shadow: white 0px 0px 1px, white 1px 0 10px;
+}
+body.cover-title main.content .page-header {
   background-image: url(/assets/teufelsberg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1em;
 }
-body.cover-servers main.content .page-header {
+body.cover-title.cover-servers main.content .page-header {
   background-image: url(/assets/servers.jpg) !important;
   background-color: black;
 }
-body.cover-servers main.content .page-header, body.cover-servers main.content .page-header .title, body.cover-servers main.content .page-header .page-parent {
+body.cover-title.cover-servers main.content .page-header, body.cover-title.cover-servers main.content .page-header .title, body.cover-title.cover-servers main.content .page-header .page-parent {
   color: white;
   text-shadow: black 0px 0px 1px, black 1px 0 10px;
   border-color: transparent;
@@ -10590,6 +10607,10 @@ main.content .page-header .title.cover.cover-servers {
   https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
   license:
   https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+}
+main.content .page-header .cover {
+  font-size: 1.25em;
+  font-weight: 300;
 }
 
 main.content section.intro {
@@ -10772,12 +10793,19 @@ main.content footer.meta {
 .site-bottom .ngo .drngo {
   font-weight: 700;
 }
+.site-bottom .ngo .legalinfo {
+  display: block;
+  max-width: max-content;
+}
 
 body.home {
   font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-body.home > * > .site-nav {
+body.home > .site-head {
+  background: transparent;
+}
+body.home > .site-head .back-home {
   display: none;
 }
 

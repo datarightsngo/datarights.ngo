@@ -5,7 +5,7 @@
         </a>
         <div class="menu">
         {{ range .Site.Menus.main.ByWeight }}
-                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}" class="{{ .Name | urlize}}">{{- .Name -}}</a>{{ .Post }}
         {{ end }}
         </div>
       </nav>

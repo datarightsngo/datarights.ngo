@@ -14,20 +14,25 @@
     </nav>
     {{ else }}
     <div class="translate">
-      <a class="action" href="/action/translate/">{{ i18n "helptranslate" }}</a> <a href="https://gitlab.com/datarights/website/-/tree/master/content{{ .RelPermalink | replaceRE "/$" ".md" }}" class="gitlab">{{ i18n "sourcewebpage" }}</a>
+      <a class="action" href="/action/translate/">{{ i18n "helptranslate" }}</a> <a href="https://gitlab.com/datarights/website/-/tree/master/content/{{ .File.UniqueID }}" class="gitlab">{{ i18n "sourcewebpage" }}</a>
     </div>
     {{ end }}
   </div>
   <div class="copying">
-    <p id="license">
+    <p id="license"><strong>{{ i18n "licence" }}</strong>
+      {{ if .Params.license }}{{ .Params.license | markdownify }}
+      {{ else }}
       {{ i18n "footerlicense1" }}
       <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons CC-BY-SA</a>
       {{ i18n "footerlicense2" }}
-    </p>
-    <p id="credits">
-      {{ .Site.Params.copyright }}
-      {{ i18n "creditsbgpic" }}
-      <a href="https://www.flickr.com/photos/whoisthatfreakwiththecamera/7402543426/">“Geodesic” {{ i18n "by" }} Michael Day</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY SA</a>). {{ i18n "radometeufel" }}
+      {{ end }}
+        <span id="credits"><strong>{{ i18n "credits" }}</strong>
+      {{ if .Params.credits }}{{ .Params.credits | markdownify }}
+      {{ end }}
+        {{ .Site.Params.credits }}
+        {{ i18n "creditsbgpic" }}
+        <a href="https://www.flickr.com/photos/whoisthatfreakwiththecamera/7402543426/">“Geodesic” {{ i18n "by" }} Michael Day</a> (<a href="https://creativecommons.org/licenses/by/2.0/">CC BY SA</a>). {{ i18n "radometeufel" }}
+        </span>
     </p>
   </div>
   <div class="ngo">

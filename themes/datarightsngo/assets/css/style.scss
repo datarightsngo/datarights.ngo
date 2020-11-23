@@ -91,10 +91,11 @@ body {
     &.full-width > .site-head > .site-nav, &.full-width > main.content > *, &.full-width > .site-block > *, &.full-width > .site-bottom > * {
         max-width: none;
     }
-    &.cover > main.content > .page-header {
+    &.cover > main.content > .page-header,
+    &.cover-title > main.content > .page-header {
         max-width: none;
 
-        .page-parent, h1.title {
+        .page-parent, h1.title, .cover {
             max-width: 980px;
             margin-left: auto;
             margin-right: auto;
@@ -104,6 +105,9 @@ body {
     }
     & > .site-head {
     background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0.9), rgba(255,255,255,1));
+    }
+    &.cover > .site-head {
+        background: white;
     }
  & > .site-head > .site-nav {
     min-height: 7vh;
@@ -183,6 +187,10 @@ body {
             background: #ffda7a;
             border-radius: 5px 5px;
         }
+        &.donate, &.dons {
+            // color: #ffda7a;
+            font-weight: 600;
+        }
     }
     }
  }
@@ -192,7 +200,6 @@ main.content {
     min-height: 60vh;
     background: #FFFFFF;
     margin-top: 0;
-    padding-top: 2em;
     padding-bottom: 5em;
     display: grid;
 
@@ -223,8 +230,8 @@ main.content {
 a.learn-more {
     display: inline-block;
 }
-ver main.content .page-header {
-
+main.content .page-header {
+    padding-top: 2em;
 }
 main.content a[href] {
     // color: #1A659E;
@@ -232,12 +239,20 @@ main.content a[href] {
 }
 main.content .page-header {
     body.cover & {
+        background-image: url(/assets/silobackground.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4em 1em 6em 1em;
+        min-height: 60vh;
+        text-shadow: white 0px 0px 1px, white 1px 0 10px;
+    }
+    body.cover-title & {
         background-image: url(/assets/teufelsberg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         padding: 1em;
     }
-    body.cover-servers & {
+    body.cover-title.cover-servers & {
         background-image: url(/assets/servers.jpg) !important;
         background-color: black;
         &, & .title, & .page-parent {
@@ -304,6 +319,10 @@ main.content .page-header {
             license:
             https://creativecommons.org/licenses/by-sa/3.0/deed.en */
         }
+    }
+    .cover {
+        font-size: 1.25em;
+        font-weight: 300;
     }
 }
 main.content section.intro {
@@ -479,14 +498,23 @@ main.content footer.meta {
         text-decoration: none;
     }
 }
-.site-bottom .ngo .drngo {
-    font-weight: 700;
+.site-bottom .ngo {
+    .drngo {
+        font-weight: 700;
+    }
+    .legalinfo {
+        display: block;
+        max-width: max-content;
+    }
 }
 body.home {
     font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-body.home > * > .site-nav {
-    display: none;
+body.home > .site-head {
+    background: transparent;
+    .back-home {
+        display: none;
+    }
 }
 body.home > main.content {
     min-height: 100vh;

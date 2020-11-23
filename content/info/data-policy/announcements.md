@@ -1,8 +1,11 @@
 ---
 title: "Announcements by emailing and other means"
+drngoParent: "Data Policies"
+drngoParentUrl: "/info/data-policy/"
 ---
 
 
+[Manage your email subscriptions here][manage]
 
 In order to make announcements in relation to our activities, events and other information of interest about data rights, we sometimes process personal data such as name and contact details of individuals. This policy details our processing and informs you on how to exercise your rights, in particular to unsubscribe.
 
@@ -10,7 +13,7 @@ This page is in the process of drafting. We will publish the whole relevnat info
 
 We have just launched, we hope you’ll understand and we thank you for your patience and interest!
 
-[Manage your email subscriptions here][manage]
+-----------
 
 We use phplist.com's service provided by phpList Ltd., Unit 15 Marston Business Park, Lower Hazeldines, Marston Moretaine, Bedfordshire, MK43 0XT, United Kingdom.
 

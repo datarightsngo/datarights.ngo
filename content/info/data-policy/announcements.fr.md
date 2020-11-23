@@ -1,7 +1,11 @@
 ---
 title: "Annonces par emails et autres moyens"
+drngoParent: "Politique des données"
+drngoParentUrl: "/info/data-policy/"
 ---
 
+
+[Gérez vos abonnements par email ici][manage]
 
 
 Afin de faire des annonces en lien avec nos activités, évènements et d'autres informations d'intérêt pour les droits des données, nous utilisons parfois des données personnelles comme le nom et les coordonnées d'individus. La présente politique détaille nos traitement et vous informe des modalités d'exercice de vos droits, en particulier celui de vous désinscrire.
@@ -10,7 +14,7 @@ Cette page est en cours de rédaction. Nous publierons l'ensemble des informatio
 
 Nous venons de nous lancer, nous espérons que vous comprendrez et nous vous remercions pour votre patience et l'intérêt que vous témoignez.
 
-[Gérez vos abonnements par email ici][manage]
+--------
 
 Nous avous recours au service phplist.com fournir par phpList Ltd., Unit 15 Marston Business Park, Lower Hazeldines, Marston Moretaine, Bedfordshire, MK43 0XT, United Kingdom.
 
