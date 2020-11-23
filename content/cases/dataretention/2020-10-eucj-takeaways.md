@@ -1,9 +1,8 @@
 ---
 TitleMeta: Takeaways from Data Rights about the CJEU rulings “Privacy International” and “La Quadrature du Net, French Data Network et al.”
-drngoClass: cases article enumerate-headings enumerate-h2
+drngoClass: cases article enumerate-headings enumerate-h2 cover cover-servers
 drngoParent: Legal Cases / Data Retention and Intelligence Act
 drngoParentUrl: /cases/dataretention/
-TitleClass: cover cover-servers
 title: "Takeaways from Data Rights about the CJEU rulings “*Privacy International*” and “*La Quadrature du Net, French Data Network et al.*”"
 introduction: "EU’s top court paves the way for major reforms of European surveillance laws. What do the rulings in cases “Privacy International”, “La Quadrature, French Data Network et al.” mean?"
 ---
