@@ -1,21 +1,32 @@
 {{ define "main" }}
   <header class="page-header">
-    {{- if isset .Params "drngoParent" -}}
-    <a class="page-parent" href=".Params.DrngoParent.url">{{ .Params.DrngoParent.Name }}</a>
-    {{- end -}}
-    <h1 class="title">{{ .Title }}</h1>
-    {{- if isset .Params "date" -}}
-    <div class="metadata">
-      <time>{{ .Date.Format "January 2, 2006" }}</time>
+    {{ if .Params.drngoParent}}
+    <a class="page-parent" href="{{ .Params.drngoParentUrl | absLangURL }}">{{ .Params.drngoParent }}</a>
+    {{ end }}
+    <h1 class="title{{ if .Params.TitleClass }} {{ .Params.TitleClass }}{{ end }}">{{ .Title | markdownify }}</h1>
+    {{ if isset .Params "cover" }}
+    <div class="cover">
+      {{ .Params.cover | markdownify }}
     </div>
+    {{ end }}
+    {{- if isset .Params "author" -}}
+    <div class="author-info">
+      <span class="author name {{ .Params.author | urlize }}">{{ .Params.author | markdownify }}</span>
+    </div>
+    {{- end -}}
+    {{- if isset .Params "date" -}}
+      <time>{{ .Date.Format "2 January 2006" }}</time>
     {{- end -}}
   </header>
   <div class="e-content">
     {{- if isset .Params "introduction" -}}
     <section class="intro">
-      {{ .Params.Introduction }}
+      {{ .Params.Introduction | markdownify }}
     </section>
     {{- end -}}
     {{- .Content -}}
+    {{ if in .Params.drngoClass "press-release" }}
+    {{- partial "press-release-footer.html" }}
+    {{ end }}
   </div>
 {{ end }}

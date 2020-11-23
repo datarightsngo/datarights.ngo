@@ -2,6 +2,7 @@
 @import "../../../../static/assets/fonts/metropolis.scss";
 
 body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 16px;
     padding: 0;
     margin: 0;
@@ -9,13 +10,77 @@ body {
     background-size: cover;
     display: grid;
 
-    & > .site-nav, .title, a.page-parent {
-        font-family: "Metropolis";
+    & > .site-head, .title, a.page-parent, .page-header .cover {
+        font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 }
 a, a:link, a:hover {
     text-decoration: none;
 }
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+a.uri {overflow-wrap: break-word;overflow-wrap: anywhere;}
+p:first-child {hanging-punctuation: first;}
+h1, h2, h3, h4 {
+    color: #111;
+    line-height: 112%;
+    font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+h1.title, h1 + .subtitle {
+    font-weight: 300;
+    font-size: 230%;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+h1 + .subtitle {
+    font-size: 130%;
+    margin-top: -1.2em;
+}
+h1 {
+    font-size: 250%;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+h2 {
+    font-size: 220%;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+h3 {
+    font-size: 160%;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+h4 {
+    font-size: 125%;
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+}
+h5 {
+    font-size: 110%;
+    margin-top: 1.1em;
+    margin-bottom: 0.9em;
+}
+h6 {
+    font-size: 100%;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}
+h7 {
+    font-size: 90%;
+}
+blockquote p {
+    hanging-punctuation: first;
+}
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+sub {top: 0.3em;}
 body {
     & > .site-head > .site-nav, & > main.content > *, & > .site-block > *, & > .site-bottom > *  {
         max-width: 980px;
@@ -24,8 +89,26 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
+    &.full-width > .site-head > .site-nav, &.full-width > main.content > *, &.full-width > .site-block > *, &.full-width > .site-bottom > * {
+        max-width: none;
+    }
+    &.cover > main.content > .page-header,
+    &.cover-title > main.content > .page-header {
+        max-width: none;
+
+        .page-parent, h1.title, .cover {
+            max-width: 980px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
     & > .site-head {
     background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0.9), rgba(255,255,255,1));
+    }
+    &.cover > .site-head {
+        background: white;
     }
  & > .site-head > .site-nav {
     min-height: 7vh;
@@ -105,21 +188,29 @@ body {
             background: #ffda7a;
             border-radius: 5px 5px;
         }
+        &.donate, &.dons {
+            // color: #ffda7a;
+            font-weight: 600;
+        }
     }
     }
  }
 }
 main.content {
-    font-size: 20px;
+    font-size: 16px;
     min-height: 60vh;
     background: #FFFFFF;
     margin-top: 0;
-    padding-top: 2em;
     padding-bottom: 5em;
     display: grid;
 
+    @media (min-width: 660px) {
+        font-size: 20px;
+    }
+
     & > header, & .e-content {
         width: 100%;
+        margin-bottom: 2em;
     }
 
     body.sidebar & {
@@ -140,33 +231,237 @@ main.content {
 a.learn-more {
     display: inline-block;
 }
+main.content .page-header {
+    padding-top: 2em;
+}
 main.content a[href] {
     // color: #1A659E;
     color: #da7a99;
 }
-main.content .page-parent {
-    display: inline-block;
-
-    &:after {
-        content: " ›";
+main.content .page-header {
+    body.cover & {
+        background-image: url(/assets/silobackground.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4em 1em 6em 1em;
+        min-height: 60vh;
+        text-shadow: white 0px 0px 1px, white 1px 0 10px;
     }
-
-    &:hover:after {
-        content: " ›";
-        padding-left: 0.4em;
-        transition: padding-left 1s 0s ease;
+    body.cover.cover-teufelsberg & {
+        background-image: url(/assets/teufelsbergpinkbackground.jpg);
+        text-shadow: rgba(0,0,0,0.35) 0px 0px 1px, rgba(0,0,0,0.35) 1px 0 10px;
+        .title {
+            border-color: #da7a99;
+        }
+        .title, .cover {
+            color: white;
+        }
     }
-}
-main.content .title {
-    font-size: 3em;
-    font-weight: 500;
-    // color: #004E89;
-    border-bottom: 1px solid #ffda7a;
-    margin-bottom: 0.5em;
+    body.cover-title & {
+        background-image: url(/assets/teufelsberg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1em;
+    }
+    body.cover-title.cover-servers & {
+        background-image: url(/assets/servers.jpg) !important;
+        background-color: black;
+        &, & .title, & .page-parent {
+            color: white;
+            text-shadow: black 0px 0px 1px, black 1px 0 10px;
+            border-color: transparent;
+            /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
+            SA 3.0
+            source: 
+            https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
+            license:
+            https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+        }
+    }
+    .page-parent {
+        display: block;
+
+        &:after {
+            content: " ›";
+        }
+
+        &:hover:after {
+            content: " ›";
+            padding-left: 0.4em;
+            transition: padding-left 1s 0s ease;
+        }
+    }
+    .title {
+        font-size: 2em;
+        font-weight: 700;
+        // color: #004E89;
+        border-bottom: 1px solid #ffda7a;
+        margin-bottom: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+
+        body.press-release &, &.boring {
+        font-size: 1em;
+        font-weight: 400;
+        }
+    }
+    .title.cover {
+        background-image: url(/assets/teufelsberg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1em;
+        margin-left:-10px;
+        margin-right:-10px;
+
+        @media (min-width: 980px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &.cover-servers {
+            background-image: url(/assets/servers.jpg) !important;
+            background-color: black;
+            color: white;
+            text-shadow: black 0px 0px 1px, black 1px 0 10px;
+            /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
+            SA 3.0
+            source: 
+            https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
+            license:
+            https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+        }
+    }
+    .cover {
+        font-size: 1.25em;
+    }
 }
 main.content section.intro {
     font-size: 130%;
     font-weight: 500;
+    margin-top: -0.25em;
+    margin-bottom: 0.5em;
+}
+main.content {
+    ul li ul {
+        margin-bottom: 1rem;
+    }
+    h2 {
+        text-transform: lowercase;
+        font-variant: small-caps;
+        font-variant-numeric: oldstyle-nums;
+        font-feature-settings: 'onum' 1;
+        font-weight: 700;
+        font-size: 150%;
+        margin-top: 2em;
+    }
+    h3 {
+        font-size: 110%;
+        margin-top: 1em;
+        font-weight: 500;
+    }
+    h4 {
+        font-size: 110%;
+        margin-top: 1em;
+        font-style: italic;
+    }
+    h5 {
+        font-size: 90%;
+    }
+    h6 {
+        font-size: 80%;
+    }
+    h7 {
+        font-size: 70%;
+    }
+    blockquote {
+        color: rgba(darken(#ffda7a, 70%), $alpha: 0.8);
+        background-color: rgba(#ffda7a, $alpha: 0.05);
+        border-left: 5px solid;
+        border-color: rgba(#ffda7a, $alpha: 0.45);
+        padding: 1em 2em;
+
+        &:hover {
+            color: rgba(darken(#ffda7a, 70%), $alpha: 1);
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .hangquote, .hangguillemet {
+        display: inline-block;
+        text-indent: -0.4em;
+    }
+    .hangguillemet{text-indent: -0.8em}
+    .footnote-ref {
+        text-decoration: none;
+        opacity: 0.85;
+        line-height: 0.8;
+        font-size: 90%;
+    }
+    .footnote-ref:hover {
+        opacity: 1;
+    }
+    .footnotes {
+        margin-top: 3em;
+        font-size: 90%;
+
+        hr {
+            margin-left: 0,
+        }
+
+        li[id*="fn"] {
+            opacity: 0.85;
+            margin: -0.25em -0.75em 0em;
+            padding: 0.25em 0.75em 0.75em;
+
+            &:hover, &:target {
+                opacity: 1;
+            }
+            &:target {
+                background: rgba(lighten($orange, 30%), $alpha: 0.3);
+                border-radius: 5px;
+                transition: all 0.5s ease-out;
+            }
+
+            & *:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .footnote-back {
+            margin-left: 0.25em;
+            font-family: caption;
+        }
+    }
+    .enumerate-headings &, .enumerate-h2 & {
+        counter-reset: h2enum;
+
+        h2 {
+            counter-increment: h2enum;
+
+            &:before {
+                content: counter(h2enum)". ";
+                content: counter(h2enum, circlestyle)" ";
+                vertical-align: bottom;
+                font-weight: 400;
+                @media (min-width: 1040px) {
+                        float: left;
+                        margin-left: -1.3em;
+                }
+            }
+        }
+    }
+}
+@counter-style circlestyle {
+  system: fixed;
+  symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ;
+  suffix: " ";
+}
+main.content footer.meta {
+    font-size: 75%;
+    margin-top: 4em;
+    margin-bottom: -4em;
 }
 .site-bottom {
     background: #da7a99;
@@ -202,44 +497,47 @@ main.content section.intro {
     padding-right: 0.4em;
     margin-right: 1em;
 }
-.site-bottom .translations {
-    background: url('/assets/localization.svg') 10px 0.8em no-repeat;
-    .translate {
-        display: none;
-        // fixme
+.site-bottom .translations .translate {
+    display: inline-block;
+}
+.site-bottom .translations .translate .gitlab {
+    display: inline-block;
+    font-weight: 300;
+    &:before {
+        content: "[";
+    }
+    &:after {
+        content: "]";
     }
 }
 .site-bottom .translations svg, .site-bottom .translations .choose-lang {
     display: inline-block;
-    margin-left: 2.25em;
-
-    .current {
-        opacity: 0.5;
-    }
-    a:link {
-        padding-left: 0.25em;
-        padding-right: 0.25em;
-        margin-right: 0.25em;
+}
+.site-bottom .social-media {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    a {
+        color: white;
+        text-decoration: none;
     }
 }
 .site-bottom .ngo {
     .drngo {
-    font-weight: 700;
-        .stichting {
-            opacity: 0.7;
-        }
+        font-weight: 700;
     }
-    .registered {
-        .rsin, .kvk {
-            display: block;
-        }
+    .legalinfo {
+        display: block;
+        max-width: max-content;
     }
 }
 body.home {
-    font-family: "Metropolis";
+    font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 body.home > .site-head {
-    display: none;
+    background: transparent;
+    .back-home {
+        display: none;
+    }
 }
 body.home > main.content {
     min-height: 100vh;
@@ -251,7 +549,8 @@ font-weight: bold;
 display: grid;
 width: max-content;
 padding: 2em 0; 
-margin: 0 auto;
+margin-top: 0;
+margin-bottom: 0;
 
     .org-name {
 
@@ -291,6 +590,93 @@ margin: 0 auto;
             .rights {
             display: block;
             }
+        }
+    }
+}
+
+.receive-announcements input {
+    width: 100%;
+    max-width: 400px;
+}
+
+.receive-announcements button[type=submit] {
+    font-weight: 500;
+    font-size: 90%;
+    border: 0;
+    color: inherit;
+    border-radius: 5px;
+    background-color: #ffda7a;
+    margin: 0.25em 0;
+    padding: 0.25em 0.5em;
+}
+
+.receive-announcements .privacy-policy-short {
+    font-size: 80%;
+    margin-top: 1em;
+    width: 60%;
+    min-width: 380px;
+}
+
+body.press-release  {
+    .press.footer {
+        margin-top: 4em;
+        font-size: 80%;
+        margin-bottom: 3em;
+
+        .contact, .about {
+            font-weight: 500;
+            font-size: 1.1em;
+        }
+    }
+}
+
+body.action.tools {
+    a {color: inherit}
+    .e-content {
+        @media (min-width: 660px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+    }
+    .unit.tool {
+        color: inherit;
+        padding: 10px;
+        margin-bottom: 5px;
+        font-size: 90%;
+        display: grid;
+
+        h2 {
+            margin: 0;
+            grid-column: 2;
+            grid-row: 1;
+        }
+        
+        &.data-datarights-ngo {
+            background-color: #ffda7a;
+        }
+        &.gitlab, &.gitlab h2 {
+            background-color: #30353E;
+            color: white;
+        }
+        .logo {
+            grid-column: 1;
+            grid-row: 1 / 3;
+            max-width: 110px;
+            margin-right: 2em;
+            padding: 0.75em 0.5em 0 1.5em;
+        }
+        .url {
+            grid-column: 2;
+            grid-row: 3;
+            font-size: 80%;
+        }
+        p {
+            grid-column: 2;
+            grid-row: 2;
+            padding: 0.75em 0 0;
+            min-height: 6em;
+            font-size: 90%;
         }
     }
 }

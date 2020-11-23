@@ -1,11 +1,11 @@
     <header class="site-head">
       <nav class="site-nav">
-        <a class="back-home" href="{{ .Site.BaseURL }}">
+        <a class="back-home" href="{{ "/" | absLangURL }}">
           <div class="org-name" title="{{ .Site.Title }}"><span class="data">Data</span> <span class="rights">Rights</span></div>
         </a>
         <div class="menu">
         {{ range .Site.Menus.main.ByWeight }}
-                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}" class="{{ .Name | urlize}}">{{- .Name -}}</a>{{ .Post }}
         {{ end }}
         </div>
       </nav>
