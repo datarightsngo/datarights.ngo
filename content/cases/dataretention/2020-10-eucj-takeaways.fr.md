@@ -1,9 +1,8 @@
 ---
 TitleMeta: Points clefs des décisions de la CJUE «Privacy International» et «La Quadrature du Net, French Data Network et a.» pour Data Rights
-drngoClass: cases article enumerate-headings enumerate-h2
+drngoClass: cases article enumerate-headings enumerate-h2 cover cover-servers
 drngoParent: Affaires en justice / Conservation des données et Loi Renseignement 
 drngoParentUrl: /cases/dataretention/
-TitleClass: cover cover-servers
 title: "Les points clefs des décisions de la CJUE “*Privacy International*” et “*La Quadrature du Net, French Data Network et a.*” pour Data Rights"
 introduction: "La plus haute cour de l’Union Européenne pose les fondations pour des réformes majeures des lois Européennes sur la surveillance. Quelles sont les implications des décisions “*Privacy International*” et “*La Quadrature, French Data Network et autres*”?"
 aliases: /cases/dataretention/2020-10-eucj-takeaways/fr/

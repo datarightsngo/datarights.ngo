@@ -10391,6 +10391,19 @@ body > .site-head > .site-nav, body > main.content > *, body > .site-block > *, 
   padding-left: 10px;
   padding-right: 10px;
 }
+body.full-width > .site-head > .site-nav, body.full-width > main.content > *, body.full-width > .site-block > *, body.full-width > .site-bottom > * {
+  max-width: none;
+}
+body.cover > main.content > .page-header {
+  max-width: none;
+}
+body.cover > main.content > .page-header .page-parent, body.cover > main.content > .page-header h1.title, body.cover > main.content > .page-header .title.h1 {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 body > .site-head {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), white);
 }
@@ -10508,19 +10521,39 @@ main.content a[href] {
   color: #da7a99;
 }
 
-main.content .page-parent {
-  display: inline-block;
+body.cover main.content .page-header {
+  background-image: url(/assets/teufelsberg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1em;
 }
-main.content .page-parent:after {
+body.cover-servers main.content .page-header {
+  background-image: url(/assets/servers.jpg) !important;
+  background-color: black;
+}
+body.cover-servers main.content .page-header, body.cover-servers main.content .page-header .title, body.cover-servers main.content .page-header .page-parent {
+  color: white;
+  text-shadow: black 0px 0px 1px, black 1px 0 10px;
+  border-color: transparent;
+  /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
+  SA 3.0
+  source: 
+  https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
+  license:
+  https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+}
+main.content .page-header .page-parent {
+  display: block;
+}
+main.content .page-header .page-parent:after {
   content: " ›";
 }
-main.content .page-parent:hover:after {
+main.content .page-header .page-parent:hover:after {
   content: " ›";
   padding-left: 0.4em;
   transition: padding-left 1s 0s ease;
 }
-
-main.content .title {
+main.content .page-header .title {
   font-size: 2em;
   font-weight: 500;
   border-bottom: 1px solid #ffda7a;
@@ -10528,12 +10561,11 @@ main.content .title {
   padding-top: 0.25em;
   padding-bottom: 0.25em;
 }
-body.press-release main.content .title, main.content .title.boring {
+body.press-release main.content .page-header .title, main.content .page-header .title.boring {
   font-size: 1em;
   font-weight: 300;
 }
-
-main.content .title.cover {
+main.content .page-header .title.cover {
   background-image: url(/assets/teufelsberg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -10542,22 +10574,22 @@ main.content .title.cover {
   margin-right: -10px;
 }
 @media (min-width: 980px) {
-  main.content .title.cover {
+  main.content .page-header .title.cover {
     margin-left: 0;
     margin-right: 0;
   }
 }
-main.content .title.cover.cover-servers {
+main.content .page-header .title.cover.cover-servers {
   background-image: url(/assets/servers.jpg) !important;
   background-color: black;
   color: white;
   text-shadow: black 0px 0px 1px, black 1px 0 10px;
   /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
-     SA 3.0
-     source: 
-     https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
-     license:
-     https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+  SA 3.0
+  source: 
+  https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
+  license:
+  https://creativecommons.org/licenses/by-sa/3.0/deed.en */
 }
 
 main.content section.intro {

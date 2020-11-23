@@ -9,7 +9,7 @@ introduction: "À la suite de l'arrêt de la CJUE, l'affaire retourne désormais
 
 ---------
 
-<a href="../2020-10-eucj-takeaways/fr/">
+<a href="2020-10-eucj-takeaways/">
 Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights
 </a>
         

@@ -88,6 +88,20 @@ body {
         padding-left: 10px;
         padding-right: 10px;
     }
+    &.full-width > .site-head > .site-nav, &.full-width > main.content > *, &.full-width > .site-block > *, &.full-width > .site-bottom > * {
+        max-width: none;
+    }
+    &.cover > main.content > .page-header {
+        max-width: none;
+
+        .page-parent, h1.title {
+            max-width: 980px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
     & > .site-head {
     background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0.9), rgba(255,255,255,1));
     }
@@ -209,61 +223,87 @@ main.content {
 a.learn-more {
     display: inline-block;
 }
+ver main.content .page-header {
+
+}
 main.content a[href] {
     // color: #1A659E;
     color: #da7a99;
 }
-main.content .page-parent {
-    display: inline-block;
-
-    &:after {
-        content: " ›";
+main.content .page-header {
+    body.cover & {
+        background-image: url(/assets/teufelsberg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1em;
     }
-
-    &:hover:after {
-        content: " ›";
-        padding-left: 0.4em;
-        transition: padding-left 1s 0s ease;
-    }
-}
-main.content .title {
-    font-size: 2em;
-    font-weight: 500;
-    // color: #004E89;
-    border-bottom: 1px solid #ffda7a;
-    margin-bottom: 0.5em;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-
-    body.press-release &, &.boring {
-    font-size: 1em;
-    font-weight: 300;
-    }
-}
-main.content .title.cover {
-    background-image: url(/assets/teufelsberg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 1em;
-    margin-left:-10px;
-    margin-right:-10px;
-
-    @media (min-width: 980px) {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    &.cover-servers {
+    body.cover-servers & {
         background-image: url(/assets/servers.jpg) !important;
         background-color: black;
-        color: white;
-        text-shadow: black 0px 0px 1px, black 1px 0 10px;
-        /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
-           SA 3.0
-           source: 
-           https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
-           license:
-           https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+        &, & .title, & .page-parent {
+            color: white;
+            text-shadow: black 0px 0px 1px, black 1px 0 10px;
+            border-color: transparent;
+            /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
+            SA 3.0
+            source: 
+            https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
+            license:
+            https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+        }
+    }
+    .page-parent {
+        display: block;
+
+        &:after {
+            content: " ›";
+        }
+
+        &:hover:after {
+            content: " ›";
+            padding-left: 0.4em;
+            transition: padding-left 1s 0s ease;
+        }
+    }
+    .title {
+        font-size: 2em;
+        font-weight: 500;
+        // color: #004E89;
+        border-bottom: 1px solid #ffda7a;
+        margin-bottom: 0.5em;
+        padding-top: 0.25em;
+        padding-bottom: 0.25em;
+
+        body.press-release &, &.boring {
+        font-size: 1em;
+        font-weight: 300;
+        }
+    }
+    .title.cover {
+        background-image: url(/assets/teufelsberg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 1em;
+        margin-left:-10px;
+        margin-right:-10px;
+
+        @media (min-width: 980px) {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &.cover-servers {
+            background-image: url(/assets/servers.jpg) !important;
+            background-color: black;
+            color: white;
+            text-shadow: black 0px 0px 1px, black 1px 0 10px;
+            /* Image: Wikimedia Foundation Servers by Victorgrigas - CC BY
+            SA 3.0
+            source: 
+            https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg
+            license:
+            https://creativecommons.org/licenses/by-sa/3.0/deed.en */
+        }
     }
 }
 main.content section.intro {
