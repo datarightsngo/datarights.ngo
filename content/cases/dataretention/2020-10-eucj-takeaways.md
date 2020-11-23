@@ -1,15 +1,16 @@
 ---
-TitleMeta: Takeaways from Data Rights about the CJEU rulings “Privacy International” and “La Quadrature du Net, French Data Network et al.”
+TitleMeta: "Takeaways from Data Rights about the CJEU rulings “Privacy International” and “La Quadrature du Net, French Data Network et al.”"
 drngoClass: cases article enumerate-headings enumerate-h2 cover-title cover-servers
 drngoParent: Legal Cases / Data Retention and Intelligence Act
 drngoParentUrl: /cases/dataretention/
 title: "Takeaways from Data Rights about the CJEU rulings “*Privacy International*” and “*La Quadrature du Net, French Data Network et al.*”"
 introduction: "EU’s top court paves the way for major reforms of European surveillance laws. What do the rulings in cases “Privacy International”, “La Quadrature, French Data Network et al.” mean?"
-credits: "Cover Image: <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg">Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0</a>"
+credits: "Cover Image: Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0 [source](https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg)"
 ---
 
 
-<p class="part" data-startline="15" data-endline="15">On October 6, 2020, the grand chamber of the Court of justice (CJEU) – the European Union’s highest court – ruled that the following measures are contrary to EU law:</p><ul class="part" data-startline="17" data-endline="20">
+
+ <p class="part" data-startline="15" data-endline="15">On October 6, 2020, the grand chamber of the Court of justice (CJEU) – the European Union’s highest court – ruled that the following measures are contrary to EU law:</p><ul class="part" data-startline="17" data-endline="20">
 <li class="" data-startline="17" data-endline="17">General one year data retention laws of Belgium and France;</li>
 <li class="" data-startline="18" data-endline="18">Real-time and automated analysis and collection of the whole traffic and location data in the way provided by France’s “Intelligence Act 2015”;</li>
 <li class="" data-startline="19" data-endline="20">General transmission of traffic and location data to the security and intelligence agencies of the UK’s “Investigatory Powers Act 2016”.</li>
