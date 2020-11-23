@@ -10863,4 +10863,34 @@ body.press-release .press.footer .contact, body.press-release .press.footer .abo
   font-size: 1.1em;
 }
 
+body.action.tools a {
+  color: inherit;
+}
+body.action.tools .unit.tool {
+  width: 49%;
+  color: inherit;
+  display: inline-block;
+  padding: 10px;
+  font-size: 90%;
+}
+body.action.tools .unit.tool h2, body.action.tools .unit.tool .h2 {
+  margin: 0;
+}
+body.action.tools .unit.tool.data-datarights-ngo {
+  background-color: #ffda7a;
+}
+body.action.tools .unit.tool.gitlab, body.action.tools .unit.tool.gitlab h2, body.action.tools .unit.tool.gitlab .h2 {
+  background-color: #30353E;
+  color: white;
+}
+body.action.tools .unit.tool .logo {
+  max-width: 80px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 1.2em;
+}
+body.action.tools .unit.tool p {
+  font-size: 90%;
+}
+
 /*# sourceMappingURL=style.css.map */

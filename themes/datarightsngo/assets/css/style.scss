@@ -578,3 +578,33 @@ body.press-release  {
         }
     }
 }
+
+body.action.tools {
+    a {color: inherit}
+    .unit.tool {
+        width: 49%;
+        color: inherit;
+        display: inline-block;
+        padding: 10px;
+        font-size: 90%;
+
+        h2 {margin: 0;}
+        
+        &.data-datarights-ngo {
+            background-color: #ffda7a;
+        }
+        &.gitlab, &.gitlab h2 {
+            background-color: #30353E;
+            color: white;
+        }
+        .logo {
+            max-width: 80px;
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 1.2em;
+        }
+        p {
+            font-size: 90%;
+        }
+    }
+}
