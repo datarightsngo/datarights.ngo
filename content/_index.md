@@ -7,15 +7,6 @@ drngoClass: "home"
     Data Rights is a new non-governmental organization with a mission to empower users, organisations and communities, to control their data.
     <!-- <a class="learn-more" href="/mission/">Learn More</a> -->
     </p>
-    <p>
-    We gather activists, hackers, cybersecurity experts, lawyers, designers, programmers… people who care about the impact of data, and want to fight for a vibrant Internet, free from unfair State or business surveillance.
-    </p>
-    <!-- <a class="learn-more" href="/about/">About us</a> -->
-    </p>
-    <!-- <p> -->
-    <!--     Learn more about our actions, Reach us or Donate! (Coming Soon!) -->
-    <!-- </p> -->
-    <p>Stay tuned, more info coming soon!</p>
 <div style="font-size: 0.8em;margin: 4em 0 2em;">
           6 Oct. 2020:<br>
           <a href="/news/2020-10-06-eucj-mass-surveillance-data-retention/">

@@ -10,7 +10,7 @@ body {
     background-size: cover;
     display: grid;
 
-    & > .site-nav, .title, a.page-parent {
+    & > .site-head, .title, a.page-parent {
         font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 }
@@ -26,6 +26,7 @@ p:first-child {hanging-punctuation: first;}
 h1, h2, h3, h4 {
     color: #111;
     line-height: 112%;
+    font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 h1.title, h1 + .subtitle {
     font-weight: 300;
@@ -340,8 +341,8 @@ main.content {
         font-variant: small-caps;
         font-variant-numeric: oldstyle-nums;
         font-feature-settings: 'onum' 1;
-        font-weight: 500;
-        font-size: 120%;
+        font-weight: 600;
+        font-size: 150%;
         margin-top: 2em;
     }
     h3 {
@@ -429,11 +430,24 @@ main.content {
 
         h2 {
             counter-increment: h2enum;
+
             &:before {
                 content: counter(h2enum)". ";
+                content: counter(h2enum, circlestyle)" ";
+                vertical-align: bottom;
+                font-weight: 400;
+                @media (min-width: 1040px) {
+                        float: left;
+                        margin-left: -1.3em;
+                }
             }
         }
     }
+}
+@counter-style circlestyle {
+  system: fixed;
+  symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ;
+  suffix: " ";
 }
 main.content footer.meta {
     font-size: 75%;

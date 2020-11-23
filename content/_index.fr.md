@@ -8,14 +8,6 @@ drngoClass: "home"
             Data Rights est une ONG consacrée à donner aux utilisateur⋅ice⋅s, organisations et communautés, le pouvoir de maîtriser leurs données.
             <!-- <a class="learn-more" href="/mission/">Learn More</a> -->
         </p>
-        <p>
-  Nous rassemblons des activistes, des hackers, des experts en cybersécurité, des juristes, des designers, des programmeurs… des citoyens soucieux<!--gens qui se soucient--> de l’impact des données, prêts à<!-- veulent--> lutter pour un Internet vibrant, libre de surveillances étatiques ou privées déloyales<!--illégitimes-->.
-            <!-- <a class="learn-more" href="/about/">About us</a> -->
-        </p>
-        <!-- <p> -->
-        <!--     Learn more about our actions, Reach us or Donate! (Coming Soon!) -->
-        <!-- </p> -->
-        <p>Restez connectés, plus d'infos arriveront bientôt&nbsp;!</p>
         <div style="font-size: 0.8em;margin: 4em 0 2em;">
           6 Oct. 2020:<br>
           <a href="/fr/news/2020-10-06-eucj-mass-surveillance-data-retention/">🇫🇷 Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique</a></div>
