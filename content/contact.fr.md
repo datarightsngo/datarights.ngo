@@ -15,7 +15,7 @@ Par email à <a href="mailto:inbox@datarights.ngo">inbox@datarights.ngo</a> - vo
         <input type="email" name="email" size="30"><br>
         <button type="submit">S’inscrire</button>
         <p class="privacy-policy-short" id="general-info-fr">
-En vous inscrivant, vous consentez à ce que votre adresse email soit utilisée pour vous envoyer des annonces générales de la part de Data Rights (pas plus d'une fois par mois). <a href="/info/data-policy/announcements/fr/">Plus d'infos</a>.
+En vous inscrivant, vous consentez à ce que votre adresse email soit utilisée pour vous envoyer des annonces générales de la part de Data Rights (pas plus d'une fois par mois). <a href="/fr/info/data-policy/announcements/">Plus d'infos</a>.
         </p>
     </fieldset>
 </form>
