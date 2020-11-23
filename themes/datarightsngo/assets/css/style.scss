@@ -240,6 +240,7 @@ main.content a[href] {
 }
 main.content .page-header {
     body.cover & {
+        background-color: #ffda7a;
         background-image: url(/assets/silobackground.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -248,6 +249,7 @@ main.content .page-header {
         text-shadow: white 0px 0px 1px, white 1px 0 10px;
     }
     body.cover.cover-teufelsberg & {
+        background-color: #da7a99;
         background-image: url(/assets/teufelsbergpinkbackground.jpg);
         text-shadow: rgba(0,0,0,0.35) 0px 0px 1px, rgba(0,0,0,0.35) 1px 0 10px;
         .title {
