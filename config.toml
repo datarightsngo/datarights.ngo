@@ -110,10 +110,10 @@ defaultContentLanguageInSubdir = false
         url = "/cases/"
         weight = 4
 
-    [[languages.en.menu.main]]
-        name = "Donate"
-        url = "/funding/donate/"
-        weight = 5
+    # [[languages.en.menu.main]]
+    #     name = "Donate"
+    #     url = "/funding/donate/"
+    #     weight = 5
 
     [[languages.en.menu.footer]]
         name = "Contact"
@@ -159,10 +159,10 @@ defaultContentLanguageInSubdir = false
         url = "/fr/cases/"
         weight = 4
 
-    [[languages.fr.menu.main]]
-        name = "Dons"
-        url = "/fr/funding/donate/"
-        weight = 5
+    # [[languages.fr.menu.main]]
+    #     name = "Dons"
+    #     url = "/fr/funding/donate/"
+    #     weight = 5
 
     [[languages.fr.menu.footer]]
         name = "Contact"
