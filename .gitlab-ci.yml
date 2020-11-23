@@ -1,9 +1,13 @@
+image: monachus/hugo
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
 pages:
   script:
-  - cp -R html/ public
-  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+  - hugo
   artifacts:
     paths:
     - public
   only:
-  - master
+  - live
