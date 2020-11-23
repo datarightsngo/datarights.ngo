@@ -1,19 +1,11 @@
 <!doctype html>
-<html>
+<html lang="{{ .Lang }}">
   {{- partial "head.html" . -}}
-  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }}">
+  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }}">
     {{- partial "header.html" . -}}
     <main class="content">
     {{- block "main" . }}{{- end }}
     </main>
-    <!--section class="subscribe site-block">
-      <p>
-        Get our updates:
-      </p>
-      <form>
-        [your email ________] [Subscribe]
-      </form>
-    </section-->
     {{- partial "footer.html" . -}}
   </body>
 </html>
