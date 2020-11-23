@@ -6,6 +6,7 @@ drngoParentUrl: /cases/dataretention/
 title: "Les points clefs des décisions de la CJUE “*Privacy International*” et “*La Quadrature du Net, French Data Network et a.*” pour Data Rights"
 introduction: "La plus haute cour de l’Union Européenne pose les fondations pour des réformes majeures des lois Européennes sur la surveillance. Quelles sont les implications des décisions “*Privacy International*” et “*La Quadrature, French Data Network et autres*”?"
 aliases: /cases/dataretention/2020-10-eucj-takeaways/fr/
+credits: "Image de couverture: <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg">Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0</a>"
 ---
 
 
@@ -68,8 +69,4 @@ aliases: /cases/dataretention/2020-10-eucj-takeaways/fr/
 </li>
 </ol>
 </section>
-
-<footer class="meta credits">
-    Image de couverture: <a href="https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg">Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0</a>
-</footer>
 
