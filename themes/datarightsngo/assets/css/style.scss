@@ -251,6 +251,7 @@ main.content .page-header {
     body.cover.cover-teufelsberg & {
         background-color: #da7a99;
         background-image: url(/assets/teufelsbergpinkbackground.jpg);
+        background-position: bottom;
         text-shadow: rgba(0,0,0,0.35) 0px 0px 1px, rgba(0,0,0,0.35) 1px 0 10px;
         .title {
             border-color: #da7a99;
