@@ -10497,6 +10497,22 @@ body > .site-head > .site-nav .menu a.current {
 body > .site-head > .site-nav .menu a.donate, body > .site-head > .site-nav .menu a.dons {
   font-weight: 600;
 }
+body.id-about > .site-head > .site-nav .menu .about, body.about > .site-head > .site-nav .menu .about {
+  opacity: 0.7;
+  background: #ffda7a;
+  border-radius: 5px 5px;
+}
+body.id-about > .site-head > .site-nav .menu .about:hover, body.about > .site-head > .site-nav .menu .about:hover {
+  opacity: 1;
+}
+body.id-cases > .site-head > .site-nav .menu .cases, body.cases > .site-head > .site-nav .menu .cases, body.case > .site-head > .site-nav .menu .cases {
+  opacity: 0.7;
+  background: #ffda7a;
+  border-radius: 5px 5px;
+}
+body.id-cases > .site-head > .site-nav .menu .cases:hover, body.cases > .site-head > .site-nav .menu .cases:hover, body.case > .site-head > .site-nav .menu .cases:hover {
+  opacity: 1;
+}
 body > main.content {
   font-size: 16px;
   min-height: 60vh;
@@ -10560,6 +10576,7 @@ body.cover main.content .page-header {
 body.cover.cover-teufelsberg main.content .page-header {
   background-color: #da7a99;
   background-image: url(/assets/teufelsbergpinkbackground.jpg);
+  background-position: bottom;
   text-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px, rgba(0, 0, 0, 0.35) 1px 0 10px;
 }
 body.cover.cover-teufelsberg main.content .page-header .title {
@@ -11025,6 +11042,9 @@ body.cases.content-grid #emergency-interceptions > h3:before, body.cases.content
 }
 body.cases.content-grid #wireless-exception > h3:before, body.cases.content-grid #wireless-exception > .h3:before {
   background-image: url("/assets/teufelsberg-square350.jpg");
+}
+body.cases.content-grid #privacy-international-state-hacking > h3:before, body.cases.content-grid #privacy-international-state-hacking > .h3:before {
+  background-image: url("/assets/bug.jpg");
 }
 
 body.timeline .e-content .intro {
