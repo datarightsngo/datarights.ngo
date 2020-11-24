@@ -207,26 +207,25 @@ body {
             }
         }
     }
-}
-main.content {
-    font-size: 16px;
-    min-height: 60vh;
-    background: #FFFFFF;
-    margin-top: 0;
-    padding-bottom: 5em;
-    display: grid;
+    & > main.content {
+        font-size: 16px;
+        min-height: 60vh;
+        background: #FFFFFF;
+        margin-top: 0;
+        padding-bottom: 5em;
+        display: grid;
 
-    @media (min-width: 660px) {
-        font-size: 20px;
+        @media (min-width: 660px) {
+            font-size: 20px;
+        }
+
+        & > header, & .e-content {
+            width: 100%;
+            margin-bottom: 2em;
+        }
     }
-
-    & > header, & .e-content {
-        width: 100%;
-        margin-bottom: 2em;
-    }
-
-    body.sidebar & {
-        // FIXME
+    &.sidebar > main.content {
+        // FIXME NOT DONE YET
         & > header {
             grid-row: 1;
         }
@@ -239,7 +238,25 @@ main.content {
             grid-column: 2;
         }
     }
+    & > .site-bottom {
+        background: #da7a99;
+        min-height: 30vh;
+        padding-top: 3em;
+        opacity: 0.8;
+    }
+    & > .site-bottom > * {
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+    }
 }
+
+
+///////////////////////////////
+//                           //
+// CONTENT LAYOUTS AND STYLE //
+//                           //
+///////////////////////////////
+
 a.learn-more {
     display: inline-block;
 }
@@ -463,25 +480,66 @@ main.content {
     }
 }
 @counter-style circlestyle {
-  system: fixed;
-  symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ;
-  suffix: " ";
+    system: fixed;
+    symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ;
+    suffix: " ";
 }
-main.content footer.meta {
-    font-size: 75%;
-    margin-top: 4em;
-    margin-bottom: -4em;
+
+.receive-announcements input {
+    width: 100%;
+    max-width: 400px;
 }
-.site-bottom {
-    background: #da7a99;
-    min-height: 30vh;
-    padding-top: 3em;
-    opacity: 0.8;
+
+.receive-announcements button[type=submit] {
+    font-weight: 500;
+    font-size: 90%;
+    border: 0;
+    color: inherit;
+    border-radius: 5px;
+    background-color: #ffda7a;
+    margin: 0.25em 0;
+    padding: 0.25em 0.5em;
 }
-.site-bottom > * {
-    padding-top: 0.5em;
-    padding-bottom: 1em;
+
+.receive-announcements .privacy-policy-short {
+    font-size: 80%;
+    margin-top: 1em;
+    width: 60%;
+    min-width: 380px;
 }
+
+////////////////////////////////////////
+//                                    //
+// GRIDS ON A PAGE (GOOD FOR INDEXES) //
+//                                    //
+////////////////////////////////////////
+
+body.content-grid, body.action.tools {
+   .e-content { 
+        @media (min-width: 660px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px;
+        }
+
+        .grid-unit, .unit.tool {
+            padding: 10px;
+            margin-bottom: 5px;
+            @media (min-width: 660px) {
+                height: 100%;
+            }
+            color: inherit;
+        }
+   }
+}
+
+
+///////////////////////////////
+//                           //
+// FOOTER  LAYOUTS AND STYLE //
+//                           //
+///////////////////////////////
+
 .site-bottom a[href] {
     color: inherit;
     text-decoration: underline;
@@ -539,6 +597,17 @@ main.content footer.meta {
         max-width: max-content;
     }
 }
+
+
+
+///////////////////////////////////////////////////////////////////////////
+// CONTENT FOR SPECIAL SECTIONS OR PAGES ...................... ///////////
+///////////////////////////////////////////////////////////////////////////
+
+
+
+
+
 body.home {
     font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -553,16 +622,15 @@ body.home > main.content {
     background: linear-gradient(rgba(255,255,255,0.0), rgba(255,255,255,0.8));
 }
 body.home .landing {
-font-size: 4em;
-font-weight: bold;
-display: grid;
-width: max-content;
-padding: 2em 0; 
-margin-top: 0;
-margin-bottom: 0;
+    font-size: 4em;
+    font-weight: bold;
+    display: grid;
+    width: max-content;
+    padding: 2em 0; 
+    margin-top: 0;
+    margin-bottom: 0;
 
     .org-name {
-
         *:not(.no-svg) & {
             background: url('/logo/data-rights-large.svg') no-repeat;
             background-size: contain;
@@ -576,54 +644,31 @@ margin-bottom: 0;
 
         .no-svg & {
             &:before {
-            content: "•";
-            border: 6px solid black;
-            line-height: 1.35rem;
-            display: inline-block;
-            border-radius: 50px;
-            width: 0.75em;
-            margin-left: -0.8em;
-            text-align: right;
-            grid-column: 1 / 2;
-            grid-row: 1;
-            margin-top: 0.75rem;
-            margin-right: 0.3rem;
-            padding: 2px 0px;
-            background: rgba(255,255,255,0.9);
+                content: "•";
+                border: 6px solid black;
+                line-height: 1.35rem;
+                display: inline-block;
+                border-radius: 50px;
+                width: 0.75em;
+                margin-left: -0.8em;
+                text-align: right;
+                grid-column: 1 / 2;
+                grid-row: 1;
+                margin-top: 0.75rem;
+                margin-right: 0.3rem;
+                padding: 2px 0px;
+                background: rgba(255,255,255,0.9);
             }
             &  {
-            grid-column: 2 / 4;
-            grid-row: 1 / 3;
-            line-height: 0.9em;
+                grid-column: 2 / 4;
+                grid-row: 1 / 3;
+                line-height: 0.9em;
             }
             .rights {
-            display: block;
+                display: block;
             }
         }
     }
-}
-
-.receive-announcements input {
-    width: 100%;
-    max-width: 400px;
-}
-
-.receive-announcements button[type=submit] {
-    font-weight: 500;
-    font-size: 90%;
-    border: 0;
-    color: inherit;
-    border-radius: 5px;
-    background-color: #ffda7a;
-    margin: 0.25em 0;
-    padding: 0.25em 0.5em;
-}
-
-.receive-announcements .privacy-policy-short {
-    font-size: 80%;
-    margin-top: 1em;
-    width: 60%;
-    min-width: 380px;
 }
 
 body.press-release  {
@@ -637,31 +682,6 @@ body.press-release  {
             font-size: 1.1em;
         }
     }
-}
-
-////////////////////////////////////////
-//                                    //
-// GRIDS ON A PAGE (GOOD FOR INDEXES) //
-//                                    //
-////////////////////////////////////////
-
-body.content-grid, body.action.tools {
-   .e-content { 
-        @media (min-width: 660px) {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 5px;
-        }
-
-        .grid-unit, .unit.tool {
-            padding: 10px;
-            margin-bottom: 5px;
-            @media (min-width: 660px) {
-                height: 100%;
-            }
-            color: inherit;
-        }
-   }
 }
 
 body.action.tools {
