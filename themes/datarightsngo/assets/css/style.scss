@@ -632,19 +632,37 @@ body.press-release  {
     }
 }
 
-body.action.tools {
-    a {color: inherit}
-    .e-content {
+////////////////////////////////////////
+//                                    //
+// GRIDS ON A PAGE (GOOD FOR INDEXES) //
+//                                    //
+////////////////////////////////////////
+
+body.content-grid, body.action.tools {
+   .e-content { 
         @media (min-width: 660px) {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 5px;
         }
+
+        .grid-unit, .unit.tool {
+            padding: 10px;
+            margin-bottom: 5px;
+            @media (min-width: 660px) {
+                height: 100%;
+            }
+            color: inherit;
+        }
+   }
+}
+
+body.action.tools {
+    a {
+        color: inherit;
     }
     .unit.tool {
         color: inherit;
-        padding: 10px;
-        margin-bottom: 5px;
         font-size: 90%;
         display: grid;
 
@@ -677,7 +695,6 @@ body.action.tools {
             grid-column: 2;
             grid-row: 2;
             padding: 0.75em 0 0;
-            min-height: 6em;
             font-size: 90%;
         }
     }
