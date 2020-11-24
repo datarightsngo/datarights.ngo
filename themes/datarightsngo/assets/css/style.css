@@ -10793,6 +10793,7 @@ body.content-grid .e-content > h1, body.content-grid .e-content > .h1, body.cont
 }
 body.content-grid .e-content .grid-unit, body.content-grid .e-content .unit.case, body.content-grid .e-content .unit.tool, body.action.tools .e-content .grid-unit, body.action.tools .e-content .unit.case, body.action.tools .e-content .unit.tool {
   margin-bottom: 5px;
+  display: block;
   color: inherit;
   font-size: 90%;
 }
@@ -10996,7 +10997,11 @@ body.action.tools .unit.tool p {
 body.cases.content-grid .case.unit {
   z-index: 1;
 }
-body.cases.content-grid .case.unit > .image {
+body.cases.content-grid .case.unit > h3, body.cases.content-grid .case.unit > .h3 {
+  text-shadow: white 5px 5px 5px, white 1px 0 10px;
+}
+body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.unit > .h3::before {
+  content: " ";
   background: #ffda7a;
   background-size: 80px 80px;
   background-repeat: no-repeat;
@@ -11005,19 +11010,166 @@ body.cases.content-grid .case.unit > .image {
   height: 80px;
   z-index: -99;
   border-radius: 50%;
+  margin-left: -85px;
+  margin-top: -10px;
 }
-body.cases.content-grid .case.unit > *:not(.image) {
-  margin-left: 95px;
+body.cases.content-grid .case.unit > * {
+  margin-left: 85px;
   background: transparent;
 }
-body.cases.content-grid #dataretention > .image {
+body.cases.content-grid #dataretention > h3:before, body.cases.content-grid #dataretention > .h3:before {
   background-image: url("/assets/servers.jpg");
 }
-body.cases.content-grid #emergency-interceptions > .image {
+body.cases.content-grid #emergency-interceptions > h3:before, body.cases.content-grid #emergency-interceptions > .h3:before {
   background-image: url("/assets/emeraude-square350.jpg");
 }
-body.cases.content-grid #wireless-exception > .image {
+body.cases.content-grid #wireless-exception > h3:before, body.cases.content-grid #wireless-exception > .h3:before {
   background-image: url("/assets/teufelsberg-square350.jpg");
+}
+
+body.timeline .e-content .intro {
+  margin-bottom: 2em;
+}
+body.timeline .e-content > *:not(.intro) {
+  margin: 0;
+  margin-left: 80px;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  border-left: 3px solid #da7a99;
+}
+body.timeline .e-content > *:not(.intro):last-child {
+  padding-bottom: 0;
+}
+body.timeline .e-content h2, body.timeline .e-content .h2 {
+  font-size: 1em;
+  font-variant: normal;
+  text-transform: none;
+  padding-top: 1em;
+}
+body.timeline .e-content h2:before, body.timeline .e-content .h2:before {
+  content: " ";
+  display: inline-block;
+  height: 0.75em;
+  width: 0.75em;
+  margin-left: -1.45em;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #da7a99;
+  background: white;
+}
+body.timeline .e-content p {
+  padding-bottom: 0.25em;
+}
+body.timeline .e-content ol li {
+  margin-left: 1.5em;
+}
+body.timeline .e-content ol li p {
+  margin: 0;
+}
+body.timeline .e-content .event-date {
+  font-size: 70%;
+  margin: 0;
+  border: 0;
+  display: inline-block;
+  position: absolute;
+  width: 70px;
+  line-height: 1;
+  padding: 10px 0 0 0;
+  text-align: right;
+}
+body.timeline .e-content .event-date:before {
+  content: " ";
+  border: 3px solid #da7a99;
+  background: #da7a99;
+  height: 0.85em;
+  width: 0.85em;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  margin-right: -18px;
+}
+body.timeline .e-content .attachment {
+  display: block;
+  font-size: 80%;
+  min-height: 70px;
+  color: inherit;
+}
+@media (min-width: 660px) {
+  body.timeline .e-content .attachment {
+    max-width: 49%;
+  }
+}
+body.timeline .e-content .attachment.document::before {
+  content: " ";
+  width: 42px;
+  height: 60px;
+  position: absolute;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40Mi1Eb2N1bWVudC1BcnJvdyBEb3duPC90aXRsZT48ZyBkYXRhLW5hbWU9IjQyLURvY3VtZW50LUFycm93IERvd24iPjxwYXRoIGQ9Ik0yLDI5VjNBMSwxLDAsMCwxLDMsMkgxOFY2YTIsMiwwLDAsMCwyLDJoNHYzaDJWN2ExLDEsMCwwLDAtLjI5LS43MWwtNi02QTEsMSwwLDAsMCwxOSwwSDNBMywzLDAsMCwwLDAsM1YyOWEzLDMsMCwwLDAsMywzSDEzVjMwSDNBMSwxLDAsMCwxLDIsMjlaIj48L3BhdGg+PHBhdGggZD0iTTIzLDE0YTksOSwwLDEsMCw5LDlBOSw5LDAsMCwwLDIzLDE0Wm0wLDE2YTcsNywwLDEsMSw3LTdBNyw3LDAsMCwxLDIzLDMwWiI+PC9wYXRoPjxwYXRoIGQ9Ik0yNCwyMy41OVYxOUgyMnY0LjU5bC0xLjI5LTEuMjktMS40MSwxLjQxLDMsM2ExLDEsMCwwLDAsMS40MSwwbDMtMy0xLjQxLTEuNDFaIj48L3BhdGg+PC9nPjwvc3ZnPg==");
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  opacity: 0.5;
+}
+body.timeline .e-content .attachment.document:hover::before {
+  opacity: 1;
+}
+body.timeline .e-content .attachment.document img {
+  position: absolute;
+  max-width: 42px;
+  max-height: 60px;
+  display: block;
+  z-index: 3;
+}
+body.timeline .e-content .attachment.document img + .filename::before {
+  z-index: 2;
+  content: " ";
+  margin-left: -52px;
+  width: 42px;
+  height: 60px;
+  background: white;
+  display: block;
+  position: absolute;
+}
+body.timeline .e-content .attachment.document .filename {
+  margin-left: 52px;
+  margin-bottom: 0;
+  padding: 5px 10px;
+  background: rgba(255, 218, 122, 0.35);
+  min-height: 60px;
+}
+body.timeline .e-content .attachment.document:hover .filename {
+  background: #ffda7a;
+}
+body.timeline .e-content .attachment.document .filetype {
+  float: right;
+  font-size: 60%;
+  font-weight: 900;
+  display: inline-block;
+  border: 2px outset #333;
+  background: #999;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 3px;
+}
+body.timeline .e-content .attachment.document .filetype:hover {
+  border-style: inset;
+}
+body.timeline .e-content .attachment.document .filetype.pdf {
+  background: #ff2e22;
+  border-color: #ff655d;
+  opacity: 0.5;
+}
+body.timeline .e-content .attachment.document .filetype.docx {
+  background: #235d9c;
+  border-color: #317dd1;
+  opacity: 0.5;
+}
+body.timeline .e-content .attachment.document:hover .pdf, body.timeline .e-content .attachment.document:hover .docx {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
