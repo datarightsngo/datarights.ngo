@@ -83,7 +83,7 @@ Le Conseil d'État [décide qu’il existe un doute sur la constitutionnalité](
 
 <div class="event-date">4 août 2017</div>
 
-Le Conseil constitutionnel [déclare cet article de la Loi Renseignement contraire à la Déclaration des droits de l'homme et du citoyen de 1789](https://www.conseil-constitutionnel.fr/decision/2017/2017648QPC.htm). 
+Le Conseil constitutionnel [déclare une partie de l'article contraire à la Déclaration des droits de l'homme et du citoyen de 1789](https://www.conseil-constitutionnel.fr/decision/2017/2017648QPC.htm). 
 Il relève que la loi prorogeant l'état d'urgence «*a permis que fasse l'objet de cette technique de renseignement un nombre élevé de personnes, sans que leur lien avec la menace soit nécessairement étroit*» sans prévoir de limitation substantielle telle qu'un nombre d'autorisations maximum.
 
 Toutefois, sans s'en justifier, le Conseil constitutionnel reporte les effets de sa décision, jugeant que l'abrogation du bout de cette loi récente entraînerait « des conséquences manifestement excessives ».
