@@ -792,6 +792,11 @@ body.cases.content-grid {
             background-image: url('/assets/teufelsberg-square350.jpg');
         }
     }
+    #privacy-international-state-hacking {
+        & > h3:before {
+            background-image: url('/assets/bug.jpg');
+        }
+    }
 }
 
 body.timeline {
