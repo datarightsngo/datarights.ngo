@@ -26,7 +26,6 @@ Il n'existe pas de voie de procédure en France qui permette à un citoyen de sa
 Le refus du gouvernement d'abroger une disposition réglementaire  peut faire l'objet d'un recours pour «excès de pouvoir» devant le Conseil d'État.
 
 <a class="attachment document" href="https://data.datarights.ngo/s/fWi9reSQYoa62DZ/download">
-<!-- <img src="/assets/image.jpg" alt=" "> -->
 <p class="filename">Lettre de demande d'abrogation
 <span class="filetype pdf">pdf</span></p>
 </a>
