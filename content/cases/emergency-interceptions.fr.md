@@ -5,7 +5,7 @@ drngoParent: Affaires en justice
 drngoParentUrl: /cases/
 drngoClass: case timeline
 Title: "Accès en temps réel aux données de communication par les services de renseignement français après l'état d'urgence"
-introduction: "Le Conseil constitutionnel a déclaré partiellement la loi prorogeant l'état d'urgence et renforçant les mesures anti-terroristes contraire à la Constitution. Des membres de Data Rights ont œuvré dans cette affaire."
+introduction: "Le Conseil constitutionnel a déclaré la loi prorogeant l'état d'urgence et renforçant les mesures anti-terroristes partiellement contraire à la Constitution. Des membres de Data Rights ont œuvré dans cette affaire."
 ---
 
 
