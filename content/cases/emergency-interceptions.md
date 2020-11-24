@@ -23,7 +23,7 @@ Il n'existe pas de voie de procédure en France qui permette à un citoyen de sa
 
  2. Attendre une réponse négative ou, en l'absence de réponse, attendre la fin du délai légal (l'absence de réponse constituant un refus implicite)
  
-Le refus du gouvernement d'abroger une disposition réglementaire  peuvent faire l'objet d'un recours pour «excès de pouvoir» devant le Conseil d'État.
+Le refus du gouvernement d'abroger une disposition réglementaire  peut faire l'objet d'un recours pour «excès de pouvoir» devant le Conseil d'État.
 
 <a class="attachment document" href="https://data.datarights.ngo/s/fWi9reSQYoa62DZ/download">
 <!-- <img src="/assets/image.jpg" alt=" "> -->
