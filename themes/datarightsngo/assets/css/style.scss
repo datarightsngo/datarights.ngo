@@ -110,91 +110,111 @@ body {
     &.cover > .site-head {
         background: white;
     }
- & > .site-head > .site-nav {
-    min-height: 7vh;
-    display: grid;
-    width: 100%;
+    & > .site-head > .site-nav {
+        min-height: 7vh;
+        display: grid;
+        width: 100%;
 
-    & > * {
-        margin-top: 1rem;
-    }
-    a {
-    color: black;
-    }
-
-    grid-column: 1;
-    grid-row: 1;
-
-    .back-home {
+        & > * {
+            margin-top: 1rem;
+        }
+        a {
         color: black;
-        display: inline-block;
-        min-width: max-content;
-        margin-right: 2em;
-    }
-    .back-home .org-name {
-        margin-top: 0.35rem;
-    }
-    .back-home .org-name:before, .back-home .org-name {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 18px;
-    }
+        }
 
-    *:not(.no-svg) & {
+        grid-column: 1;
+        grid-row: 1;
+
+        .back-home {
+            color: black;
+            display: inline-block;
+            min-width: max-content;
+            margin-right: 2em;
+        }
         .back-home .org-name {
-            .data, .rights {display: none;}
-            background: url('/logo/data-rights.svg') no-repeat;
-            background-size: contain;
-            width: 90px;
-            height: 40px;
+            margin-top: 0.35rem;
         }
-    }
-    .no-svg & {
-        .back-home .org-name:before {
-            content: "•";
-            margin-right: 0.3em;
-        border: 2.5px solid black;
-        line-height: 0.5rem;
+        .back-home .org-name:before, .back-home .org-name {
         display: inline-block;
-        border-radius: 50px;
-        font-size: 1.6rem;
-        padding: 1px 0 0.5px 0;
-        width: 1.25rem;
-        text-align: right;
-        margin-top: 0.75rem;
-        background: rgba(255,255,255,0.9);
+        font-weight: bold;
+        font-size: 18px;
+        }
+
+        *:not(.no-svg) & {
+            .back-home .org-name {
+                .data, .rights {display: none;}
+                background: url('/logo/data-rights.svg') no-repeat;
+                background-size: contain;
+                width: 90px;
+                height: 40px;
+            }
+        }
+        .no-svg & {
+            .back-home .org-name:before {
+                content: "•";
+                margin-right: 0.3em;
+            border: 2.5px solid black;
+            line-height: 0.5rem;
+            display: inline-block;
+            border-radius: 50px;
+            font-size: 1.6rem;
+            padding: 1px 0 0.5px 0;
+            width: 1.25rem;
+            text-align: right;
+            margin-top: 0.75rem;
+            background: rgba(255,255,255,0.9);
+            }
+        }
+        .menu {
+            grid-column: 2 / 8;
+            grid-row: 1;
+            padding-top: 0.6em;
+            padding-bottom: 1em;
+            text-align: right;
+            a {
+                font-weight: 500;
+                display: inline-block;
+                padding-top: 0.35em;
+                padding-bottom: 0.25em;
+                padding-left: 1em;
+                padding-right: 1em;
+                border-bottom: 2px solid transparent;
+                &:hover {
+                    border-bottom: 2px solid #da7a99;
+                    transition: border-bottom 3s 0s ease;
+                }
+                &.current {
+                    opacity: 0.7;
+                    background: #ffda7a;
+                    border-radius: 5px 5px;
+                }
+                &.donate, &.dons {
+                    // color: #ffda7a;
+                    font-weight: 600;
+                }
+            }
         }
     }
-    .menu {
-    grid-column: 2 / 8;
-    grid-row: 1;
-    padding-top: 0.6em;
-    padding-bottom: 1em;
-    text-align: right;
-    a {
-        font-weight: 500;
-        display: inline-block;
-        padding-top: 0.35em;
-        padding-bottom: 0.25em;
-        padding-left: 1em;
-        padding-right: 1em;
-        border-bottom: 2px solid transparent;
-        &:hover {
-            border-bottom: 2px solid #da7a99;
-            transition: border-bottom 3s 0s ease;
-        }
-        &.current {
-            opacity: 0.7;
-            background: #ffda7a;
-            border-radius: 5px 5px;
-        }
-        &.donate, &.dons {
-            // color: #ffda7a;
-            font-weight: 600;
+    &.id-about, &.about {
+        & > .site-head > .site-nav .menu {
+            .about {
+                opacity: .7;
+                background: #ffda7a;
+                border-radius: 5px 5px;
+                &:hover {opacity:1}
+            }
         }
     }
+    &.id-cases, &.cases &.case {
+        & > .site-head > .site-nav .menu {
+            .cases {
+                opacity: .7;
+                background: #ffda7a;
+                border-radius: 5px 5px;
+                &:hover {opacity:1}
+            }
+        }
     }
- }
 }
 main.content {
     font-size: 16px;

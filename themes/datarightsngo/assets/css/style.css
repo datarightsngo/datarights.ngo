@@ -10489,6 +10489,16 @@ body > .site-head > .site-nav .menu a.current {
 body > .site-head > .site-nav .menu a.donate, body > .site-head > .site-nav .menu a.dons {
   font-weight: 600;
 }
+body.id-about > .site-head > .site-nav .menu .about, body.about > .site-head > .site-nav .menu .about {
+  opacity: 0.7;
+  background: #ffda7a;
+  border-radius: 5px 5px;
+}
+body.id-cases > .site-head > .site-nav .menu .cases, body.cases body.case > .site-head > .site-nav .menu .cases {
+  opacity: 0.7;
+  background: #ffda7a;
+  border-radius: 5px 5px;
+}
 
 main.content {
   font-size: 16px;
