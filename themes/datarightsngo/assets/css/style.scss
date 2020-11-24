@@ -206,6 +206,27 @@ body {
                 }
             }
         }
+        &.id-about, &.about {
+                & > .site-head > .site-nav .menu {
+                    .about {
+                        opacity: .7;
+                        background: #ffda7a;
+                        border-radius: 5px 5px;
+                        &:hover {opacity:1}
+                    }
+                }
+            }
+            &.id-cases, &.cases &.case {
+                & > .site-head > .site-nav .menu {
+                    .cases {
+                        opacity: .7;
+                        background: #ffda7a;
+                        border-radius: 5px 5px;
+                        &:hover {opacity:1}
+                    }
+                }
+            }
+        }
     }
     & > main.content {
         font-size: 16px;
@@ -791,6 +812,11 @@ body.cases.content-grid {
     #wireless-exception {
         & > h3:before {
             background-image: url('/assets/teufelsberg-square350.jpg');
+        }
+    }
+    #privacy-international-state-hacking {
+        & > h3:before {
+            background-image: url('/assets/bug.jpg');
         }
     }
 }
