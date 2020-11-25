@@ -24,7 +24,7 @@ cover: |
 <a href="emergency-interceptions" id="emergency-interceptions" class="case unit">
 <h3>Accès en temps réel aux données de communications</h3>
 <p>
-    Le Conseil constitutionnel a déclaré partiellement la loi prorogeant l'état d'urgence et renforçant les mesures anti-terroristes contraire à la Constitution. Des membres de Data Rights ont œuvré dans cette affaire.
+    Le Conseil constitutionnel a déclaré  la loi prorogeant l'état d'urgence et renforçant les mesures anti-terroristes partiellement contraire à la Constitution. Des membres de Data Rights ont œuvré dans cette affaire.
     <span class="read-more">En lire plus</span>
 </p>
 </a>
