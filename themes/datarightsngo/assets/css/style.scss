@@ -207,6 +207,26 @@ body {
             }
         }
     }
+    &.id-about, &.about {
+        & > .site-head > .site-nav .menu {
+            .about {
+                opacity: .7;
+                background: #ffda7a;
+                border-radius: 5px 5px;
+                &:hover {opacity:1}
+            }
+        }
+    }
+    &.id-cases, &.cases, &.case {
+        & > .site-head > .site-nav .menu {
+            .cases {
+                opacity: .7;
+                background: #ffda7a;
+                border-radius: 5px 5px;
+                &:hover {opacity:1}
+            }
+        }
+    }
     & > main.content {
         font-size: 16px;
         min-height: 60vh;
@@ -286,7 +306,7 @@ main.content .page-header {
             border-color: #da7a99;
         }
         .title, .cover {
-            color: white;
+                color: white;
         }
     }
     body.cover-title & {
@@ -505,8 +525,10 @@ main.content {
 .receive-announcements .privacy-policy-short {
     font-size: 80%;
     margin-top: 1em;
-    width: 60%;
-    min-width: 380px;
+    @media (min-width: 660px) {
+        width: 60%;
+        min-width: 380px;
+    }
 }
 
 ////////////////////////////////////////

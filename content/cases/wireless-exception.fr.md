@@ -65,7 +65,7 @@ Le Conseil d'État [décide qu’il existe un doute sur la constitutionnalité](
 
 Le Conseil constitutionnel [déclare cet article de la Loi Renseignement contraire à la Déclaration des droits de l'homme et du citoyen de 1789](http://www.conseil-constitutionnel.fr/conseil-constitutionnel/francais/les-decisions/acces-par-date/decisions-depuis-1959/2016/2016-590-qpc/decision-n-2016-590-qpc-du-21-octobre-2016.148047.html). Il relève que l'“exception hertzienne” permet le recueil de données personnelles et l'interception de communications et que ces mesures de renseignement ne sont soumises «*à aucune condition de fond ni de procédure*» et encadrées d'«*aucune garantie*».
 
-Cette «*atteinte manifestement disproportionnée au droit au respect de la vie privée et au secret des correspondances*» est contraire à l'article 2 de la Déclaration de 1789 mais le Conseil considère regrettablement qu'il ne faut pas priver « *les pouvoirs publics de toute possibilité de surveillance des transmissions empruntant la voie hertzienne* » et reporte l'effet de sa décision de plus d'un an -- en l'assortant de manière inédite de certaines garanties, devançant ainsi le rôle du législateur et “prenant la plume”.
+Cette «*atteinte manifestement disproportionnée au droit au respect de la vie privée et au secret des correspondances*» est contraire à l'article 2 de la Déclaration de 1789 mais le Conseil considère qu'il ne faut pas priver « *les pouvoirs publics de toute possibilité de surveillance des transmissions empruntant la voie hertzienne* » et reporte l'effet de sa décision de plus d'un an -- en l'assortissant de manière inédite de certaines garanties, devançant ainsi le rôle du législateur et “prenant la plume”.
 
 <div class="event-date">31 déc. 2017</div>
 

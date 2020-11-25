@@ -5,7 +5,7 @@ drngoParent: Affaires en justice
 drngoParentUrl: /cases/
 drngoClass: case timeline
 Title: "Accès en temps réel aux données de communication par les services de renseignement français après l'état d'urgence"
-introduction: "Le Conseil constitutionnel a déclaré partiellement la loi prorogeant l'état d'urgence et renforçant les mesures anti-terroristes contraire à la Constitution. Des membres de Data Rights ont œuvré dans cette affaire."
+introduction: "Le Conseil constitutionnel a déclaré la loi prorogeant l'état d'urgence et renforçant les mesures anti-terroristes partiellement contraire à la Constitution. Des membres de Data Rights ont œuvré dans cette affaire."
 ---
 
 
@@ -19,7 +19,7 @@ Il n'existe pas de voie de procédure en France qui permette à un citoyen de sa
 
  2. Attendre une réponse négative ou, en l'absence de réponse, attendre la fin du délai légal (l'absence de réponse constituant un refus implicite)
  
-Le refus du gouvernement d'abroger une disposition réglementaire  peuvent faire l'objet d'un recours pour «excès de pouvoir» devant le Conseil d'État.
+Le refus du gouvernement d'abroger une disposition réglementaire  peut faire l'objet d'un recours pour «excès de pouvoir» devant le Conseil d'État.
 
 <a class="attachment document" href="https://data.datarights.ngo/s/fWi9reSQYoa62DZ/download">
 <!-- <img src="/assets/image.jpg" alt=" "> -->
@@ -83,7 +83,7 @@ Le Conseil d'État [décide qu’il existe un doute sur la constitutionnalité](
 
 <div class="event-date">4 août 2017</div>
 
-Le Conseil constitutionnel [déclare cet article de la Loi Renseignement contraire à la Déclaration des droits de l'homme et du citoyen de 1789](https://www.conseil-constitutionnel.fr/decision/2017/2017648QPC.htm). 
+Le Conseil constitutionnel [déclare une partie de l'article contraire à la Déclaration des droits de l'homme et du citoyen de 1789](https://www.conseil-constitutionnel.fr/decision/2017/2017648QPC.htm). 
 Il relève que la loi prorogeant l'état d'urgence «*a permis que fasse l'objet de cette technique de renseignement un nombre élevé de personnes, sans que leur lien avec la menace soit nécessairement étroit*» sans prévoir de limitation substantielle telle qu'un nombre d'autorisations maximum.
 
 Toutefois, sans s'en justifier, le Conseil constitutionnel reporte les effets de sa décision, jugeant que l'abrogation du bout de cette loi récente entraînerait « des conséquences manifestement excessives ».
