@@ -15,9 +15,11 @@ Following the CJEU ruling, the case is now back to the Conseil d'État in France
 
 ## Demande d'abrogation
 
-<div class="event-date">27 avr. 2015</div>
+<div class="event-date">déc. 2014</div>
 
 À la suite de l'arrêt *Digital Rights* de la CJUE, French Data Network initie une action pour faire appliquer la jurisprudence européenne en France, où la conservation généralisée des données de communications électroniques est prévue depuis septembre 2001.
+
+<div class="event-date">27 avr. 2015</div>
 
 Alors que le Parlement débat de la Loi Renseignement qui prévoit -- entre autres -- de nouvelles techniques d'exploitation des données de communications, la première étape de cette affaire est de demander au gouvernement l'abrogation des décrets organisant la conservation généralisée des données en France (R.10-13 du code des postes et des communications électroniques et décret 2011-219 d'application de la LCEN).
 
