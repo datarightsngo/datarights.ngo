@@ -3,6 +3,7 @@ MetaTitle:  "Data Retention and Intelligence Act"
 MetaParent: "Case"
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
+drngoClass: case 
 Title: "France’s Data Retention Laws and the 2015 Intelligence Act"
 introduction: "This legal challenge aims to uphold the case law of the Court of Justice of the EU in France."
 ---
