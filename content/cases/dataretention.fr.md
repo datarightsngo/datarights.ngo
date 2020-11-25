@@ -3,6 +3,7 @@ MetaTitle: "Conservation des données et Loi renseignement"
 MetaParent: "Affaire"
 drngoParent: Affaires en justice
 drngoParentUrl: /cases/
+drngoClass: case 
 Title: "Remise en cause des lois françaises de conservation des données et de surveillance et la loi renseignement de 2015"
 introduction: "Cette action en justice vise à faire appliquer la jurisprudence de la Cour de justice de l'UE sur la conservation généralisée de données et l'analyse en temps réel."
 ---
