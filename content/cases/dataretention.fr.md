@@ -10,14 +10,12 @@ introduction: "Cette action en justice vise à faire appliquer la jurisprudence 
 
 À la suite de l'arrêt de la CJUE, l'affaire retourne désormais au Conseil d'État français. Nous allons mettre à jour cette page avec tout l'historique de l'affaire depuis 2015.
 
-**[Chronologie de l'affaire 2015-2020](timeline)**
 
-<a href="/news/2020-10-06-eucj-mass-surveillance-data-retention/fr/">
-            Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique</a>
+ - **[Chronologie de l'affaire 2015-2020](timeline)**
 
----------
+ - Octobre 2020:
+ 
+     * [presse] [Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique](/news/2020-10-06-eucj-mass-surveillance-data-retention/)
 
-<a href="2020-10-eucj-takeaways/">
-Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights
-</a>
-        
+      * [article] [Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights](2020-10-eucj-takeaways)
+

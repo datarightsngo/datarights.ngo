@@ -12,12 +12,11 @@ introduction: "This legal challenge aims to uphold the case law of the Court of 
 Following the CJEU ruling, the case is now back to the Conseil d'État in France.  
 *Details of the case are only available in French. [See how to participate to translations](/action/translate/)*
 
-
-## Demande d'abrogation
-
 <div class="event-date">déc. 2014</div>
 
 À la suite de l'arrêt *Digital Rights* de la CJUE, French Data Network initie une action pour faire appliquer la jurisprudence européenne en France, où la conservation généralisée des données de communications électroniques est prévue depuis septembre 2001.
+
+## Demande d'abrogation
 
 <div class="event-date">27 avr. 2015</div>
 
