@@ -10789,8 +10789,12 @@ main.content .footnotes .footnote-back {
 .receive-announcements .privacy-policy-short {
   font-size: 80%;
   margin-top: 1em;
-  width: 60%;
-  min-width: 380px;
+}
+@media (min-width: 660px) {
+  .receive-announcements .privacy-policy-short {
+    width: 60%;
+    min-width: 380px;
+  }
 }
 
 body.content-grid .e-content, body.action.tools .e-content {
