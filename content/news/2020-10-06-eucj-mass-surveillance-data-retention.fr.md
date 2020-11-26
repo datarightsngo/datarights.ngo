@@ -4,9 +4,10 @@ TitleMeta: "Déclaration de Data Rights sur les décisions de la Cour de Justice
 drngoClass: news press-release
 drngoParent: Actualités
 drngoParentUrl: /fr/cases/dataretention/
-title: "Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique (6 Oct. 2020)"
+title: "Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique"
 introduction: "La plus haute cour de l’UE ouvre la voie à des réformes structurelles des lois de surveillance européennes."
 aliases: /news/2020-10-06-eucj-mass-surveillance-data-retention/fr/
+date: 2020-10-06
 ---
 
 

@@ -1,5 +1,4 @@
 
-
 {{if .PrevInSection}}<nav class="prevnext">
 {{else}}
 {{if .NextInSection}}<nav class="prevnext">
@@ -8,14 +7,22 @@
 
 {{if .PrevInSection}}
 <a href="{{.PrevInSection.Permalink}}" class="prev">
-<span class="label">{{ i18n "prev" }}</span>
+  {{ if .PrevInSection.Params.date }}
+  <time class="date label">{{ .PrevInSection.Params.date.Format "January 2, 2006" }}</time>
+  {{ else }}
+  <span class="label">{{ i18n "prev" }}</span>
+  {{ end }}
 {{.PrevInSection.Title}}
 </a>
 {{end}}
 
 {{if .NextInSection}}
 <a href="{{.NextInSection.Permalink}}" class="next">
-<span class="label">{{ i18n "next" }}</span>
+  {{ if .NextInSection.Params.date }}
+  <time class="date label">{{ .NextInSection.Params.date.Format "January 2, 2006" }}</time>
+  {{ else }}
+  <span class="label">{{ i18n "next" }}</span>
+  {{ end }}
 {{.NextInSection.Title}}
 </a>
 {{end}}
