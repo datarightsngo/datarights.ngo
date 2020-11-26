@@ -6,37 +6,38 @@ credits: "[Silo](https://www.flickr.com/photos/aphid00/6102320126/)/Eye”, insi
 cover: |
     
     You should have the right to be in control of your data. Learn more about your data rights and how to enforce and advance them.
-introduction: Users, organisations and communities, should have the right to be in control of their data. 
 ---
 
 ## What are Data Rights?
 
+Data rights give you control over your data. They are essential to keep tech accountable and restore trust. They contribute to a fair digital society.
+
 ### Individuals’ Rights to Personal Data
 
 <div class="grid">
-    <div id="knowledge" class="grid-unit">
+    <a href="knowledge-of-data" id="knowledge-of-data" class="grid-unit">
     <h4>
-      Knowledge of Data Collection and Use
+      Right to Know of Data Collection
     </h4>
     <p>
-        Receiving notice when and where data relating to you is collected, shared or used, is a requirement for your ability to enforce your rights.
+        Receiving notice when and where data relating to you is collected, shared or used, is necessary for your ability to enforce your rights.
     </p>
     <p>
         Having the right to request access to information held about you, and to learn how your data is stored and used, is also paramount to hold providers accountable.
     </p>
-    </div>
-    <div id="portability" class="grid-unit">
+    </a>
+    <a href="portability" id="portability" class="grid-unit">
     <h4>
-      Freedom to Move and Rights to Portability
+      Right to Data Portability
     </h4>
-    <p>Users should always be able to extract their data from the service at any time without experiencing any vendor lock-in. Open standards for formats and protocols and interoperability are necessary to guarantee this.
+    <p>You should always be able to extract your data from a service at any time without experiencing any vendor lock-in.
     </p>
-    <p>The right to portability enables you to re-use your data in new ways, and adapt them to your needs.
+    <p>The right to portability is necessary to ensure your freedom to move. It enables you to re-use your data in new ways, and adapt them to your needs.
     </p>
-    </div>
-    <div id="optout" class="grid-unit">
+    </a>
+    <a href="free-consent-and-optout" id="free-consent-and-optout" class="grid-unit">
     <h4>
-      Rights to choose, opt-out or withdraw consent
+      Rights to Free Consent and Opt-Out
     </h4>
     <p>
         Consent should always be freely given and individuals should be able to withdraw their consent at any time. 
@@ -44,25 +45,26 @@ introduction: Users, organisations and communities, should have the right to be 
     <p>
         Where consent is not required or appropriate, the right to opt-out helps protect your rights, freedoms and interests.
     </p>
-    </div>
-    <div id="erasure" class="grid-unit">
+    </a>
+    <a href="erasure" id="erasure" class="grid-unit">
     <h4>
       Rights of Rectification and Erasure
     </h4>
     <p>
          Inaccurate, incorrect or useless data are a liability and prone to abuse. The rights to rectification and erasure helps you against irrelevant processing of your data.
     </p>
-    </div>
-    <div id="dnt" class="grid-unit">
-    <h4>
-      “Do Not Track“ and “Do Not Sell”
-    </h4>
-    <p>
-         Standards help make saying ‘no’ to data tracking as convenient as possible.
-    </p>
-    </div>
+    </a>
+    <!-- <a href="dnt" id="dnt" class="grid-unit"> -->
+    <!-- <h4> -->
+    <!--   “Do Not Track” and “Do Not Sell” -->
+    <!-- </h4> -->
+    <!-- <p> -->
+    <!--      Standards help make saying ‘no’ to data tracking as convenient as possible. -->
+    <!-- </p> -->
+    <!-- </a> -->
 </div>
 
+<a class="learn-more center" href="knowledge-of-data">Learn More</a>
 
 
 ### Data and Security

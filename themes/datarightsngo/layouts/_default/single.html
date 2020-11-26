@@ -4,6 +4,10 @@
     {{- partial "page-content.html" . -}}
     {{ if in .Params.drngoClass "press-release" }}
     {{- partial "press-release-footer.html" }}
+    {{- partial "page-nextprev.html" . }}
+    {{ end }}
+    {{ if .Params.drngoShowNextPrev }}
+    {{- partial "page-nextprev.html" . }}
     {{ end }}
   </div>
 {{ end }}
