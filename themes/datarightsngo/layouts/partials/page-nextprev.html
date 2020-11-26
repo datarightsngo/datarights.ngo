@@ -1,0 +1,27 @@
+
+
+{{if .PrevInSection}}<nav class="prevnext">
+{{else}}
+{{if .NextInSection}}<nav class="prevnext">
+{{end}}
+{{end}}
+
+{{if .PrevInSection}}
+<a href="{{.PrevInSection.Permalink}}" class="prev">
+<span class="label">{{ i18n "prev" }}</span>
+{{.PrevInSection.Title}}
+</a>
+{{end}}
+
+{{if .NextInSection}}
+<a href="{{.NextInSection.Permalink}}" class="next">
+<span class="label">{{ i18n "next" }}</span>
+{{.NextInSection.Title}}
+</a>
+{{end}}
+
+{{if .PrevInSection}}</nav>
+{{else}}
+{{if .NextInSection}}</nav>
+{{end}}
+{{end}}
