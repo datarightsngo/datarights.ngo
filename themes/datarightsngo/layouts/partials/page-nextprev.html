@@ -8,7 +8,7 @@
 {{if .PrevInSection}}
 <a href="{{.PrevInSection.Permalink}}" class="prev">
   {{ if .PrevInSection.Params.date }}
-  <time class="date label">{{ .PrevInSection.Params.date.Format "January 2, 2006" }}</time>
+  <time class="date label">{{ .PrevInSection.Params.date.Format "2 Jan. 2006" }}</time>
   {{ else }}
   <span class="label">{{ i18n "prev" }}</span>
   {{ end }}
@@ -19,7 +19,7 @@
 {{if .NextInSection}}
 <a href="{{.NextInSection.Permalink}}" class="next">
   {{ if .NextInSection.Params.date }}
-  <time class="date label">{{ .NextInSection.Params.date.Format "January 2, 2006" }}</time>
+  <time class="date label">{{ .NextInSection.Params.date.Format "2 Jan. 2006" }}</time>
   {{ else }}
   <span class="label">{{ i18n "next" }}</span>
   {{ end }}
