@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Lang }}">
   {{- partial "meta-head.html" . -}}
-  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }} {{ with .File }} id-{{ if .Section }}{{ .Section }}--{{ end }}{{ .TranslationBaseName }}{{ end }}">
+  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }} {{ with .File }} id-{{ .File.Dir | replaceRE "/" "--" }}{{ .TranslationBaseName }}{{ end }}">
     {{- partial "site-head.html" . -}}
     <main class="content">
     {{- block "main" . }}{{- end }}
