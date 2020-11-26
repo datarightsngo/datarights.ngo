@@ -10497,20 +10497,20 @@ body > .site-head > .site-nav .menu a.current {
 body > .site-head > .site-nav .menu a.donate, body > .site-head > .site-nav .menu a.dons {
   font-weight: 600;
 }
-body.id-about > .site-head > .site-nav .menu .about, body.about > .site-head > .site-nav .menu .about {
+body.id-about--_index > .site-head > .site-nav .menu .about, body.about > .site-head > .site-nav .menu .about {
   opacity: 0.7;
   background: #ffda7a;
   border-radius: 5px 5px;
 }
-body.id-about > .site-head > .site-nav .menu .about:hover, body.about > .site-head > .site-nav .menu .about:hover {
+body.id-about--_index > .site-head > .site-nav .menu .about:hover, body.about > .site-head > .site-nav .menu .about:hover {
   opacity: 1;
 }
-body.id-cases > .site-head > .site-nav .menu .cases, body.cases > .site-head > .site-nav .menu .cases, body.case > .site-head > .site-nav .menu .cases {
+body.id-cases--_index > .site-head > .site-nav .menu .cases, body.cases > .site-head > .site-nav .menu .cases, body.case > .site-head > .site-nav .menu .cases {
   opacity: 0.7;
   background: #ffda7a;
   border-radius: 5px 5px;
 }
-body.id-cases > .site-head > .site-nav .menu .cases:hover, body.cases > .site-head > .site-nav .menu .cases:hover, body.case > .site-head > .site-nav .menu .cases:hover {
+body.id-cases--_index > .site-head > .site-nav .menu .cases:hover, body.cases > .site-head > .site-nav .menu .cases:hover, body.case > .site-head > .site-nav .menu .cases:hover {
   opacity: 1;
 }
 body > main.content {
@@ -11016,14 +11016,14 @@ body.action.tools .unit.tool p {
   font-size: 90%;
 }
 
-body.cases.content-grid .case.unit, body.cases.content-grid .grid-unit, body.id-about .grid .case.unit, body.id-about .grid .grid-unit, body.id-your-rights .grid .case.unit, body.id-your-rights .grid .grid-unit {
+body.cases.content-grid .case.unit, body.cases.content-grid .grid-unit, body.id-about--_index .grid .case.unit, body.id-about--_index .grid .grid-unit, body.id-about--your-rights .grid .case.unit, body.id-about--your-rights .grid .grid-unit {
   z-index: 1;
 }
-body.cases.content-grid .case.unit > h3, body.cases.content-grid .case.unit > .h3, body.cases.content-grid .case.unit > h4, body.cases.content-grid .case.unit > .h4, body.cases.content-grid .grid-unit > h3, body.cases.content-grid .grid-unit > .h3, body.cases.content-grid .grid-unit > h4, body.cases.content-grid .grid-unit > .h4, body.id-about .grid .case.unit > h3, body.id-about .grid .case.unit > .h3, body.id-about .grid .case.unit > h4, body.id-about .grid .case.unit > .h4, body.id-about .grid .grid-unit > h3, body.id-about .grid .grid-unit > .h3, body.id-about .grid .grid-unit > h4, body.id-about .grid .grid-unit > .h4, body.id-your-rights .grid .case.unit > h3, body.id-your-rights .grid .case.unit > .h3, body.id-your-rights .grid .case.unit > h4, body.id-your-rights .grid .case.unit > .h4, body.id-your-rights .grid .grid-unit > h3, body.id-your-rights .grid .grid-unit > .h3, body.id-your-rights .grid .grid-unit > h4, body.id-your-rights .grid .grid-unit > .h4 {
+body.cases.content-grid .case.unit > h3, body.cases.content-grid .case.unit > .h3, body.cases.content-grid .case.unit > h4, body.cases.content-grid .case.unit > .h4, body.cases.content-grid .grid-unit > h3, body.cases.content-grid .grid-unit > .h3, body.cases.content-grid .grid-unit > h4, body.cases.content-grid .grid-unit > .h4, body.id-about--_index .grid .case.unit > h3, body.id-about--_index .grid .case.unit > .h3, body.id-about--_index .grid .case.unit > h4, body.id-about--_index .grid .case.unit > .h4, body.id-about--_index .grid .grid-unit > h3, body.id-about--_index .grid .grid-unit > .h3, body.id-about--_index .grid .grid-unit > h4, body.id-about--_index .grid .grid-unit > .h4, body.id-about--your-rights .grid .case.unit > h3, body.id-about--your-rights .grid .case.unit > .h3, body.id-about--your-rights .grid .case.unit > h4, body.id-about--your-rights .grid .case.unit > .h4, body.id-about--your-rights .grid .grid-unit > h3, body.id-about--your-rights .grid .grid-unit > .h3, body.id-about--your-rights .grid .grid-unit > h4, body.id-about--your-rights .grid .grid-unit > .h4 {
   text-shadow: white 5px 5px 5px, white 1px 0 10px;
   font-style: normal;
 }
-body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.unit > .h3::before, body.cases.content-grid .case.unit > h4::before, body.cases.content-grid .case.unit > .h4::before, body.cases.content-grid .grid-unit > h3::before, body.cases.content-grid .grid-unit > .h3::before, body.cases.content-grid .grid-unit > h4::before, body.cases.content-grid .grid-unit > .h4::before, body.id-about .grid .case.unit > h3::before, body.id-about .grid .case.unit > .h3::before, body.id-about .grid .case.unit > h4::before, body.id-about .grid .case.unit > .h4::before, body.id-about .grid .grid-unit > h3::before, body.id-about .grid .grid-unit > .h3::before, body.id-about .grid .grid-unit > h4::before, body.id-about .grid .grid-unit > .h4::before, body.id-your-rights .grid .case.unit > h3::before, body.id-your-rights .grid .case.unit > .h3::before, body.id-your-rights .grid .case.unit > h4::before, body.id-your-rights .grid .case.unit > .h4::before, body.id-your-rights .grid .grid-unit > h3::before, body.id-your-rights .grid .grid-unit > .h3::before, body.id-your-rights .grid .grid-unit > h4::before, body.id-your-rights .grid .grid-unit > .h4::before {
+body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.unit > .h3::before, body.cases.content-grid .case.unit > h4::before, body.cases.content-grid .case.unit > .h4::before, body.cases.content-grid .grid-unit > h3::before, body.cases.content-grid .grid-unit > .h3::before, body.cases.content-grid .grid-unit > h4::before, body.cases.content-grid .grid-unit > .h4::before, body.id-about--_index .grid .case.unit > h3::before, body.id-about--_index .grid .case.unit > .h3::before, body.id-about--_index .grid .case.unit > h4::before, body.id-about--_index .grid .case.unit > .h4::before, body.id-about--_index .grid .grid-unit > h3::before, body.id-about--_index .grid .grid-unit > .h3::before, body.id-about--_index .grid .grid-unit > h4::before, body.id-about--_index .grid .grid-unit > .h4::before, body.id-about--your-rights .grid .case.unit > h3::before, body.id-about--your-rights .grid .case.unit > .h3::before, body.id-about--your-rights .grid .case.unit > h4::before, body.id-about--your-rights .grid .case.unit > .h4::before, body.id-about--your-rights .grid .grid-unit > h3::before, body.id-about--your-rights .grid .grid-unit > .h3::before, body.id-about--your-rights .grid .grid-unit > h4::before, body.id-about--your-rights .grid .grid-unit > .h4::before {
   content: " ";
   background: #ffda7a;
   background-size: 80px 80px;
@@ -11036,42 +11036,42 @@ body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.u
   margin-left: -85px;
   margin-top: -10px;
 }
-body.cases.content-grid .case.unit > *, body.cases.content-grid .grid-unit > *, body.id-about .grid .case.unit > *, body.id-about .grid .grid-unit > *, body.id-your-rights .grid .case.unit > *, body.id-your-rights .grid .grid-unit > * {
+body.cases.content-grid .case.unit > *, body.cases.content-grid .grid-unit > *, body.id-about--_index .grid .case.unit > *, body.id-about--_index .grid .grid-unit > *, body.id-about--your-rights .grid .case.unit > *, body.id-about--your-rights .grid .grid-unit > * {
   margin-left: 85px;
   background: transparent;
 }
-body.cases.content-grid #dataretention > h3:before, body.cases.content-grid #dataretention > .h3:before, body.id-about .grid #dataretention > h3:before, body.id-about .grid #dataretention > .h3:before, body.id-your-rights .grid #dataretention > h3:before, body.id-your-rights .grid #dataretention > .h3:before {
+body.cases.content-grid #dataretention > h3:before, body.cases.content-grid #dataretention > .h3:before, body.id-about--_index .grid #dataretention > h3:before, body.id-about--_index .grid #dataretention > .h3:before, body.id-about--your-rights .grid #dataretention > h3:before, body.id-about--your-rights .grid #dataretention > .h3:before {
   background-image: url("/assets/servers.jpg");
 }
-body.cases.content-grid #emergency-interceptions > h3:before, body.cases.content-grid #emergency-interceptions > .h3:before, body.id-about .grid #emergency-interceptions > h3:before, body.id-about .grid #emergency-interceptions > .h3:before, body.id-your-rights .grid #emergency-interceptions > h3:before, body.id-your-rights .grid #emergency-interceptions > .h3:before {
+body.cases.content-grid #emergency-interceptions > h3:before, body.cases.content-grid #emergency-interceptions > .h3:before, body.id-about--_index .grid #emergency-interceptions > h3:before, body.id-about--_index .grid #emergency-interceptions > .h3:before, body.id-about--your-rights .grid #emergency-interceptions > h3:before, body.id-about--your-rights .grid #emergency-interceptions > .h3:before {
   background-image: url("/assets/emeraude-square350.jpg");
 }
-body.cases.content-grid #wireless-exception > h3:before, body.cases.content-grid #wireless-exception > .h3:before, body.id-about .grid #wireless-exception > h3:before, body.id-about .grid #wireless-exception > .h3:before, body.id-your-rights .grid #wireless-exception > h3:before, body.id-your-rights .grid #wireless-exception > .h3:before {
+body.cases.content-grid #wireless-exception > h3:before, body.cases.content-grid #wireless-exception > .h3:before, body.id-about--_index .grid #wireless-exception > h3:before, body.id-about--_index .grid #wireless-exception > .h3:before, body.id-about--your-rights .grid #wireless-exception > h3:before, body.id-about--your-rights .grid #wireless-exception > .h3:before {
   background-image: url("/assets/teufelsberg-square350.jpg");
 }
-body.cases.content-grid #privacy-international-state-hacking > h3:before, body.cases.content-grid #privacy-international-state-hacking > .h3:before, body.id-about .grid #privacy-international-state-hacking > h3:before, body.id-about .grid #privacy-international-state-hacking > .h3:before, body.id-your-rights .grid #privacy-international-state-hacking > h3:before, body.id-your-rights .grid #privacy-international-state-hacking > .h3:before {
+body.cases.content-grid #privacy-international-state-hacking > h3:before, body.cases.content-grid #privacy-international-state-hacking > .h3:before, body.id-about--_index .grid #privacy-international-state-hacking > h3:before, body.id-about--_index .grid #privacy-international-state-hacking > .h3:before, body.id-about--your-rights .grid #privacy-international-state-hacking > h3:before, body.id-about--your-rights .grid #privacy-international-state-hacking > .h3:before {
   background-image: url("/assets/bug.jpg");
 }
-body.cases.content-grid #your-rights > h3:before, body.cases.content-grid #your-rights > .h3:before, body.id-about .grid #your-rights > h3:before, body.id-about .grid #your-rights > .h3:before, body.id-your-rights .grid #your-rights > h3:before, body.id-your-rights .grid #your-rights > .h3:before {
+body.cases.content-grid #your-rights > h3:before, body.cases.content-grid #your-rights > .h3:before, body.id-about--_index .grid #your-rights > h3:before, body.id-about--_index .grid #your-rights > .h3:before, body.id-about--your-rights .grid #your-rights > h3:before, body.id-about--your-rights .grid #your-rights > .h3:before {
   background-image: url("/assets/logoswitchcircleyellow.svg");
 }
-body.cases.content-grid #data-silos > h3:before, body.cases.content-grid #data-silos > .h3:before, body.id-about .grid #data-silos > h3:before, body.id-about .grid #data-silos > .h3:before, body.id-your-rights .grid #data-silos > h3:before, body.id-your-rights .grid #data-silos > .h3:before {
+body.cases.content-grid #data-silos > h3:before, body.cases.content-grid #data-silos > .h3:before, body.id-about--_index .grid #data-silos > h3:before, body.id-about--_index .grid #data-silos > .h3:before, body.id-about--your-rights .grid #data-silos > h3:before, body.id-about--your-rights .grid #data-silos > .h3:before {
   background-image: url("/assets/silodark-square350.jpg");
 }
-body.cases.content-grid #mass-surveillance > h3:before, body.cases.content-grid #mass-surveillance > .h3:before, body.id-about .grid #mass-surveillance > h3:before, body.id-about .grid #mass-surveillance > .h3:before, body.id-your-rights .grid #mass-surveillance > h3:before, body.id-your-rights .grid #mass-surveillance > .h3:before {
+body.cases.content-grid #mass-surveillance > h3:before, body.cases.content-grid #mass-surveillance > .h3:before, body.id-about--_index .grid #mass-surveillance > h3:before, body.id-about--_index .grid #mass-surveillance > .h3:before, body.id-about--your-rights .grid #mass-surveillance > h3:before, body.id-about--your-rights .grid #mass-surveillance > .h3:before {
   background-image: url("/assets/teufelsbergpinkbackground.jpg");
 }
-body.cases.content-grid #cybersecurity > h3:before, body.cases.content-grid #cybersecurity > .h3:before, body.id-about .grid #cybersecurity > h3:before, body.id-about .grid #cybersecurity > .h3:before, body.id-your-rights .grid #cybersecurity > h3:before, body.id-your-rights .grid #cybersecurity > .h3:before {
+body.cases.content-grid #cybersecurity > h3:before, body.cases.content-grid #cybersecurity > .h3:before, body.id-about--_index .grid #cybersecurity > h3:before, body.id-about--_index .grid #cybersecurity > .h3:before, body.id-about--your-rights .grid #cybersecurity > h3:before, body.id-about--your-rights .grid #cybersecurity > .h3:before {
   background-image: url("/assets/bug.jpg");
 }
-body.cases.content-grid #knowledge > h4:before, body.cases.content-grid #knowledge > .h4:before, body.id-about .grid #knowledge > h4:before, body.id-about .grid #knowledge > .h4:before, body.id-your-rights .grid #knowledge > h4:before, body.id-your-rights .grid #knowledge > .h4:before {
+body.cases.content-grid #knowledge > h4:before, body.cases.content-grid #knowledge > .h4:before, body.id-about--_index .grid #knowledge > h4:before, body.id-about--_index .grid #knowledge > .h4:before, body.id-about--your-rights .grid #knowledge > h4:before, body.id-about--your-rights .grid #knowledge > .h4:before {
   background-image: url("https://userdatamanifesto.org/knowledge.svg");
   background-size: contain;
   background-position: center;
   background-color: rgba(218, 122, 153, 0.5);
   opacity: 0.7;
 }
-body.cases.content-grid #portability > h4:before, body.cases.content-grid #portability > .h4:before, body.id-about .grid #portability > h4:before, body.id-about .grid #portability > .h4:before, body.id-your-rights .grid #portability > h4:before, body.id-your-rights .grid #portability > .h4:before {
+body.cases.content-grid #portability > h4:before, body.cases.content-grid #portability > .h4:before, body.id-about--_index .grid #portability > h4:before, body.id-about--_index .grid #portability > .h4:before, body.id-about--your-rights .grid #portability > h4:before, body.id-about--your-rights .grid #portability > .h4:before {
   background-image: url("https://userdatamanifesto.org/freedom.svg");
   background-size: contain;
   background-position: center;
@@ -11079,21 +11079,21 @@ body.cases.content-grid #portability > h4:before, body.cases.content-grid #porta
   background-color: rgba(255, 218, 122, 0.8);
   opacity: 0.7;
 }
-body.cases.content-grid #optout > h4:before, body.cases.content-grid #optout > .h4:before, body.id-about .grid #optout > h4:before, body.id-about .grid #optout > .h4:before, body.id-your-rights .grid #optout > h4:before, body.id-your-rights .grid #optout > .h4:before {
+body.cases.content-grid #optout > h4:before, body.cases.content-grid #optout > .h4:before, body.id-about--_index .grid #optout > h4:before, body.id-about--_index .grid #optout > .h4:before, body.id-about--your-rights .grid #optout > h4:before, body.id-about--your-rights .grid #optout > .h4:before {
   background-image: url("https://userdatamanifesto.org/control.svg");
   background-size: contain;
   background-position: center;
   background-color: rgba(204, 204, 204, 0.7);
   opacity: 0.7;
 }
-body.cases.content-grid #dnt > h4:before, body.cases.content-grid #dnt > .h4:before, body.id-about .grid #dnt > h4:before, body.id-about .grid #dnt > .h4:before, body.id-your-rights .grid #dnt > h4:before, body.id-your-rights .grid #dnt > .h4:before {
+body.cases.content-grid #dnt > h4:before, body.cases.content-grid #dnt > .h4:before, body.id-about--_index .grid #dnt > h4:before, body.id-about--_index .grid #dnt > .h4:before, body.id-about--your-rights .grid #dnt > h4:before, body.id-about--your-rights .grid #dnt > .h4:before {
   background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY0IDY0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTUyLjQ0MTcsMTQuNWMtMS42NDk5LDAtMywxLjMzOTgtMywzdjEzYzAsMC41NDk4LTAuNDQ5NywxLTEsMWMtMC41NDk4LDAtMS0wLjQ1MDItMS0xVjExLjEwOTkgIGMwLTEuNzUtMS4xODAyLTMuMjMtMi44MTAxLTMuNTRjLTEuMDQ5OC0wLjIxLTIuMTA5OSwwLjA2MDEtMi45MTAyLDAuNzNDNDAuOTExOSw4Ljk2OTcsNDAuNDQxNyw5Ljk1MDIsNDAuNDQxNywxMXYxOS41ICBjMCwwLjU0OTgtMC40NDk3LDEtMSwxYy0wLjU0OTgsMC0xLTAuNDUwMi0xLTFWOC4xMDk5YzAtMS43NS0xLjE4MDItMy4yMzk3LTIuODEwMS0zLjU0Yy0xLjA0LTAuMjEtMi4xMDk5LDAuMDYwMS0yLjkxMDIsMC43MyAgQzMxLjkxMTksNS45Njk3LDMxLjQ0MTcsNi45NTAyLDMxLjQ0MTcsOHYyMi41YzAsMC41NDk4LTAuNDQ5NywxLTEsMWMtMC41NDk4LDAtMS0wLjQ1MDItMS0xVjE0LjEwOTkgIGMwLTEuNzUtMS4xODAyLTMuMjMtMi44MTAxLTMuNTRjLTEuMDQtMC4yMS0yLjEwOTksMC4wNjAxLTIuOTEwMiwwLjczYy0wLjgwOTYsMC42Njk5LTEuMjc5OCwxLjY1MDQtMS4yNzk4LDIuNzAwMnYyOC4yOSAgTDE2Ljc5MTcsMzMuNDhjLTEuMzc5OS0yLjA0OTgtNC4xODk5LTIuNTg5OC02LjI1LTEuMjFjLTIuMDQ5OCwxLjM5MDEtMi42MDAxLDQuMTg5OS0xLjIzLDYuMjNsOS4wNCwxNC44NTAxICBDMjEuMDcxNSw1Ny4yMDAyLDI1LjUwMTcsNTkuNSwzMC4yMTE3LDU5LjVoMTIuNzNjMi41OTAzLDAsNS4xMDk5LTAuNzQwMiw3LjI3LTIuMTI5OWMzLjI4MDMtMi4wOTAzLDUuMjMtNS42Njk5LDUuMjMtOS41NTAzVjE3LjUgIEM1NS40NDE3LDE1LjgzOTgsNTQuMTAxOCwxNC41LDUyLjQ0MTcsMTQuNXoiPjwvcGF0aD48L3N2Zz4=");
   background-size: contain;
   background-position: center;
   background-color: rgba(218, 122, 153, 0.5);
   opacity: 0.7;
 }
-body.cases.content-grid #erasure > h4:before, body.cases.content-grid #erasure > .h4:before, body.id-about .grid #erasure > h4:before, body.id-about .grid #erasure > .h4:before, body.id-your-rights .grid #erasure > h4:before, body.id-your-rights .grid #erasure > .h4:before {
+body.cases.content-grid #erasure > h4:before, body.cases.content-grid #erasure > .h4:before, body.id-about--_index .grid #erasure > h4:before, body.id-about--_index .grid #erasure > .h4:before, body.id-about--your-rights .grid #erasure > h4:before, body.id-about--your-rights .grid #erasure > .h4:before {
   background-size: contain;
   background-position: center;
   background-color: #ccc;
