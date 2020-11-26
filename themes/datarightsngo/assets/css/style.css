@@ -10552,10 +10552,6 @@ body > .site-bottom > * {
   padding-bottom: 1em;
 }
 
-a.learn-more {
-  display: inline-block;
-}
-
 main.content .page-header {
   padding-top: 2em;
 }
@@ -10765,6 +10761,25 @@ main.content .footnotes .footnote-back {
   }
 }
 
+a.learn-more {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+.grid + p > a.learn-more {
+  margin-top: -2em;
+  margin-bottom: 1em;
+}
+a.learn-more:hover {
+  border-bottom: 2px solid #da7a99;
+  transition: border-bottom 1s 0s ease;
+}
+
+a.learn-more.center {
+  display: block;
+  width: max-content;
+  margin: auto;
+}
+
 @counter-style circlestyle {
   system: fixed;
   symbols: ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳;
@@ -10794,6 +10809,69 @@ main.content .footnotes .footnote-back {
   .receive-announcements .privacy-policy-short {
     width: 60%;
     min-width: 380px;
+  }
+}
+
+.e-content > .prevnext {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 5px;
+  margin-top: 3em;
+}
+.e-content > .prevnext .prev, .e-content > .prevnext .next {
+  margin-bottom: 0.5em;
+  margin-left: 18px;
+  margin-right: 18px;
+  font-size: 90%;
+}
+.e-content > .prevnext .prev .label, .e-content > .prevnext .next .label {
+  display: block;
+  color: rgba(0, 0, 0, 0.8);
+}
+.e-content > .prevnext .prev .label:after, .e-content > .prevnext .prev .label:before, .e-content > .prevnext .next .label:after, .e-content > .prevnext .next .label:before {
+  display: inline-block;
+}
+.e-content > .prevnext .prev .label:before {
+  content: "◀ ";
+  margin-left: -18px;
+  width: 18px;
+}
+.e-content > .prevnext .next .label:before, .e-content > .prevnext .next .label:after {
+  content: "▶ ";
+  margin-left: -18px;
+  width: 18px;
+}
+.e-content > .prevnext .next .label:after {
+  content: "";
+}
+@media (min-width: 660px) {
+  .e-content > .prevnext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .e-content > .prevnext .prev {
+    text-align: left;
+  }
+  .e-content > .prevnext .next {
+    text-align: right;
+  }
+  .e-content > .prevnext .next .label:after {
+    content: " ▶";
+  }
+  .e-content > .prevnext .next .label:before {
+    content: "";
+  }
+  .e-content > .prevnext .prev .label:after, .e-content > .prevnext .prev .label:before, .e-content > .prevnext .next .label:after, .e-content > .prevnext .next .label:before {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .e-content > .prevnext .next {
+    grid-column: 1/3;
+  }
+  .e-content > .prevnext .prev + .next {
+    grid-column: 2;
   }
 }
 
@@ -11016,14 +11094,14 @@ body.action.tools .unit.tool p {
   font-size: 90%;
 }
 
-body.cases.content-grid .case.unit, body.cases.content-grid .grid-unit, body.id-about--_index .grid .case.unit, body.id-about--_index .grid .grid-unit, body.id-about--your-rights .grid .case.unit, body.id-about--your-rights .grid .grid-unit {
+body.cases.content-grid .case.unit, body.cases.content-grid .grid-unit, body.id-about--_index .grid .case.unit, body.id-about--_index .grid .grid-unit, body.id-about--your-rights--_index .grid .case.unit, body.id-about--your-rights--_index .grid .grid-unit {
   z-index: 1;
 }
-body.cases.content-grid .case.unit > h3, body.cases.content-grid .case.unit > .h3, body.cases.content-grid .case.unit > h4, body.cases.content-grid .case.unit > .h4, body.cases.content-grid .grid-unit > h3, body.cases.content-grid .grid-unit > .h3, body.cases.content-grid .grid-unit > h4, body.cases.content-grid .grid-unit > .h4, body.id-about--_index .grid .case.unit > h3, body.id-about--_index .grid .case.unit > .h3, body.id-about--_index .grid .case.unit > h4, body.id-about--_index .grid .case.unit > .h4, body.id-about--_index .grid .grid-unit > h3, body.id-about--_index .grid .grid-unit > .h3, body.id-about--_index .grid .grid-unit > h4, body.id-about--_index .grid .grid-unit > .h4, body.id-about--your-rights .grid .case.unit > h3, body.id-about--your-rights .grid .case.unit > .h3, body.id-about--your-rights .grid .case.unit > h4, body.id-about--your-rights .grid .case.unit > .h4, body.id-about--your-rights .grid .grid-unit > h3, body.id-about--your-rights .grid .grid-unit > .h3, body.id-about--your-rights .grid .grid-unit > h4, body.id-about--your-rights .grid .grid-unit > .h4 {
+body.cases.content-grid .case.unit > h3, body.cases.content-grid .case.unit > .h3, body.cases.content-grid .case.unit > h4, body.cases.content-grid .case.unit > .h4, body.cases.content-grid .grid-unit > h3, body.cases.content-grid .grid-unit > .h3, body.cases.content-grid .grid-unit > h4, body.cases.content-grid .grid-unit > .h4, body.id-about--_index .grid .case.unit > h3, body.id-about--_index .grid .case.unit > .h3, body.id-about--_index .grid .case.unit > h4, body.id-about--_index .grid .case.unit > .h4, body.id-about--_index .grid .grid-unit > h3, body.id-about--_index .grid .grid-unit > .h3, body.id-about--_index .grid .grid-unit > h4, body.id-about--_index .grid .grid-unit > .h4, body.id-about--your-rights--_index .grid .case.unit > h3, body.id-about--your-rights--_index .grid .case.unit > .h3, body.id-about--your-rights--_index .grid .case.unit > h4, body.id-about--your-rights--_index .grid .case.unit > .h4, body.id-about--your-rights--_index .grid .grid-unit > h3, body.id-about--your-rights--_index .grid .grid-unit > .h3, body.id-about--your-rights--_index .grid .grid-unit > h4, body.id-about--your-rights--_index .grid .grid-unit > .h4 {
   text-shadow: white 5px 5px 5px, white 1px 0 10px;
   font-style: normal;
 }
-body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.unit > .h3::before, body.cases.content-grid .case.unit > h4::before, body.cases.content-grid .case.unit > .h4::before, body.cases.content-grid .grid-unit > h3::before, body.cases.content-grid .grid-unit > .h3::before, body.cases.content-grid .grid-unit > h4::before, body.cases.content-grid .grid-unit > .h4::before, body.id-about--_index .grid .case.unit > h3::before, body.id-about--_index .grid .case.unit > .h3::before, body.id-about--_index .grid .case.unit > h4::before, body.id-about--_index .grid .case.unit > .h4::before, body.id-about--_index .grid .grid-unit > h3::before, body.id-about--_index .grid .grid-unit > .h3::before, body.id-about--_index .grid .grid-unit > h4::before, body.id-about--_index .grid .grid-unit > .h4::before, body.id-about--your-rights .grid .case.unit > h3::before, body.id-about--your-rights .grid .case.unit > .h3::before, body.id-about--your-rights .grid .case.unit > h4::before, body.id-about--your-rights .grid .case.unit > .h4::before, body.id-about--your-rights .grid .grid-unit > h3::before, body.id-about--your-rights .grid .grid-unit > .h3::before, body.id-about--your-rights .grid .grid-unit > h4::before, body.id-about--your-rights .grid .grid-unit > .h4::before {
+body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.unit > .h3::before, body.cases.content-grid .case.unit > h4::before, body.cases.content-grid .case.unit > .h4::before, body.cases.content-grid .grid-unit > h3::before, body.cases.content-grid .grid-unit > .h3::before, body.cases.content-grid .grid-unit > h4::before, body.cases.content-grid .grid-unit > .h4::before, body.id-about--_index .grid .case.unit > h3::before, body.id-about--_index .grid .case.unit > .h3::before, body.id-about--_index .grid .case.unit > h4::before, body.id-about--_index .grid .case.unit > .h4::before, body.id-about--_index .grid .grid-unit > h3::before, body.id-about--_index .grid .grid-unit > .h3::before, body.id-about--_index .grid .grid-unit > h4::before, body.id-about--_index .grid .grid-unit > .h4::before, body.id-about--your-rights--_index .grid .case.unit > h3::before, body.id-about--your-rights--_index .grid .case.unit > .h3::before, body.id-about--your-rights--_index .grid .case.unit > h4::before, body.id-about--your-rights--_index .grid .case.unit > .h4::before, body.id-about--your-rights--_index .grid .grid-unit > h3::before, body.id-about--your-rights--_index .grid .grid-unit > .h3::before, body.id-about--your-rights--_index .grid .grid-unit > h4::before, body.id-about--your-rights--_index .grid .grid-unit > .h4::before {
   content: " ";
   background: #ffda7a;
   background-size: 80px 80px;
@@ -11036,42 +11114,42 @@ body.cases.content-grid .case.unit > h3::before, body.cases.content-grid .case.u
   margin-left: -85px;
   margin-top: -10px;
 }
-body.cases.content-grid .case.unit > *, body.cases.content-grid .grid-unit > *, body.id-about--_index .grid .case.unit > *, body.id-about--_index .grid .grid-unit > *, body.id-about--your-rights .grid .case.unit > *, body.id-about--your-rights .grid .grid-unit > * {
+body.cases.content-grid .case.unit > *, body.cases.content-grid .grid-unit > *, body.id-about--_index .grid .case.unit > *, body.id-about--_index .grid .grid-unit > *, body.id-about--your-rights--_index .grid .case.unit > *, body.id-about--your-rights--_index .grid .grid-unit > * {
   margin-left: 85px;
   background: transparent;
 }
-body.cases.content-grid #dataretention > h3:before, body.cases.content-grid #dataretention > .h3:before, body.id-about--_index .grid #dataretention > h3:before, body.id-about--_index .grid #dataretention > .h3:before, body.id-about--your-rights .grid #dataretention > h3:before, body.id-about--your-rights .grid #dataretention > .h3:before {
+body.cases.content-grid #dataretention > h3:before, body.cases.content-grid #dataretention > .h3:before, body.id-about--_index .grid #dataretention > h3:before, body.id-about--_index .grid #dataretention > .h3:before, body.id-about--your-rights--_index .grid #dataretention > h3:before, body.id-about--your-rights--_index .grid #dataretention > .h3:before {
   background-image: url("/assets/servers.jpg");
 }
-body.cases.content-grid #emergency-interceptions > h3:before, body.cases.content-grid #emergency-interceptions > .h3:before, body.id-about--_index .grid #emergency-interceptions > h3:before, body.id-about--_index .grid #emergency-interceptions > .h3:before, body.id-about--your-rights .grid #emergency-interceptions > h3:before, body.id-about--your-rights .grid #emergency-interceptions > .h3:before {
+body.cases.content-grid #emergency-interceptions > h3:before, body.cases.content-grid #emergency-interceptions > .h3:before, body.id-about--_index .grid #emergency-interceptions > h3:before, body.id-about--_index .grid #emergency-interceptions > .h3:before, body.id-about--your-rights--_index .grid #emergency-interceptions > h3:before, body.id-about--your-rights--_index .grid #emergency-interceptions > .h3:before {
   background-image: url("/assets/emeraude-square350.jpg");
 }
-body.cases.content-grid #wireless-exception > h3:before, body.cases.content-grid #wireless-exception > .h3:before, body.id-about--_index .grid #wireless-exception > h3:before, body.id-about--_index .grid #wireless-exception > .h3:before, body.id-about--your-rights .grid #wireless-exception > h3:before, body.id-about--your-rights .grid #wireless-exception > .h3:before {
+body.cases.content-grid #wireless-exception > h3:before, body.cases.content-grid #wireless-exception > .h3:before, body.id-about--_index .grid #wireless-exception > h3:before, body.id-about--_index .grid #wireless-exception > .h3:before, body.id-about--your-rights--_index .grid #wireless-exception > h3:before, body.id-about--your-rights--_index .grid #wireless-exception > .h3:before {
   background-image: url("/assets/teufelsberg-square350.jpg");
 }
-body.cases.content-grid #privacy-international-state-hacking > h3:before, body.cases.content-grid #privacy-international-state-hacking > .h3:before, body.id-about--_index .grid #privacy-international-state-hacking > h3:before, body.id-about--_index .grid #privacy-international-state-hacking > .h3:before, body.id-about--your-rights .grid #privacy-international-state-hacking > h3:before, body.id-about--your-rights .grid #privacy-international-state-hacking > .h3:before {
+body.cases.content-grid #privacy-international-state-hacking > h3:before, body.cases.content-grid #privacy-international-state-hacking > .h3:before, body.id-about--_index .grid #privacy-international-state-hacking > h3:before, body.id-about--_index .grid #privacy-international-state-hacking > .h3:before, body.id-about--your-rights--_index .grid #privacy-international-state-hacking > h3:before, body.id-about--your-rights--_index .grid #privacy-international-state-hacking > .h3:before {
   background-image: url("/assets/bug.jpg");
 }
-body.cases.content-grid #your-rights > h3:before, body.cases.content-grid #your-rights > .h3:before, body.id-about--_index .grid #your-rights > h3:before, body.id-about--_index .grid #your-rights > .h3:before, body.id-about--your-rights .grid #your-rights > h3:before, body.id-about--your-rights .grid #your-rights > .h3:before {
+body.cases.content-grid #your-rights > h3:before, body.cases.content-grid #your-rights > .h3:before, body.id-about--_index .grid #your-rights > h3:before, body.id-about--_index .grid #your-rights > .h3:before, body.id-about--your-rights--_index .grid #your-rights > h3:before, body.id-about--your-rights--_index .grid #your-rights > .h3:before {
   background-image: url("/assets/logoswitchcircleyellow.svg");
 }
-body.cases.content-grid #data-silos > h3:before, body.cases.content-grid #data-silos > .h3:before, body.id-about--_index .grid #data-silos > h3:before, body.id-about--_index .grid #data-silos > .h3:before, body.id-about--your-rights .grid #data-silos > h3:before, body.id-about--your-rights .grid #data-silos > .h3:before {
+body.cases.content-grid #data-silos > h3:before, body.cases.content-grid #data-silos > .h3:before, body.id-about--_index .grid #data-silos > h3:before, body.id-about--_index .grid #data-silos > .h3:before, body.id-about--your-rights--_index .grid #data-silos > h3:before, body.id-about--your-rights--_index .grid #data-silos > .h3:before {
   background-image: url("/assets/silodark-square350.jpg");
 }
-body.cases.content-grid #mass-surveillance > h3:before, body.cases.content-grid #mass-surveillance > .h3:before, body.id-about--_index .grid #mass-surveillance > h3:before, body.id-about--_index .grid #mass-surveillance > .h3:before, body.id-about--your-rights .grid #mass-surveillance > h3:before, body.id-about--your-rights .grid #mass-surveillance > .h3:before {
+body.cases.content-grid #mass-surveillance > h3:before, body.cases.content-grid #mass-surveillance > .h3:before, body.id-about--_index .grid #mass-surveillance > h3:before, body.id-about--_index .grid #mass-surveillance > .h3:before, body.id-about--your-rights--_index .grid #mass-surveillance > h3:before, body.id-about--your-rights--_index .grid #mass-surveillance > .h3:before {
   background-image: url("/assets/teufelsbergpinkbackground.jpg");
 }
-body.cases.content-grid #cybersecurity > h3:before, body.cases.content-grid #cybersecurity > .h3:before, body.id-about--_index .grid #cybersecurity > h3:before, body.id-about--_index .grid #cybersecurity > .h3:before, body.id-about--your-rights .grid #cybersecurity > h3:before, body.id-about--your-rights .grid #cybersecurity > .h3:before {
+body.cases.content-grid #cybersecurity > h3:before, body.cases.content-grid #cybersecurity > .h3:before, body.id-about--_index .grid #cybersecurity > h3:before, body.id-about--_index .grid #cybersecurity > .h3:before, body.id-about--your-rights--_index .grid #cybersecurity > h3:before, body.id-about--your-rights--_index .grid #cybersecurity > .h3:before {
   background-image: url("/assets/bug.jpg");
 }
-body.cases.content-grid #knowledge > h4:before, body.cases.content-grid #knowledge > .h4:before, body.id-about--_index .grid #knowledge > h4:before, body.id-about--_index .grid #knowledge > .h4:before, body.id-about--your-rights .grid #knowledge > h4:before, body.id-about--your-rights .grid #knowledge > .h4:before {
+body.cases.content-grid #knowledge-of-data > h4:before, body.cases.content-grid #knowledge-of-data > .h4:before, body.id-about--_index .grid #knowledge-of-data > h4:before, body.id-about--_index .grid #knowledge-of-data > .h4:before, body.id-about--your-rights--_index .grid #knowledge-of-data > h4:before, body.id-about--your-rights--_index .grid #knowledge-of-data > .h4:before {
   background-image: url("https://userdatamanifesto.org/knowledge.svg");
   background-size: contain;
   background-position: center;
   background-color: rgba(218, 122, 153, 0.5);
   opacity: 0.7;
 }
-body.cases.content-grid #portability > h4:before, body.cases.content-grid #portability > .h4:before, body.id-about--_index .grid #portability > h4:before, body.id-about--_index .grid #portability > .h4:before, body.id-about--your-rights .grid #portability > h4:before, body.id-about--your-rights .grid #portability > .h4:before {
+body.cases.content-grid #portability > h4:before, body.cases.content-grid #portability > .h4:before, body.id-about--_index .grid #portability > h4:before, body.id-about--_index .grid #portability > .h4:before, body.id-about--your-rights--_index .grid #portability > h4:before, body.id-about--your-rights--_index .grid #portability > .h4:before {
   background-image: url("https://userdatamanifesto.org/freedom.svg");
   background-size: contain;
   background-position: center;
@@ -11079,21 +11157,21 @@ body.cases.content-grid #portability > h4:before, body.cases.content-grid #porta
   background-color: rgba(255, 218, 122, 0.8);
   opacity: 0.7;
 }
-body.cases.content-grid #optout > h4:before, body.cases.content-grid #optout > .h4:before, body.id-about--_index .grid #optout > h4:before, body.id-about--_index .grid #optout > .h4:before, body.id-about--your-rights .grid #optout > h4:before, body.id-about--your-rights .grid #optout > .h4:before {
+body.cases.content-grid #free-consent-and-optout > h4:before, body.cases.content-grid #free-consent-and-optout > .h4:before, body.id-about--_index .grid #free-consent-and-optout > h4:before, body.id-about--_index .grid #free-consent-and-optout > .h4:before, body.id-about--your-rights--_index .grid #free-consent-and-optout > h4:before, body.id-about--your-rights--_index .grid #free-consent-and-optout > .h4:before {
   background-image: url("https://userdatamanifesto.org/control.svg");
   background-size: contain;
   background-position: center;
   background-color: rgba(204, 204, 204, 0.7);
   opacity: 0.7;
 }
-body.cases.content-grid #dnt > h4:before, body.cases.content-grid #dnt > .h4:before, body.id-about--_index .grid #dnt > h4:before, body.id-about--_index .grid #dnt > .h4:before, body.id-about--your-rights .grid #dnt > h4:before, body.id-about--your-rights .grid #dnt > .h4:before {
+body.cases.content-grid #dnt > h4:before, body.cases.content-grid #dnt > .h4:before, body.id-about--_index .grid #dnt > h4:before, body.id-about--_index .grid #dnt > .h4:before, body.id-about--your-rights--_index .grid #dnt > h4:before, body.id-about--your-rights--_index .grid #dnt > .h4:before {
   background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgNjQgNjQiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY0IDY0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTUyLjQ0MTcsMTQuNWMtMS42NDk5LDAtMywxLjMzOTgtMywzdjEzYzAsMC41NDk4LTAuNDQ5NywxLTEsMWMtMC41NDk4LDAtMS0wLjQ1MDItMS0xVjExLjEwOTkgIGMwLTEuNzUtMS4xODAyLTMuMjMtMi44MTAxLTMuNTRjLTEuMDQ5OC0wLjIxLTIuMTA5OSwwLjA2MDEtMi45MTAyLDAuNzNDNDAuOTExOSw4Ljk2OTcsNDAuNDQxNyw5Ljk1MDIsNDAuNDQxNywxMXYxOS41ICBjMCwwLjU0OTgtMC40NDk3LDEtMSwxYy0wLjU0OTgsMC0xLTAuNDUwMi0xLTFWOC4xMDk5YzAtMS43NS0xLjE4MDItMy4yMzk3LTIuODEwMS0zLjU0Yy0xLjA0LTAuMjEtMi4xMDk5LDAuMDYwMS0yLjkxMDIsMC43MyAgQzMxLjkxMTksNS45Njk3LDMxLjQ0MTcsNi45NTAyLDMxLjQ0MTcsOHYyMi41YzAsMC41NDk4LTAuNDQ5NywxLTEsMWMtMC41NDk4LDAtMS0wLjQ1MDItMS0xVjE0LjEwOTkgIGMwLTEuNzUtMS4xODAyLTMuMjMtMi44MTAxLTMuNTRjLTEuMDQtMC4yMS0yLjEwOTksMC4wNjAxLTIuOTEwMiwwLjczYy0wLjgwOTYsMC42Njk5LTEuMjc5OCwxLjY1MDQtMS4yNzk4LDIuNzAwMnYyOC4yOSAgTDE2Ljc5MTcsMzMuNDhjLTEuMzc5OS0yLjA0OTgtNC4xODk5LTIuNTg5OC02LjI1LTEuMjFjLTIuMDQ5OCwxLjM5MDEtMi42MDAxLDQuMTg5OS0xLjIzLDYuMjNsOS4wNCwxNC44NTAxICBDMjEuMDcxNSw1Ny4yMDAyLDI1LjUwMTcsNTkuNSwzMC4yMTE3LDU5LjVoMTIuNzNjMi41OTAzLDAsNS4xMDk5LTAuNzQwMiw3LjI3LTIuMTI5OWMzLjI4MDMtMi4wOTAzLDUuMjMtNS42Njk5LDUuMjMtOS41NTAzVjE3LjUgIEM1NS40NDE3LDE1LjgzOTgsNTQuMTAxOCwxNC41LDUyLjQ0MTcsMTQuNXoiPjwvcGF0aD48L3N2Zz4=");
   background-size: contain;
   background-position: center;
   background-color: rgba(218, 122, 153, 0.5);
   opacity: 0.7;
 }
-body.cases.content-grid #erasure > h4:before, body.cases.content-grid #erasure > .h4:before, body.id-about--_index .grid #erasure > h4:before, body.id-about--_index .grid #erasure > .h4:before, body.id-about--your-rights .grid #erasure > h4:before, body.id-about--your-rights .grid #erasure > .h4:before {
+body.cases.content-grid #erasure > h4:before, body.cases.content-grid #erasure > .h4:before, body.id-about--_index .grid #erasure > h4:before, body.id-about--_index .grid #erasure > .h4:before, body.id-about--your-rights--_index .grid #erasure > h4:before, body.id-about--your-rights--_index .grid #erasure > .h4:before {
   background-size: contain;
   background-position: center;
   background-color: #ccc;
