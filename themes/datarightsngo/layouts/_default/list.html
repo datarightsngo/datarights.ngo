@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{- partial "page-header.html" . -}}
+  <div class="e-content">
+    {{- partial "page-content.html" . -}}
+
+    <!-- TODO -->
+    
+    <!-- {{ range .Pages}} -->
+    <!-- <a href="{{ .Permalink }}" style="display:block"> -->
+    <!--     {{ .Title | markdownify }} -->
+    <!-- </a> -->
+    <!-- {{ end }} -->
+    
+  </div>
+{{ end }}
