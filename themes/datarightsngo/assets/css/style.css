@@ -10872,6 +10872,7 @@ a.learn-more.center {
   .e-content > .prevnext .prev + .next {
     grid-column: 2;
     text-align: right;
+    max-width: 100%;
   }
 }
 
