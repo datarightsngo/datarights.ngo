@@ -207,7 +207,7 @@ body {
             }
         }
     }
-    &.id-about, &.about {
+    &.id-about--_index, &.about {
         & > .site-head > .site-nav .menu {
             .about {
                 opacity: .7;
@@ -217,7 +217,7 @@ body {
             }
         }
     }
-    &.id-cases, &.cases, &.case {
+    &.id-cases--_index, &.cases, &.case {
         & > .site-head > .site-nav .menu {
             .cases {
                 opacity: .7;
@@ -775,7 +775,7 @@ body.action.tools {
     }
 }
 
-body.cases.content-grid, body.id-about .grid, body.id-your-rights .grid {
+body.cases.content-grid, body.id-about--_index .grid, body.id-about--your-rights .grid {
     .case.unit, .grid-unit {
         z-index: 1;
         & > h3, & > h4 {
