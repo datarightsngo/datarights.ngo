@@ -611,6 +611,7 @@ a.learn-more.center {
         .prev + .next {
             grid-column: 2;
             text-align: right;
+            max-width: 100%;
         }
     }
 }
