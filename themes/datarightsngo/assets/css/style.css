@@ -10497,6 +10497,11 @@ body > .site-head > .site-nav .menu a.current {
 body > .site-head > .site-nav .menu a.donate, body > .site-head > .site-nav .menu a.dons {
   font-weight: 600;
 }
+@media (max-width: 660px) {
+  body > .site-head > .site-nav .menu {
+    font-size: 0.9em;
+  }
+}
 body.id-about--_index > .site-head > .site-nav .menu .about, body.about > .site-head > .site-nav .menu .about {
   opacity: 0.7;
   background: #ffda7a;
@@ -10828,8 +10833,10 @@ a.learn-more.center {
   display: block;
   color: rgba(0, 0, 0, 0.8);
 }
-.e-content > .prevnext .prev .label:after, .e-content > .prevnext .prev .label:before, .e-content > .prevnext .next .label:after, .e-content > .prevnext .next .label:before {
-  display: block;
+@media (min-width: 660px) {
+  .e-content > .prevnext .prev .label:after, .e-content > .prevnext .prev .label:before, .e-content > .prevnext .next .label:after, .e-content > .prevnext .next .label:before {
+    display: block;
+  }
 }
 .e-content > .prevnext .prev .label:before {
   content: "◀ ";
@@ -10873,6 +10880,7 @@ a.learn-more.center {
     grid-column: 2;
     text-align: right;
     max-width: 100%;
+    margin-right: 18px;
   }
 }
 
