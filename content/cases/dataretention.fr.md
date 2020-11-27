@@ -8,7 +8,7 @@ Title: "Remise en cause des lois françaises de conservation des données et de 
 introduction: "Cette action en justice vise à faire appliquer la jurisprudence de la Cour de justice de l'UE sur la conservation généralisée de données et l'analyse en temps réel."
 ---
 
-À la suite de l'arrêt de la CJUE, l'affaire retourne désormais au Conseil d'État français. Nous allons mettre à jour cette page avec tout l'historique de l'affaire depuis 2015.
+À la suite de l'arrêt de la CJUE, l'affaire retourne désormais au Conseil d'État français. 
 
 
  - **[Chronologie de l'affaire 2015-2020](timeline)**
