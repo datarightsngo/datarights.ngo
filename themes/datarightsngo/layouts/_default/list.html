@@ -10,6 +10,19 @@
     <!--     {{ .Title | markdownify }} -->
     <!-- </a> -->
     <!-- {{ end }} -->
+
+    {{ if .Params.drngoShowentries }}
+        {{ range .RegularPages }}
+        {{ if .Params.date }}
+    {{ .Params.date.Format "2 Jan. 2006" }}<br>
+    {{ end }}
+
+          <a href="{{ .Permalink }}">
+        {{ .Title }}
+        </a>
+
+        {{ end }}
+    {{ end }}
     
   </div>
 {{ end }}
