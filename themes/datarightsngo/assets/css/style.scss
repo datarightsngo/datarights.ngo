@@ -205,6 +205,9 @@ body {
                     font-weight: 600;
                 }
             }
+            @media (max-width: 660px) {
+                font-size: 0.9em;
+            }
         }
     }
     &.id-about--_index, &.about {
@@ -562,7 +565,9 @@ a.learn-more.center {
             display: block;
             color: rgba(black,0.8);
             &:after, &:before {
-                display: block;
+                @media (min-width: 660px) {
+                    display: block;
+                }
             }
         }
     }
@@ -612,6 +617,7 @@ a.learn-more.center {
             grid-column: 2;
             text-align: right;
             max-width: 100%;
+            margin-right: 18px;
         }
     }
 }

@@ -4,5 +4,29 @@
             <span class="data">Data</span> <span class="rights">Rights</span>
           </div>
         </h1>
+
+        <section class="intro">
 {{ .Content }}
+
+
+<div style="font-size: 0.8em;margin: 4em 0 2em;">
+        {{ range first 1 (where site.RegularPages "Section" "news").ByDate }}
+        {{ .Params.date.Format "2 Jan. 2006" }}<br>
+
+          <a href="{{ .Permalink }}">
+        {{ .Title }}
+        </a>
+
+        {{ end }}
+</div>
+
+
+        </section>
+        
+       <section class="subscribe site-block">
+        <p class="heading">
+            <strong>{{ i18n "getupdates"}}</strong>
+        </p>
+        {{partial "subscribe.html"}}
+        </section> 
 {{ end }}
