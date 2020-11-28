@@ -42,7 +42,13 @@ Dépôts de cinq requêtes au Conseil d'État contre les décrets d'application 
 
 [Dépôts d'interventions de Privacy International et Center for Democracy and Technology](https://www.privacyinternational.org/legal-action/lqdn-fdn-and-others-v-france)
 
+
+Affaires N<sup>os</sup> : 393099, 394922, 394924, 394925, 397844, 397851
+
+Avec French Data Network, La Quadrature du Net, FFDN, Igwan.net, Privacy International et le Center for Democracy and Technology, et en collaboration avec le cabinet Spinosi & Sureau.
+
 <div class="event-date">6 mai 2016</div>
+
 
 ### [QPC sur la surveillance des communications sans fil en France](../../wireless-exception)
 
@@ -69,7 +75,7 @@ Dépôts d'observations complémentaires dans les six différentes procédures o
 
 <div class="event-date">26 juil. 2018</div>
 
-Le Conseil d'État [décide de renvoyer l'affaire](https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037253930&fastReqId=2082517168&fastPos=1) à Luxembourg, où siège la Cour de justice de l'UE.
+Le Conseil d'État [par deux](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000037253929/) [décisions](https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037253930&fastReqId=2082517168&fastPos=1), renvoie l'affaire à Luxembourg, où siège la Cour de justice de l'UE.
 
 <div class="event-date">nov. 2018</div>
 
