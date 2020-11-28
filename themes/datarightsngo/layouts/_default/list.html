@@ -17,26 +17,42 @@
                     <div class="grid id-{{ .Key | urlize }}">
                     <h2 id="{{ .Key | urlize }}">{{ .Key }}</h2>
                     {{ range .Pages }}
+                        {{ if .Params.drngoNoreadmore }}
+                        <div id="{{ .TranslationBaseName }}" class="grid-unit">
+                        {{else}}
                         <a id="{{ .TranslationBaseName }}" href="{{ .Permalink }}" class="grid-unit">
+                        {{end}} 
                             {{- with .Params.images -}}
                                 <img src="{{ index . 0 | absURL }}" alt="" class="cover">
                             {{ end -}}
                             <h3>{{ .Title | markdownify }}</h3>
-                            <p>
+                            {{ if .Params.subtitle }}
+                                <div class="subtitle">
+                                    {{ .Params.subtitle | markdownify }}
+                                </div>
+                            {{ end }}
+                            <div class="introduction">
                             {{ if .Params.cover }}
                                 {{ .Params.cover | markdownify }}
                             {{ else }}
                                 {{ if .Params.introduction }}
-                                    {{ .Params.introduction }}
+                                    {{ .Params.introduction | markdownify }}
                                 {{ end }}
                             {{ end }}
                             {{ if .Params.drngoNoreadmore }}
+                                {{ if .Params.drngoNoreadmoreinfosoon }}
+                                {{ else }}
                                 <span class="read-more">{{ i18n "moreinfosoon" }}</span>
+                                {{ end }}
                             {{ else }}
                                 <span class="read-more">{{ i18n "readmore" }}</span>
                             {{ end }}
-                            </p>
+                            </div>
+                        {{ if .Params.drngoNoreadmore }}
+                        </div>
+                        {{else}}
                         </a>
+                        {{end}} 
                     {{ end }}
                     </div>
                 {{ end }}
@@ -48,12 +64,12 @@
                             <img src="{{ index . 0 | absURL }}" alt="" class="cover">
                         {{ end -}}
                         <h3>{{ .Title | markdownify }}</h3>
-                        <p>
+                        <div class="introduction">
                         {{ if .Params.cover }}
                             {{ .Params.cover | markdownify }}
                         {{ else }}
                             {{ if .Params.introduction }}
-                                {{ .Params.introduction }}
+                                {{ .Params.introduction | markdownify }}
                             {{ end }}
                         {{ end }}
                         {{ if .Params.drngoNoreadmore }}
@@ -61,7 +77,7 @@
                         {{ else }}
                             <span class="read-more">{{ i18n "readmore" }}</span>
                         {{ end }}
-                        </p>
+                        </div>
                     </a>
                 {{ end }}
             {{ end }}

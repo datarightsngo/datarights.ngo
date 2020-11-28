@@ -7,7 +7,5 @@ Data Rights is registered at the  Chamber of Commerce (Kamer van Koophandel) Ams
 
 Data Rights’ governing body --- the Board of Trustees --- meets four times a year and is primary responsible for the organisation. Data Rights has also set up a group of Advisors, who provide external input, expertise, and non-binding guidance to the organisations.
 
-**Chair of Trustees:** Lori Roussey  
-
-<!-- TODO @Lori à compléter -->
+**Chair of Trustees:** [Lori Roussey](/people/lori.roussey)
 
