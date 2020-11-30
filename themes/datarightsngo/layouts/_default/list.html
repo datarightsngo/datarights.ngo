@@ -4,7 +4,6 @@
     {{- partial "page-content.html" . -}}
 
     <!-- TODO -->
-    
     <!-- {{ range .Pages}} -->
     <!-- <a href="{{ .Permalink }}" style="display:block"> -->
     <!--     {{ .Title | markdownify }} -->
@@ -12,17 +11,87 @@
     <!-- {{ end }} -->
 
     {{ if .Params.drngoShowentries }}
-        {{ range .RegularPages }}
-        {{ if .Params.date }}
-    {{ .Params.date.Format "2 Jan. 2006" }}<br>
-    {{ end }}
-
-          <a href="{{ .Permalink }}">
-        {{ .Title }}
-        </a>
-
+        {{ if in .Params.drngoClass "grid-content" }}
+            {{ if in .Params.drngoShowentries "category" }}
+                {{ range .Pages.GroupByParam "drngoParentCategory"  }}
+                    <div class="grid id-{{ .Key | urlize }}">
+                    <h2 id="{{ .Key | urlize }}">{{ .Key }}</h2>
+                    {{ range .Pages }}
+                        {{ if .Params.drngoNoreadmore }}
+                        <div id="{{ .TranslationBaseName }}" class="grid-unit">
+                        {{else}}
+                        <a id="{{ .TranslationBaseName }}" href="{{ .Permalink }}" class="grid-unit">
+                        {{end}} 
+                            {{- with .Params.images -}}
+                                <img src="{{ index . 0 | absURL }}" alt="" class="cover">
+                            {{ end -}}
+                            <h3>{{ .Title | markdownify }}</h3>
+                            {{ if .Params.subtitle }}
+                                <div class="subtitle">
+                                    {{ .Params.subtitle | markdownify }}
+                                </div>
+                            {{ end }}
+                            <div class="introduction">
+                            {{ if .Params.cover }}
+                                {{ .Params.cover | markdownify }}
+                            {{ else }}
+                                {{ if .Params.introduction }}
+                                    {{ .Params.introduction | markdownify }}
+                                {{ end }}
+                            {{ end }}
+                            {{ if .Params.drngoNoreadmore }}
+                                {{ if .Params.drngoNoreadmoreinfosoon }}
+                                {{ else }}
+                                <span class="read-more">{{ i18n "moreinfosoon" }}</span>
+                                {{ end }}
+                            {{ else }}
+                                <span class="read-more">{{ i18n "readmore" }}</span>
+                            {{ end }}
+                            </div>
+                        {{ if .Params.drngoNoreadmore }}
+                        </div>
+                        {{else}}
+                        </a>
+                        {{end}} 
+                    {{ end }}
+                    </div>
+                {{ end }}
+            {{ else }}
+            <div class="grid">
+                {{ range .RegularPages }}
+                    <a id="{{ .TranslationBaseName }}" href="{{ .Permalink }}" class="grid-unit">
+                        {{- with .Params.images -}}
+                            <img src="{{ index . 0 | absURL }}" alt="" class="cover">
+                        {{ end -}}
+                        <h3>{{ .Title | markdownify }}</h3>
+                        <div class="introduction">
+                        {{ if .Params.cover }}
+                            {{ .Params.cover | markdownify }}
+                        {{ else }}
+                            {{ if .Params.introduction }}
+                                {{ .Params.introduction | markdownify }}
+                            {{ end }}
+                        {{ end }}
+                        {{ if .Params.drngoNoreadmore }}
+                            <span class="read-more">{{ i18n "moreinfosoon" }}</span>
+                        {{ else }}
+                            <span class="read-more">{{ i18n "readmore" }}</span>
+                        {{ end }}
+                        </div>
+                    </a>
+                {{ end }}
+            {{ end }}
+            </div>
+        {{ else }}
+            {{ range .RegularPages }}
+                {{ if .Params.date }}
+                    {{ .Params.date.Format "2 Jan. 2006" }}<br>
+                {{ end }}
+                <a href="{{ .Permalink }}">
+                    {{ .Title }}
+                </a>
+            {{ end }}
         {{ end }}
     {{ end }}
-    
   </div>
 {{ end }}

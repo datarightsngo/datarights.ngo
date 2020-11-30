@@ -3,6 +3,11 @@
     <a class="page-parent" href="{{ .Params.drngoParentUrl | absLangURL }}">{{ .Params.drngoParent }}</a>
     {{ end }}
     <h1 class="title{{ if .Params.TitleClass }} {{ .Params.TitleClass }}{{ end }}">{{ .Title | markdownify }}</h1>
+    {{ if .Params.subtitle }}
+        <div class="subtitle">
+            {{ .Params.subtitle | markdownify }}
+        </div>
+    {{ end }}
     {{ if isset .Params "cover" }}
     <div class="cover">
       {{ .Params.cover | markdownify }}
