@@ -76,7 +76,7 @@ We gather <!-- TODO make the following lines before "..." appear in any random o
 activists and people who care about the impact of data, and want to fight for a vibrant Internet, free from unfair State or business surveillance. 
 
 
-<!-- [Who we are](/people) -->
+[Who we are](/people)
 
 [Governance](/info/governance)
 
