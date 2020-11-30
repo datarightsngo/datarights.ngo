@@ -10272,7 +10272,7 @@ body {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-body > .site-head, body .title, body .subtitle, body .heading, body a.page-parent, body .page-header {
+body > .site-head, body .title, body .subtitle, body .heading, body a.page-parent, body .page-header, body.press-release blockquote, body.press-release .press.footer .contact, body.press-release .press.footer .about {
   font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -11052,9 +11052,23 @@ body.home .landing {
   display: block;
 }
 
+body.press-release blockquote {
+  background: transparent;
+  border: 0;
+  font-size: 1.2em;
+  padding: 1em 0;
+}
+body.press-release blockquote cite {
+  display: block;
+  font-style: normal;
+  font-size: 90%;
+  line-height: 115%;
+}
+body.press-release blockquote p > cite, body.press-release blockquote p + cite {
+  margin-top: 0.7em;
+}
 body.press-release .press.footer {
   margin-top: 4em;
-  font-size: 80%;
   margin-bottom: 3em;
 }
 body.press-release .press.footer .contact, body.press-release .press.footer .about {
