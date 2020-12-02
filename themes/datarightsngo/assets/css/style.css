@@ -10272,7 +10272,7 @@ body {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-body > .site-head, body .title, body .subtitle, body .heading, body a.page-parent, body .page-header {
+body > .site-head, body .title, body .subtitle, body .heading, body a.page-parent, body .page-header, body.press-release blockquote, body.press-release .press.footer .contact, body.press-release .press.footer .about {
   font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -10770,7 +10770,6 @@ a.learn-more {
   border-bottom: 2px solid transparent;
 }
 .grid + p > a.learn-more {
-  margin-top: -2em;
   margin-bottom: 1em;
 }
 a.learn-more:hover {
@@ -10832,18 +10831,21 @@ a.learn-more.center {
   display: block;
   color: rgba(0, 0, 0, 0.8);
 }
+.e-content > .prevnext .prev .label:after, .e-content > .prevnext .prev .label:before, .e-content > .prevnext .next .label:after, .e-content > .prevnext .next .label:before {
+  font-family: monospace;
+}
 @media (min-width: 660px) {
   .e-content > .prevnext .prev .label:after, .e-content > .prevnext .prev .label:before, .e-content > .prevnext .next .label:after, .e-content > .prevnext .next .label:before {
     display: block;
   }
 }
 .e-content > .prevnext .prev .label:before {
-  content: "◀ ";
+  content: "◀";
   margin-left: -18px;
   width: 18px;
 }
 .e-content > .prevnext .next .label:before, .e-content > .prevnext .next .label:after {
-  content: "▶ ";
+  content: "▶";
   margin-left: -18px;
   width: 18px;
 }
@@ -10857,7 +10859,7 @@ a.learn-more.center {
     gap: 5px;
   }
   .e-content > .prevnext .next .label:after {
-    content: " ▶";
+    content: "▶";
   }
   .e-content > .prevnext .next .label:before {
     content: "";
@@ -11064,9 +11066,23 @@ body.home .landing {
   display: block;
 }
 
+body.press-release blockquote {
+  background: transparent;
+  border: 0;
+  font-size: 1.2em;
+  padding: 1em 0;
+}
+body.press-release blockquote cite {
+  display: block;
+  font-style: normal;
+  font-size: 90%;
+  line-height: 115%;
+}
+body.press-release blockquote p > cite, body.press-release blockquote p + cite {
+  margin-top: 0.7em;
+}
 body.press-release .press.footer {
   margin-top: 4em;
-  font-size: 80%;
   margin-bottom: 3em;
 }
 body.press-release .press.footer .contact, body.press-release .press.footer .about {
