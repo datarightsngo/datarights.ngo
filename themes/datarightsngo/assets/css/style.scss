@@ -504,7 +504,6 @@ a.learn-more {
     display: inline-block;
     border-bottom: 2px solid transparent;
     .grid + p > & {
-        margin-top:-2em;
         margin-bottom: 1em;
     }
     &:hover {
@@ -564,6 +563,7 @@ a.learn-more.center {
             display: block;
             color: rgba(black,0.8);
             &:after, &:before {
+                font-family: monospace;
                 @media (min-width: 660px) {
                     display: block;
                 }
@@ -572,14 +572,14 @@ a.learn-more.center {
     }
     .prev {
         .label:before {
-            content: "◀ ";
+            content: "◀";
             margin-left: -18px;
             width: 18px;
         }
     }
     .next {
         .label:before, .label:after {
-            content: "▶ ";
+            content: "▶";
             margin-left: -18px;
             width: 18px;
         }
@@ -594,7 +594,7 @@ a.learn-more.center {
         }
         .next {
             .label:after {
-                content: " ▶";
+                content: "▶";
             }
             .label:before {content:""; width: 0;}
         }
