@@ -20,7 +20,7 @@ Data Rights is a non-governmental organization with a mission to empower users, 
 ## Your Data Rights
 
 <div class="grid">
-    <a href="your-rights" id="your-rights" class="grid-unit">
+    <a href="your-data-rights" id="your-data-rights" class="grid-unit">
     <h3>
         What are data rights?
     </h3>
