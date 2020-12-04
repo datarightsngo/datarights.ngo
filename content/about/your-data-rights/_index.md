@@ -6,6 +6,7 @@ credits: "[Silo](https://www.flickr.com/photos/aphid00/6102320126/)/Eye”, insi
 cover: |
     
     You should have the right to be in control of your data. Learn more about your data rights and how to enforce and advance them.
+aliases: /about/your-rights/
 ---
 
 ## What are Data Rights?
