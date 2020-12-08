@@ -1171,9 +1171,17 @@ body.id-people--_index {
     }
     .id-trustees {
         grid-row: 1;
+        h2#trustees {display:none;}
+        margin-bottom: 1.5em;
     }
     .id-advisors {
         grid-row: 2;
+        h2#advisors {display:none;}
+        margin-bottom: 2em;
+    }
+    .id-team {
+        grid-row: 3;
+        h2#team {display:none;}
     }
     .id-bodies {
         display: none;
