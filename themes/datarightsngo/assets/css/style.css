@@ -11379,9 +11379,23 @@ body.id-people--_index .e-content {
 }
 body.id-people--_index .id-trustees {
   grid-row: 1;
+  margin-bottom: 1.5em;
+}
+body.id-people--_index .id-trustees h2#trustees, body.id-people--_index .id-trustees #trustees.h2 {
+  display: none;
 }
 body.id-people--_index .id-advisors {
   grid-row: 2;
+  margin-bottom: 2em;
+}
+body.id-people--_index .id-advisors h2#advisors, body.id-people--_index .id-advisors #advisors.h2 {
+  display: none;
+}
+body.id-people--_index .id-team {
+  grid-row: 3;
+}
+body.id-people--_index .id-team h2#team, body.id-people--_index .id-team #team.h2 {
+  display: none;
 }
 body.id-people--_index .id-bodies {
   display: none;
