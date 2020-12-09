@@ -45,8 +45,9 @@
         </div>
     </div>
   </div>
-<div class="syndication">
-    <nav>
+  <div class="lastblock">
+    <div class="wrapper">
+    <nav class="syndication">
         <a class="back-home" href="{{ "/" | absLangURL }}">
           <div class="org-name" title="{{ .Site.Title }}"><span class="data">Data</span> <span class="rights">Rights</span></div>
         </a>
@@ -54,5 +55,11 @@
     {{ .Pre }}<a href="{{ .URL }}" class="{{- .Name -}}"></a>{{ .Post }}
     {{ end }}
     </nav>
-</div>
+    <nav class="transparency">
+    {{ range .Site.Menus.transparency.ByWeight }}
+    {{ .Pre }}<a href="{{ .URL }}">{{- .Name -}}</a>{{ .Post }}
+    {{ end }}
+    </nav>
+    </div>
+  </div>
 </footer>
