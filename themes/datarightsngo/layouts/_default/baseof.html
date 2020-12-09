@@ -5,6 +5,9 @@
     {{- partial "site-head.html" . -}}
     <main class="content">
     {{- block "main" . }}{{- end }}
+    {{ if .Params.drngoShowSubscribe }}
+    {{- partial "subscribe.html" . }}
+    {{ end }}
     </main>
     {{- partial "site-footer.html" . -}}
   </body>
