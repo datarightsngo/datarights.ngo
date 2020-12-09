@@ -10392,14 +10392,14 @@ body {
   display: grid;
 }
 
-body > .site-head > .site-nav, body > main.content > *, body > .site-block > *, body > .site-bottom > *, body > .site-bottom > .syndication > * {
+body > .site-head > .site-nav, body > main.content > *, body > .site-block > *, body > .site-bottom > *, body > .site-bottom > .lastblock > * {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
 }
-body.full-width > .site-head > .site-nav, body.full-width > main.content > *, body.full-width > .site-block > *, body.full-width > .site-bottom > *, body.full-width > .site-bottom > .syndication > * {
+body.full-width > .site-head > .site-nav, body.full-width > main.content > *, body.full-width > .site-block > *, body.full-width > .site-bottom > *, body.full-width > .site-bottom > .lastblock > * {
   max-width: none;
 }
 body.cover > main.content > .page-header, body.cover-title > main.content > .page-header {
@@ -10960,16 +10960,17 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
     grid-row: 2;
     width: 100%;
   }
-  .site-bottom .wrapper .copying {
+  .site-bottom .wrapper .copying, .site-bottom .wrapper .syndication {
     grid-column: 1/3;
     grid-row: 3;
     width: 100%;
   }
-  .site-bottom .wrapper .ngo {
+  .site-bottom .wrapper .ngo, .site-bottom .wrapper .transparency {
     grid-column: 3;
     grid-row: 3/4;
+    margin-left: 2em;
   }
-  .site-bottom .wrapper .syndication {
+  .site-bottom .wrapper .lastblock {
     grid-column: 1/4;
     grid-row: 4;
   }
@@ -11028,11 +11029,6 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   line-height: 1.1;
   opacity: 0.7;
 }
-@media (min-width: 660px) {
-  .site-bottom .ngo {
-    margin-left: 2em;
-  }
-}
 .site-bottom .ngo .drngo {
   font-weight: 700;
 }
@@ -11045,7 +11041,7 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   display: inline;
 }
 
-.site-bottom .syndication {
+.site-bottom .lastblock {
   margin-top: 2em;
   margin-left: 0;
   margin-right: 0;
@@ -11055,11 +11051,11 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   background: #da7a99;
   opacity: 1;
 }
-.site-bottom .syndication nav {
+.site-bottom .lastblock .syndication {
   padding: 1em 0;
   display: flex;
 }
-.site-bottom .syndication nav .back-home {
+.site-bottom .lastblock .syndication .back-home {
   content: "";
   display: flex;
   background: transparent url("/logo/data-rights.svg") no-repeat left 50%;
@@ -11070,30 +11066,34 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   margin: 0 10px 0 20px;
   padding: 0;
 }
-.site-bottom .syndication nav .back-home .data, .site-bottom .syndication nav .back-home .rights {
+.site-bottom .lastblock .syndication .back-home .data, .site-bottom .lastblock .syndication .back-home .rights {
   display: none;
 }
-.site-bottom .syndication nav a {
+.site-bottom .lastblock .syndication a {
   display: inline-block;
   width: 28px;
   height: 28px;
   margin: 7px;
   padding: 14px;
 }
-.site-bottom .syndication nav a.Twitter {
+.site-bottom .lastblock .syndication a.Twitter {
   background: url("/assets/twitter.svg") no-repeat 50% 50%;
   background-size: 20px;
   opacity: 0.5;
 }
-.site-bottom .syndication nav a.Mastodon {
+.site-bottom .lastblock .syndication a.Mastodon {
   background: url("/assets/mastodon.svg") no-repeat 50% 50%;
   background-size: 20px;
   opacity: 0.5;
 }
-.site-bottom .syndication nav a.RSS {
+.site-bottom .lastblock .syndication a.RSS {
   background: url("/assets/rss.svg") no-repeat 50% 50%;
   background-size: 20px;
   opacity: 0.5;
+}
+.site-bottom .lastblock .transparency {
+  margin-top: 1em;
+  font-size: 90%;
 }
 
 body.home {
