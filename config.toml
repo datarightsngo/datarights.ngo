@@ -125,15 +125,15 @@ defaultContentLanguageInSubdir = false
         url = "/info/governance/"
         weight = 2
 
-    [[languages.en.menu.footer]]
+    [[languages.en.menu.transparency]]
         name = "Website Data Policy"
         url = "/info/data-policy/website/"
-        weight = 3
+        weight = 1
 
-    # [[languages.en.menu.footer]]
+    # [[languages.en.menu.transparency]]
     #     name = "Transparency Commitment"
     #     url = "/info/transparency/"
-    #     weight = 4
+    #     weight = 2
 
     [[languages.en.menu.syndication]]
         name = "Twitter"
@@ -189,15 +189,15 @@ defaultContentLanguageInSubdir = false
         url = "/info/governance/"
         weight = 2
 
-    [[languages.fr.menu.footer]]
+    [[languages.fr.menu.transparency]]
         name = "Protection des données du site"
         url = "/info/data-policy/website/"
-        weight = 3
+        weight = 1
 
-    # [[languages.fr.menu.footer]]
+    # [[languages.fr.menu.transparency]]
     #     name = "Engagement de transparence"
     #     url = "/fr/info/transparency/"
-    #     weight = 4
+    #     weight = 2
 
     [[languages.fr.menu.syndication]]
         name = "Twitter"
