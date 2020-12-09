@@ -135,6 +135,21 @@ defaultContentLanguageInSubdir = false
     #     url = "/info/transparency/"
     #     weight = 4
 
+    [[languages.en.menu.syndication]]
+        name = "Twitter"
+        url = "https://twitter.com/DataRights_"
+        weight = 1
+
+    [[languages.en.menu.syndication]]
+        name = "Mastodon"
+        url = "https://mas.to/DataRights"
+        weight = 2
+
+    [[languages.en.menu.syndication]]
+        name = "RSS"
+        url = "/index.xml"
+        weight = 3
+
   [languages.fr]
     title = "Data Rights"
     languageName = "Français"
@@ -183,6 +198,21 @@ defaultContentLanguageInSubdir = false
     #     name = "Engagement de transparence"
     #     url = "/fr/info/transparency/"
     #     weight = 4
+
+    [[languages.fr.menu.syndication]]
+        name = "Twitter"
+        url = "https://twitter.com/DataRights_fr"
+        weight = 1
+
+    [[languages.fr.menu.syndication]]
+        name = "Mastodon"
+        url = "https://mas.to/DataRights"
+        weight = 2
+
+    [[languages.fr.menu.syndication]]
+        name = "RSS"
+        url = "/fr/index.xml"
+        weight = 3
 
 [markup.goldmark.renderer]
 unsafe = true

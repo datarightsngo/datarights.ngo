@@ -10272,7 +10272,7 @@ body {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-body > .site-head, body .title, body .subtitle, body .heading, body a.page-parent, body .page-header, body.press-release blockquote, body.press-release .press.footer .contact, body.press-release .press.footer .about {
+body > .site-head, body > .site-bottom, body .title, body .subtitle, body .heading, body a.page-parent, body .page-header, body.press-release blockquote, body.press-release .press.footer .contact, body.press-release .press.footer .about {
   font-family: "Metropolis", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Twemoji Mozilla", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -10392,14 +10392,14 @@ body {
   display: grid;
 }
 
-body > .site-head > .site-nav, body > main.content > *, body > .site-block > *, body > .site-bottom > * {
+body > .site-head > .site-nav, body > main.content > *, body > .site-block > *, body > .site-bottom > *, body > .site-bottom > .syndication > * {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
 }
-body.full-width > .site-head > .site-nav, body.full-width > main.content > *, body.full-width > .site-block > *, body.full-width > .site-bottom > * {
+body.full-width > .site-head > .site-nav, body.full-width > main.content > *, body.full-width > .site-block > *, body.full-width > .site-bottom > *, body.full-width > .site-bottom > .syndication > * {
   max-width: none;
 }
 body.cover > main.content > .page-header, body.cover-title > main.content > .page-header {
@@ -10546,12 +10546,11 @@ body.sidebar > main.content aside.sidebar {
   grid-column: 2;
 }
 body > .site-bottom {
-  background: #da7a99;
+  background-color: rgba(218, 122, 153, 0.8);
   min-height: 30vh;
-  padding-top: 3em;
-  opacity: 0.8;
+  padding-top: 2em;
 }
-body > .site-bottom > * {
+body > .site-bottom > *, body > .site-bottom .wrapper > * {
   padding-top: 0.5em;
   padding-bottom: 1em;
 }
@@ -10943,6 +10942,35 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   transition: border-bottom 1s 0s ease;
 }
 
+@media (min-width: 660px) {
+  .site-bottom .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .site-bottom .wrapper .translations {
+    grid-column: 1/4;
+    grid-row: 1;
+    width: 100%;
+  }
+  .site-bottom .wrapper .menu {
+    grid-column: 1/4;
+    grid-row: 2;
+    width: 100%;
+  }
+  .site-bottom .wrapper .copying {
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 100%;
+  }
+  .site-bottom .wrapper .ngo {
+    grid-column: 3;
+    grid-row: 3/4;
+  }
+  .site-bottom .wrapper .syndication {
+    grid-column: 1/4;
+    grid-row: 4;
+  }
+}
 .site-bottom a[href] {
   color: inherit;
   text-decoration: underline;
@@ -10989,21 +11017,80 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   display: inline-block;
 }
 
-.site-bottom .social-media {
-  margin-top: 2em;
-  margin-bottom: 4em;
-}
-.site-bottom .social-media a {
-  color: white;
-  text-decoration: none;
+.site-bottom .copying {
+  font-size: 90%;
 }
 
+.site-bottom .ngo {
+  line-height: 1.1;
+  opacity: 0.7;
+}
+@media (min-width: 660px) {
+  .site-bottom .ngo {
+    margin-left: 2em;
+  }
+}
 .site-bottom .ngo .drngo {
   font-weight: 700;
 }
 .site-bottom .ngo .legalinfo {
   display: block;
   max-width: max-content;
+}
+.site-bottom .ngo .nonprofit, .site-bottom .ngo .registered {
+  font-size: 80%;
+  display: inline;
+}
+
+.site-bottom .syndication {
+  margin-top: 2em;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 100%;
+  max-width: none;
+  background: #da7a99;
+  opacity: 1;
+}
+.site-bottom .syndication nav {
+  padding: 1em 0;
+  display: flex;
+}
+.site-bottom .syndication nav .back-home {
+  content: "";
+  display: flex;
+  background: transparent url("/logo/data-rights.svg") no-repeat left 50%;
+  background-size: 80px;
+  height: 42px;
+  width: 90px;
+  opacity: 0.25;
+  margin: 0 10px 0 20px;
+  padding: 0;
+}
+.site-bottom .syndication nav .back-home .data, .site-bottom .syndication nav .back-home .rights {
+  display: none;
+}
+.site-bottom .syndication nav a {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin: 7px;
+  padding: 14px;
+}
+.site-bottom .syndication nav a.Twitter {
+  background: url("/assets/twitter.svg") no-repeat 50% 50%;
+  background-size: 20px;
+  opacity: 0.5;
+}
+.site-bottom .syndication nav a.Mastodon {
+  background: url("/assets/mastodon.svg") no-repeat 50% 50%;
+  background-size: 20px;
+  opacity: 0.5;
+}
+.site-bottom .syndication nav a.RSS {
+  background: url("/assets/rss.svg") no-repeat 50% 50%;
+  background-size: 20px;
+  opacity: 0.5;
 }
 
 body.home {
