@@ -125,15 +125,20 @@ defaultContentLanguageInSubdir = false
         url = "/info/governance/"
         weight = 2
 
+    [[languages.en.menu.footer]]
+        name = "News"
+        url = "/news/"
+        weight = 3
+
     [[languages.en.menu.transparency]]
         name = "Website Data Policy"
         url = "/info/data-policy/website/"
         weight = 1
 
-    # [[languages.en.menu.transparency]]
-    #     name = "Transparency Commitment"
-    #     url = "/info/transparency/"
-    #     weight = 2
+    [[languages.en.menu.transparency]]
+        name = "Transparency Commitment"
+        url = "/info/transparency/"
+        weight = 2
 
     [[languages.en.menu.syndication]]
         name = "Twitter"
@@ -189,15 +194,20 @@ defaultContentLanguageInSubdir = false
         url = "/info/governance/"
         weight = 2
 
+    [[languages.fr.menu.footer]]
+        name = "Actualités"
+        url = "/news/"
+        weight = 3
+
     [[languages.fr.menu.transparency]]
         name = "Protection des données du site"
         url = "/info/data-policy/website/"
         weight = 1
 
-    # [[languages.fr.menu.transparency]]
-    #     name = "Engagement de transparence"
-    #     url = "/fr/info/transparency/"
-    #     weight = 2
+    [[languages.fr.menu.transparency]]
+        name = "Engagement de transparence"
+        url = "/fr/info/transparency/"
+        weight = 2
 
     [[languages.fr.menu.syndication]]
         name = "Twitter"

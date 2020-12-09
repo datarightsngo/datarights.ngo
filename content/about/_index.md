@@ -2,6 +2,7 @@
 title: "About Data Rights"
 TitleMeta: "About"
 drngoClass: cover
+drngoShowSubscribe: true
 credits: "[Silo](https://www.flickr.com/photos/aphid00/6102320126/)/Eye”, inside of a silo looking up, by Dave Sizer used under a CC BY licence."
 cover: |
     
@@ -82,4 +83,13 @@ activists and people who care about the impact of data, and want to fight for a 
 
 [Contact](/contact)
 
-Follow us on Twitter [@DataRights_](https://twitter.com/DataRights_)
+## Follow us
+ 
+
+<nav class="syndication">
+
+<a href="https://twitter.com/DataRights_" class="Twitter"></a>
+<a href="https://mas.to/@DataRights" class="Mastodon"></a>
+<a href="/news/index.xml" class="RSS"></a>
+</nav>
+

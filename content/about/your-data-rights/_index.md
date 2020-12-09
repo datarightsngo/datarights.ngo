@@ -72,7 +72,7 @@ Data rights give you control over your data. They are essential to keep tech acc
 
 Whether you are an individual user, a business, or an organised community, your ability to control your data and your autonomy should not be traded in exchange for security, or left open to abusive surveillance or exploitation.
 
-[Learn about issues we fight](../#issues-we-fight)
+[Learn about issues we fight](../#issues) 
 
 
 ## How to enforce and advance Data Rights?

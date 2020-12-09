@@ -10405,12 +10405,13 @@ body.full-width > .site-head > .site-nav, body.full-width > main.content > *, bo
 body.cover > main.content > .page-header, body.cover-title > main.content > .page-header {
   max-width: none;
 }
-body.cover > main.content > .page-header .page-parent, body.cover > main.content > .page-header h1.title, body.cover > main.content > .page-header .title.h1, body.cover > main.content > .page-header .cover, body.cover-title > main.content > .page-header .page-parent, body.cover-title > main.content > .page-header h1.title, body.cover-title > main.content > .page-header .title.h1, body.cover-title > main.content > .page-header .cover {
+body.cover > main.content > .page-header .page-parent, body.cover > main.content > .page-header h1.title, body.cover > main.content > .page-header .title.h1, body.cover > main.content > .page-header .cover, body.cover > main.content > .page-header time, body.cover-title > main.content > .page-header .page-parent, body.cover-title > main.content > .page-header h1.title, body.cover-title > main.content > .page-header .title.h1, body.cover-title > main.content > .page-header .cover, body.cover-title > main.content > .page-header time {
   max-width: 980px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 10px;
   padding-right: 10px;
+  display: block;
 }
 body > .site-head {
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), white);
@@ -10817,6 +10818,26 @@ a.learn-more.center {
   }
 }
 
+.syndication a {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin: 2px;
+  padding: 14px;
+}
+.syndication a.Twitter {
+  background: url("/assets/twitter.svg") no-repeat 50% 50%;
+  background-size: 20px;
+}
+.syndication a.Mastodon {
+  background: url("/assets/mastodon.svg") no-repeat 50% 50%;
+  background-size: 20px;
+}
+.syndication a.RSS {
+  background: url("/assets/rss.svg") no-repeat 50% 50%;
+  background-size: 20px;
+}
+
 .e-content > .prevnext {
   display: grid;
   grid-template-columns: 1fr;
@@ -11070,30 +11091,24 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   display: none;
 }
 .site-bottom .lastblock .syndication a {
-  display: inline-block;
-  width: 28px;
-  height: 28px;
   margin: 7px;
   padding: 14px;
 }
 .site-bottom .lastblock .syndication a.Twitter {
-  background: url("/assets/twitter.svg") no-repeat 50% 50%;
-  background-size: 20px;
   opacity: 0.5;
 }
 .site-bottom .lastblock .syndication a.Mastodon {
-  background: url("/assets/mastodon.svg") no-repeat 50% 50%;
-  background-size: 20px;
   opacity: 0.5;
 }
 .site-bottom .lastblock .syndication a.RSS {
-  background: url("/assets/rss.svg") no-repeat 50% 50%;
-  background-size: 20px;
   opacity: 0.5;
 }
 .site-bottom .lastblock .transparency {
-  margin-top: 1em;
+  margin-top: 0.8em;
   font-size: 90%;
+}
+.site-bottom .lastblock .transparency a {
+  display: inline-block;
 }
 
 body.home {
@@ -11489,6 +11504,10 @@ body.id-people--_index .id-team h2#team, body.id-people--_index .id-team #team.h
 }
 body.id-people--_index .id-bodies {
   display: none;
+}
+
+body.id-news--_index .e-content .syndication {
+  margin-top: -1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
