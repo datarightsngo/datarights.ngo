@@ -10616,11 +10616,13 @@ main.content .page-header .page-parent:hover:after {
   padding-left: 0.4em;
   transition: padding-left 1s 0s ease;
 }
+main.content .page-header .page-parent + .title {
+  margin-top: 0.1em;
+}
 main.content .page-header .title {
   font-size: 2em;
   font-weight: 700;
   border-bottom: 1px solid #ffda7a;
-  margin-top: 0.1em;
   margin-bottom: 0.5em;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
