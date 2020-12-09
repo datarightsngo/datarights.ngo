@@ -142,7 +142,7 @@ defaultContentLanguageInSubdir = false
 
     [[languages.en.menu.syndication]]
         name = "Mastodon"
-        url = "https://mas.to/DataRights"
+        url = "https://mas.to/@DataRights"
         weight = 2
 
     [[languages.en.menu.syndication]]
@@ -206,7 +206,7 @@ defaultContentLanguageInSubdir = false
 
     [[languages.fr.menu.syndication]]
         name = "Mastodon"
-        url = "https://mas.to/DataRights"
+        url = "https://mas.to/@DataRights"
         weight = 2
 
     [[languages.fr.menu.syndication]]
