@@ -135,10 +135,10 @@ defaultContentLanguageInSubdir = false
         url = "/info/data-policy/website/"
         weight = 1
 
-    [[languages.en.menu.transparency]]
-        name = "Transparency Commitment"
-        url = "/info/transparency/"
-        weight = 2
+    # [[languages.en.menu.transparency]]
+    #     name = "Transparency Commitment"
+    #     url = "/info/transparency/"
+    #     weight = 2
 
     [[languages.en.menu.syndication]]
         name = "Twitter"
@@ -204,10 +204,10 @@ defaultContentLanguageInSubdir = false
         url = "/info/data-policy/website/"
         weight = 1
 
-    [[languages.fr.menu.transparency]]
-        name = "Engagement de transparence"
-        url = "/fr/info/transparency/"
-        weight = 2
+    # [[languages.fr.menu.transparency]]
+    #     name = "Engagement de transparence"
+    #     url = "/fr/info/transparency/"
+    #     weight = 2
 
     [[languages.fr.menu.syndication]]
         name = "Twitter"
