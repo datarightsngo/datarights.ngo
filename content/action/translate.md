@@ -8,7 +8,7 @@ introduction: "Translations are vital to get our message accross nationalities, 
 
 ## Where is the content to be translated?
 
-The source content of the website is available at <https://gitlab.com/datarights/website/-/tree/master/content>.
+The source content of the website is available at <https://github.com/datarightsngo/datarights.ngo/tree/live/content>.
 
 Pages in English are files like “title-of-page.md” and translations end with a two-letter language code, e.g. for French “title-of-page.fr.md”
 
@@ -19,7 +19,7 @@ Found a page that needs translation?
 
 For instance, to translate this current page, you can
 
- 1. go to <https://gitlab.com/datarights/website/-/tree/master/content/action/translate.md> (the link to the page is also available in the footer for non-translated pages)
+ 1. go to <https://github.com/datarightsngo/datarights.ngo/blob/live/content/action/translate.md> (the link to the page is also available in the footer for non-translated pages)
 
  2. translate the content of the page and send us the translated file
 
@@ -31,7 +31,7 @@ If you start to contribute more, you may want to integrate your translation work
 Tools to know:
 
   - Markdown
-  - Gitlab
+  - Git (or Github/Gitlab)
 
 As you can see, this "help page" needs help itself :) 
 

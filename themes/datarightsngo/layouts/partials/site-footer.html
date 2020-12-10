@@ -15,7 +15,7 @@
         </nav>
         {{ else }}
         <div class="translate">
-        <a class="action" href="/action/translate/" title="{{ i18n "helptranslate" }}">{{ i18n "translate" }}</a> {{ if .File }}<a href="https://gitlab.com/datarights/website/-/tree/master/content/{{ .File.Path }}" class="gitlab" target="_blank">{{ i18n "sourcewebpage" }}</a>{{ end }}
+        <a class="action" href="/action/translate/" title="{{ i18n "helptranslate" }}">{{ i18n "translate" }}</a> {{ if .File }}<a href="https://github.com/datarightsngo/datarights.ngo/blob/live/content/{{ .File.Path }}" class="gitlab" target="_blank">{{ i18n "sourcewebpage" }}</a>{{ end }}
         </div>
         {{ end }}
     </div>
