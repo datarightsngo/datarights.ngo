@@ -90,6 +90,6 @@ activists and people who care about the impact of data, and want to fight for a 
 
 <a href="https://twitter.com/DataRights_" class="Twitter"></a>
 <a href="https://mas.to/@DataRights" class="Mastodon"></a>
-<a href="/news/index.xml" class="RSS"></a>
+<a href="/index.xml" class="RSS"></a>
 </nav>
 
