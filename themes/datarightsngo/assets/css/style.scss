@@ -570,6 +570,10 @@ a.learn-more.center {
             background: url('/assets/rss.svg') no-repeat 50% 50%;
             background-size: 20px;
         }
+        &.Email {
+            background: url('/assets/email.svg') no-repeat 50% 50%;
+            background-size: 23px;
+        }
     }
 }
 
@@ -831,13 +835,7 @@ body.content-grid .e-content, body.action.tools .e-content, .e-content .grid {
         a {
             margin: 7px;
             padding: 14px;
-            &.Twitter {
-                opacity: 0.5;
-            }
-            &.Mastodon {
-                opacity: 0.5;
-            }
-            &.RSS {
+            &.Twitter, &.Mastodon, &.RSS, &.Email {
                 opacity: 0.5;
             }
         }

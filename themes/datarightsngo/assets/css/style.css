@@ -10837,6 +10837,10 @@ a.learn-more.center {
   background: url("/assets/rss.svg") no-repeat 50% 50%;
   background-size: 20px;
 }
+.syndication a.Email {
+  background: url("/assets/email.svg") no-repeat 50% 50%;
+  background-size: 23px;
+}
 
 .e-content > .prevnext {
   display: grid;
@@ -11094,13 +11098,7 @@ body.content-grid .e-content .grid-unit:hover .read-more, body.content-grid .e-c
   margin: 7px;
   padding: 14px;
 }
-.site-bottom .lastblock .syndication a.Twitter {
-  opacity: 0.5;
-}
-.site-bottom .lastblock .syndication a.Mastodon {
-  opacity: 0.5;
-}
-.site-bottom .lastblock .syndication a.RSS {
+.site-bottom .lastblock .syndication a.Twitter, .site-bottom .lastblock .syndication a.Mastodon, .site-bottom .lastblock .syndication a.RSS, .site-bottom .lastblock .syndication a.Email {
   opacity: 0.5;
 }
 .site-bottom .lastblock .transparency {

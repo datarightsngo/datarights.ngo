@@ -155,6 +155,11 @@ defaultContentLanguageInSubdir = false
         url = "/index.xml"
         weight = 3
 
+    [[languages.en.menu.syndication]]
+        name = "Email"
+        url = "https://datarights.hosted.phplist.com/lists/?p=subscribe&id=1"
+        weight = 4
+
   [languages.fr]
     title = "Data Rights"
     languageName = "Français"
@@ -223,6 +228,11 @@ defaultContentLanguageInSubdir = false
         name = "RSS"
         url = "/fr/index.xml"
         weight = 3
+
+    [[languages.fr.menu.syndication]]
+        name = "Email"
+        url = "https://datarights.hosted.phplist.com/lists/?p=subscribe&id=2"
+        weight = 4
 
 [markup.goldmark.renderer]
 unsafe = true
