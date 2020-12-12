@@ -41,7 +41,7 @@ drngoClass: cover cases cover-teufelsberg content-grid
 <a href="privacy-international-state-hacking" id="privacy-international-state-hacking" class="case unit">
 <h3>Affaire sur le hacking de Privacy International</h3>
 <p>
-    Data Rights et FDN ont reçu l'autorisation d'intervenir devant la CEDH en soutien à Privacy International et neuf autres associations.
+    Data Rights et FDN ont reçu l'autorisation d'intervenir devant la CEDH en soutien à Privacy International et cinq autres associations.
     <span class="read-more">En lire plus</span>
 </p>
 </a>
