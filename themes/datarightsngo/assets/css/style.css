@@ -10842,6 +10842,89 @@ a.learn-more.center {
   background-size: 23px;
 }
 
+.attachment {
+  display: block;
+  font-size: 80%;
+  min-height: 70px;
+  color: inherit;
+}
+@media (min-width: 660px) {
+  .attachment {
+    max-width: 49%;
+  }
+}
+.attachment.document::before {
+  content: " ";
+  width: 42px;
+  height: 60px;
+  position: absolute;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40Mi1Eb2N1bWVudC1BcnJvdyBEb3duPC90aXRsZT48ZyBkYXRhLW5hbWU9IjQyLURvY3VtZW50LUFycm93IERvd24iPjxwYXRoIGQ9Ik0yLDI5VjNBMSwxLDAsMCwxLDMsMkgxOFY2YTIsMiwwLDAsMCwyLDJoNHYzaDJWN2ExLDEsMCwwLDAtLjI5LS43MWwtNi02QTEsMSwwLDAsMCwxOSwwSDNBMywzLDAsMCwwLDAsM1YyOWEzLDMsMCwwLDAsMywzSDEzVjMwSDNBMSwxLDAsMCwxLDIsMjlaIj48L3BhdGg+PHBhdGggZD0iTTIzLDE0YTksOSwwLDEsMCw5LDlBOSw5LDAsMCwwLDIzLDE0Wm0wLDE2YTcsNywwLDEsMSw3LTdBNyw3LDAsMCwxLDIzLDMwWiI+PC9wYXRoPjxwYXRoIGQ9Ik0yNCwyMy41OVYxOUgyMnY0LjU5bC0xLjI5LTEuMjktMS40MSwxLjQxLDMsM2ExLDEsMCwwLDAsMS40MSwwbDMtMy0xLjQxLTEuNDFaIj48L3BhdGg+PC9nPjwvc3ZnPg==");
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  opacity: 0.5;
+}
+.attachment.document:hover::before {
+  opacity: 1;
+}
+.attachment.document img {
+  position: absolute;
+  max-width: 42px;
+  max-height: 60px;
+  display: block;
+  z-index: 3;
+}
+.attachment.document img + .filename::before {
+  z-index: 2;
+  content: " ";
+  margin-left: -52px;
+  width: 42px;
+  height: 60px;
+  background: white;
+  display: block;
+  position: absolute;
+}
+.attachment.document .filename {
+  margin-left: 52px;
+  margin-bottom: 0;
+  padding: 5px 10px;
+  background: rgba(255, 218, 122, 0.35);
+  min-height: 60px;
+}
+.attachment.document:hover .filename {
+  background: #ffda7a;
+}
+.attachment.document .filetype {
+  float: right;
+  font-size: 60%;
+  font-weight: 900;
+  display: inline-block;
+  border: 2px outset #333;
+  background: #999;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 3px;
+}
+.attachment.document .filetype:hover {
+  border-style: inset;
+}
+.attachment.document .filetype.pdf {
+  background: #ff2e22;
+  border-color: #ff655d;
+  opacity: 0.5;
+}
+.attachment.document .filetype.docx {
+  background: #235d9c;
+  border-color: #317dd1;
+  opacity: 0.5;
+}
+.attachment.document:hover .pdf, .attachment.document:hover .docx {
+  opacity: 1;
+}
+
 .e-content > .prevnext {
   display: grid;
   grid-template-columns: 1fr;
@@ -11393,88 +11476,6 @@ body.timeline .e-content .event-date:before {
   border-radius: 50%;
   right: 0;
   margin-right: -18px;
-}
-body.timeline .e-content .attachment {
-  display: block;
-  font-size: 80%;
-  min-height: 70px;
-  color: inherit;
-}
-@media (min-width: 660px) {
-  body.timeline .e-content .attachment {
-    max-width: 49%;
-  }
-}
-body.timeline .e-content .attachment.document::before {
-  content: " ";
-  width: 42px;
-  height: 60px;
-  position: absolute;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgeD0iMHB4IiB5PSIwcHgiPjx0aXRsZT40Mi1Eb2N1bWVudC1BcnJvdyBEb3duPC90aXRsZT48ZyBkYXRhLW5hbWU9IjQyLURvY3VtZW50LUFycm93IERvd24iPjxwYXRoIGQ9Ik0yLDI5VjNBMSwxLDAsMCwxLDMsMkgxOFY2YTIsMiwwLDAsMCwyLDJoNHYzaDJWN2ExLDEsMCwwLDAtLjI5LS43MWwtNi02QTEsMSwwLDAsMCwxOSwwSDNBMywzLDAsMCwwLDAsM1YyOWEzLDMsMCwwLDAsMywzSDEzVjMwSDNBMSwxLDAsMCwxLDIsMjlaIj48L3BhdGg+PHBhdGggZD0iTTIzLDE0YTksOSwwLDEsMCw5LDlBOSw5LDAsMCwwLDIzLDE0Wm0wLDE2YTcsNywwLDEsMSw3LTdBNyw3LDAsMCwxLDIzLDMwWiI+PC9wYXRoPjxwYXRoIGQ9Ik0yNCwyMy41OVYxOUgyMnY0LjU5bC0xLjI5LTEuMjktMS40MSwxLjQxLDMsM2ExLDEsMCwwLDAsMS40MSwwbDMtMy0xLjQxLTEuNDFaIj48L3BhdGg+PC9nPjwvc3ZnPg==");
-  background-color: white;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 1;
-  opacity: 0.5;
-}
-body.timeline .e-content .attachment.document:hover::before {
-  opacity: 1;
-}
-body.timeline .e-content .attachment.document img {
-  position: absolute;
-  max-width: 42px;
-  max-height: 60px;
-  display: block;
-  z-index: 3;
-}
-body.timeline .e-content .attachment.document img + .filename::before {
-  z-index: 2;
-  content: " ";
-  margin-left: -52px;
-  width: 42px;
-  height: 60px;
-  background: white;
-  display: block;
-  position: absolute;
-}
-body.timeline .e-content .attachment.document .filename {
-  margin-left: 52px;
-  margin-bottom: 0;
-  padding: 5px 10px;
-  background: rgba(255, 218, 122, 0.35);
-  min-height: 60px;
-}
-body.timeline .e-content .attachment.document:hover .filename {
-  background: #ffda7a;
-}
-body.timeline .e-content .attachment.document .filetype {
-  float: right;
-  font-size: 60%;
-  font-weight: 900;
-  display: inline-block;
-  border: 2px outset #333;
-  background: #999;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0 3px;
-}
-body.timeline .e-content .attachment.document .filetype:hover {
-  border-style: inset;
-}
-body.timeline .e-content .attachment.document .filetype.pdf {
-  background: #ff2e22;
-  border-color: #ff655d;
-  opacity: 0.5;
-}
-body.timeline .e-content .attachment.document .filetype.docx {
-  background: #235d9c;
-  border-color: #317dd1;
-  opacity: 0.5;
-}
-body.timeline .e-content .attachment.document:hover .pdf, body.timeline .e-content .attachment.document:hover .docx {
-  opacity: 1;
 }
 
 body.id-people--_index .e-content {
