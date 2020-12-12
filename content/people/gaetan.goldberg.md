@@ -1,14 +1,13 @@
 ---
-drngoParent: Who We Are
-drngoParentUrl: /people/
-Title: "Gaëtan Goldberg"
-subtitle: "Trustee"
-drngoClass: people bio
+Title: Gaëtan Goldberg
+subtitle: Trustee
 images:
- - /people/gaetan.goldberg/sepia-sq.jpg
+  - /people/gaetan.goldberg/sepia-sq.jpg
+drngoClass: people bio
+drngoParentCategory: Trustees
+drngoParent: Who We Are
+drngoShowNextPrev: true
 drngoNoreadmore: true
 drngoNoreadmoreinfosoon: true
-drngoParentCategory: Trustees
+drngoParentUrl: /people/
 ---
-
-

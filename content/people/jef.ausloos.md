@@ -1,18 +1,21 @@
 ---
-drngoParent: Who We Are
-drngoParentUrl: /people/
-Title: "Jef Ausloos"
-subtitle: "Advisor"
-drngoClass: people bio
+Title: Jef Ausloos
+subtitle: Advisor
+cover: >
+  Jef is a post-doc researcher at the University of Amsterdam's Institute for
+  Information law (IViR), where he works on data rights, transparency and
+  data-driven power asymmetries.
 images:
- - /people/jef.ausloos/sepia-sq.jpg
-drngoParentCategory: Team
-weight: 4
+  - /people/jef.ausloos/sepia-sq.jpg
 website: https://www.ivir.nl/employee/jefausloos/
-cover : |
-    Jef is a post-doc researcher at the University of Amsterdam's Institute for Information law (IViR), where he works on data rights, transparency and data-driven power asymmetries.
+drngoClass: people bio
+drngoParentCategory: Team
+drngoParent: Who We Are
+drngoShowNextPrev: true
+weight: 4
 drngoNoreadmore: true
 drngoNoreadmoreinfosoon: true
+drngoParentUrl: /people/
 ---
 
 Jef Ausloos is working as a postdoctoral researcher at the University of Amsterdam's Institute for Information law (IViR), where he is part of the personalised communications project team. His research interests center around data-driven power asymmetries and the normative underpinnings of individual control, empowerment and autonomy in the modern-day, largely privatised information ecosystem. 
