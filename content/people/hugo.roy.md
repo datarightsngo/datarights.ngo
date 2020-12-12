@@ -25,3 +25,6 @@ drngoNoredmoreinfosoon: true
 drngoNoreadmoreinfosoon: true
 drngoParentUrl: /people/
 ---
+As Vice-President of [French Data Network](https://fdn.fr) (France’s oldest Internet access provider), Hugo co-started the digital rights litigation group [Exégètes Amateurs](https://exegetes.eu.org/en/). He also cofounded [Terms of Service; Didn’t Read](https://tosdr.org) and is a former board member of the[ Free Software Foundation Europe](https://www.fsfe.org).
+
+He lives in Paris, France.

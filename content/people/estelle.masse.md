@@ -1,18 +1,21 @@
 ---
-drngoParent: Who We Are
-drngoParentUrl: /people/
-Title: "Estelle Massé"
-subtitle: "Advisor"
-drngoClass: people bio
+Title: Estelle Massé
+subtitle: Advisor
+cover: >
+  Estelle is Senior Policy Analyst and Global Data Protection Lead at Access
+  Now. Her work focuses on data protection, privacy, surveillance and telecoms
+  policies. 
 images:
- - /people/estelle.masse/sepia-sq.jpg
-drngoParentCategory: Team
-weight: 3
+  - /people/estelle.masse/sepia-sq.jpg
 website: https://www.accessnow.org/profile/estelle-masse/
-cover: |
-    Estelle is Senior Policy Analyst and Global Data Protection Lead at Access Now. Her work focuses on data protection, privacy, surveillance and telecoms policies. 
+drngoClass: people bio
+drngoParentCategory: Team
+drngoParent: Who We Are
+drngoShowNextPrev: true
+weight: 3
 drngoNoreadmore: true
 drngoNoreadmoreinfosoon: true
+drngoParentUrl: /people/
 ---
 
 
