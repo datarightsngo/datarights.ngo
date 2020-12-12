@@ -18,7 +18,7 @@ collections:
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'markdown' }
-      - { label: 'Subtitle', name: 'Subtitle', required: false, widget: 'markdown' }
+      - { label: 'Subtitle', name: 'Subtitle', required: false, widget: 'string' }
       - { label: 'Publish Date', name: 'date', required: false, widget: 'datetime' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string'}
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown'}
