@@ -1,4 +1,4 @@
-baseurl = "https://admindrngo.netlify.app/"
+baseurl = "https://datarights.ngo/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
