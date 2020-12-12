@@ -120,8 +120,8 @@ collections:
       - { label: 'Parent (suggestion: About)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'Parent URL (suggestion: /about/ or /lang-id/about/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'ShowSubscribe (true or false)', name: 'drngoShowSubscribe', required: false, widget: 'boolean' }
-      - { label: 'Show Prev/Next', name: 'drngoShowNextPrev', required: false, widget: 'string' }
-      - { label: 'Weight', name: 'weight', required: false, widget: 'string' }
+      - { label: 'Show Prev/Next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
+      - { label: 'Weight', name: 'weight', required: false, widget: 'number' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'people'
@@ -146,8 +146,8 @@ collections:
       - { label: 'parent (suggestion: Who We Are)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /people/ or /lang-id/people/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'showsubscribe (true or false)', name: 'drngoShowSubcribe', required: false, widget: 'boolean' }
-      - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'string' }
-      - { label: 'weight', name: 'weight', required: false, widget: 'string' }
+      - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
+      - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
     identifier_field: Title
@@ -173,8 +173,8 @@ collections:
       - { label: 'parent (suggestion: info)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /info/ or /lang-id/info/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'showsubscribe (true or false)', name: 'drngoShowSubcribe', required: false, widget: 'boolean' }
-      - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'string' }
-      - { label: 'weight', name: 'weight', required: false, widget: 'string' }
+      - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
+      - { label: 'weight', name: 'weight', required: false, widget: 'number' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
   - name: 'info--data-policy'
@@ -196,7 +196,7 @@ collections:
       - { label: 'parent (suggestion: info)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /info/ or /lang-id/info/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'showsubscribe (true or false)', name: 'drngoShowSubcribe', required: false, widget: 'boolean' }
-      - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'string' }
-      - { label: 'weight', name: 'weight', required: false, widget: 'string' }
+      - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
+      - { label: 'weight', name: 'weight', required: false, widget: 'number' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
