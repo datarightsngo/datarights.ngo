@@ -1,5 +1,5 @@
-#baseurl = "https://datarights.ngo/"
-baseurl = "admindrngo.netlify.app/"
+baseurl = "https://datarights.ngo/"
+#baseurl = "admindrngo.netlify.app/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
