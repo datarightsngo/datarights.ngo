@@ -55,29 +55,6 @@ collections:
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
-  - name: 'cases--privacy-international-state-hacking'
-    label: "Cases/PI State Hacking"
-    folder: 'content/cases/privacy-international-state-hacking/'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
-      - { label: 'Title', name: 'Title', required: false, widget: 'markdown' }
-      - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
-      - { label: 'Publish Date', name: 'date', required: false, widget: 'datetime' }
-      - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
-      - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
-      - { label: 'Class (suggestion: cases article)', name: 'drngoClass', required: false, widget: 'string' }
-      - { label: 'Parent (suggestion: Legal Cases / Data Retention and Intelligence Act)', name: 'drngoParent', required: false, widget: 'string' }
-      - { label: 'parent url (suggestion: /cases/dataretention/ or /lang-id/cases/dataretention/)', name: 'drngoParentUrl', required: false, widget: 'string' }
-      - { label: 'Show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
-      - { label: 'weight', name: 'weight', required: false, widget: 'number' }
-    identifier_field: Title
-    sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'cases--dataretention'
     label: 'Cases/Data Retention'
     folder: 'content/cases/dataretention/'
