@@ -1,7 +1,7 @@
 ---
-title: "Affaires en justice"
+Title: "Affaires en justice"
 drngoClass: cover cases cover-teufelsberg content-grid
-cover: |
+Cover: |
 
     Le contentieux stratégique est au cœur des actions de Data Rights.
     

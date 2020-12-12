@@ -1,7 +1,7 @@
 ---
-title: "Legal Cases"
+Title: "Legal Cases"
 drngoClass: cover cases cover-teufelsberg content-grid
-cover: |
+Cover: |
 
     Strategic litigiation is at the core of Data Rights’ actions.
 

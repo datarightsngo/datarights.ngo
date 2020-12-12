@@ -1,10 +1,10 @@
 ---
-title: "About Data Rights"
+Title: "About Data Rights"
 TitleMeta: "About"
 drngoClass: cover
 drngoShowSubscribe: true
-credits: "[Silo](https://www.flickr.com/photos/aphid00/6102320126/)/Eye”, inside of a silo looking up, by Dave Sizer used under a CC BY licence."
-cover: |
+Credits: "[Silo](https://www.flickr.com/photos/aphid00/6102320126/)/Eye”, inside of a silo looking up, by Dave Sizer used under a CC BY licence."
+Cover: |
     
     We are a new non-profit organization that defends, enforces, and advances data rights.
 
