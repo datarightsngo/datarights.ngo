@@ -42,7 +42,7 @@ drngoClass: cover cases cover-teufelsberg content-grid
 <a href="privacy-international-state-hacking" id="privacy-international-state-hacking" class="case unit">
 <h3>Privacy International’s State Hacking Case</h3>
 <p>
-    Data Rights and French Data Network were granted the right to intervene at the ECtHR in support of Privacy International and nine other NGOs.
+    Data Rights and French Data Network were granted the right to intervene at the ECtHR in support of Privacy International and five other NGOs.
     <span class="read-more">Read more</span>
 </p>
 </a>
