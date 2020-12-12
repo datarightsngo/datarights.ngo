@@ -1,11 +1,12 @@
 ---
-Title: "Legal Cases"
+Title: Legal Cases
+Cover: >
+  
+  Strategic litigiation is at the core of Data Rights’ actions.
+
+
+  Building upon half a decade of challenging France’s surveillance and data retention laws, Data Rights will use legal actions to advance data rights and promote cybersecurity.
 drngoClass: cover cases cover-teufelsberg content-grid
-Cover: |
-
-    Strategic litigiation is at the core of Data Rights’ actions.
-
-    Building upon half a decade of challenging France’s surveillance and data retention laws, Data Rights will use legal actions to advance data rights and promote cybersecurity.
 ---
 
 
@@ -38,11 +39,11 @@ Cover: |
 </p>
 </a>
 
-<div href="privacy-international-state-hacking" id="privacy-international-state-hacking" class="case unit">
+<a href="privacy-international-state-hacking" id="privacy-international-state-hacking" class="case unit">
 <h3>Privacy International’s State Hacking Case</h3>
 <p>
     Data Rights and French Data Network were granted the right to intervene at the ECtHR in support of Privacy International and nine other NGOs.
-    <span class="read-more">More info coming soon</span>
+    <span class="read-more">Read more</span>
 </p>
-</div>
+</a>
 
