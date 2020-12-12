@@ -1,5 +1,5 @@
 ---
-Title: "Governance"
+title: "Governance"
 introduction: "Data Rights is set up as a non-profit foundation registered in the Netherlands (“Stichting”)."
 ---
 

@@ -4,8 +4,8 @@ TitleMeta: "Data Rights' statement on the European Court of Justice's judgements
 drngoClass: news press-release 
 drngoParent: News
 drngoParentUrl: /news/
-title: "Data Rights’ statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016"
-introduction: "EU’s top court paves the way for major reforms of European surveillance laws"
+Title: "Data Rights’ statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016"
+Introduction: "EU’s top court paves the way for major reforms of European surveillance laws"
 date: 2020-10-06
 ---
 

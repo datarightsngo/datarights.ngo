@@ -1,11 +1,11 @@
 ---
-titleMeta: "Takeaways from Data Rights about the CJEU rulings “Privacy International” and “La Quadrature du Net, French Data Network et al.”"
+TitleMeta: "Takeaways from Data Rights about the CJEU rulings “Privacy International” and “La Quadrature du Net, French Data Network et al.”"
 drngoClass: cases article enumerate-headings enumerate-h2 cover-title cover-servers
 drngoParent: Legal Cases / Data Retention and Intelligence Act
 drngoParentUrl: /cases/dataretention/
-title: "Takeaways from Data Rights about the CJEU rulings “*Privacy International*” and “*La Quadrature du Net, French Data Network et al.*”"
-introduction: "EU’s top court paves the way for major reforms of European surveillance laws. What do the rulings in cases “Privacy International”, “La Quadrature, French Data Network et al.” mean?"
-credits: "Cover Image: Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0 [source](https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg)"
+Title: "Takeaways from Data Rights about the CJEU rulings “*Privacy International*” and “*La Quadrature du Net, French Data Network et al.*”"
+Introduction: "EU’s top court paves the way for major reforms of European surveillance laws. What do the rulings in cases “Privacy International”, “La Quadrature, French Data Network et al.” mean?"
+Credits: "Cover Image: Wikimedia Foundation Servers by Victorgrigas - CC BY SA 3.0 [source](https://commons.wikimedia.org/wiki/File:Wikimedia_Foundation_Servers-8055_17.jpg)"
 date: 2020-10-13
 ---
 
