@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="98mm"
+   height="98mm"
+   viewBox="0 0 98 98"
+   version="1.1"
+   id="svg1062"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="Logo Switch Circle Yellow.svg">
+  <defs
+     id="defs1056" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.80770367"
+     inkscape:cx="365.47206"
+     inkscape:cy="235.33512"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1059">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       inkscape:export-ydpi="135.28"
+       inkscape:export-xdpi="135.28"
+       inkscape:export-filename="Data Rights switch variant.png"
+       r="48.947918"
+       cy="48.947918"
+       cx="48.947918"
+       id="circle1387"
+       style="opacity:1;fill:#ffda7a;fill-opacity:1;stroke:none;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10;stroke-opacity:1;paint-order:markers fill stroke" />
+    <rect
+       ry="20.519753"
+       rx="20.519753"
+       y="28.878593"
+       x="11.510514"
+       height="41.039505"
+       width="74.617279"
+       id="rect1525"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00000f;stroke-width:10.2599;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-filename="Data Rights switch variant.png"
+       inkscape:export-xdpi="135.28"
+       inkscape:export-ydpi="135.28" />
+    <circle
+       cy="49.3978"
+       cx="65.607758"
+       id="ellipse1527"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.2599;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-filename="Data Rights switch variant.png"
+       inkscape:export-xdpi="135.28"
+       inkscape:export-ydpi="135.28"
+       r="12.591667" />
+  </g>
+</svg>

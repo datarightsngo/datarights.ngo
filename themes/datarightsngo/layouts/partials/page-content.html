@@ -1,0 +1,6 @@
+    {{- if isset .Params "introduction" -}}
+    <section class="intro">
+      {{ .Params.Introduction | markdownify }}
+    </section>
+    {{- end -}}
+    {{- .Content -}}

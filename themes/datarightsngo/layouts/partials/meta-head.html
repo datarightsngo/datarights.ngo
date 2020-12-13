@@ -49,15 +49,8 @@
     {{ with .Params.description -}}
     <meta name="description" content="{{ . }}">
     {{ end }}
-    <!-- TODO Making the below variable per page -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Data Rights">
-    <meta property="og:title" content="Data Rights">
-    <meta property="og:image" content="http://datarights.ngo/application_icon_x144.png">
-    <meta property="og:image:width" content="144">
-    <meta property="og:image:height" content="144">
-    <meta property="og:url" content="http://datarights.ngo/">
-
+    {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
     {{ if .IsTranslated }}
         {{ range .Translations }}
     <link rel="alternate" type="text/html" lang="{{ .Lang }}" hreflang="{{ .Lang }}" title="[{{ .Lang }}] {{ .Title }}" href="{{ .Permalink }}">

@@ -1,11 +1,12 @@
 ---
-title: "Affaires en justice"
-drngoClass: cover cases cover-teufelsberg content-grid
-cover: |
+Title: Affaires en justice
+Cover: >
+  
+  Le contentieux stratégique est au cœur des actions de Data Rights.
 
-    Le contentieux stratégique est au cœur des actions de Data Rights.
-    
-    Forte de plus de cinq ans d'actions contre les lois françaises de conservation généralisée des données et de surveillance, Data Rights lancera des actions juridiques pour faire avancer le droit aux données et promouvoir la cybersécurité.
+
+  Forte de plus de cinq ans d'actions contre les lois françaises de conservation généralisée des données et de surveillance, Data Rights lancera des actions juridiques pour faire avancer le droit aux données et promouvoir la cybersécurité.
+drngoClass: cover cases cover-teufelsberg content-grid
 ---
 
 ## Affaires en cours
@@ -37,11 +38,11 @@ cover: |
 </p>
 </a>
 
-<div href="privacy-international-state-hacking" id="privacy-international-state-hacking" class="case unit">
+<a href="privacy-international-state-hacking" id="privacy-international-state-hacking" class="case unit">
 <h3>Affaire sur le hacking de Privacy International</h3>
 <p>
-    Data Rights et FDN ont reçu l'autorisation d'intervenir devant la CEDH en soutien à Privacy International et neuf autres associations.
-    <span class="read-more">Davantage d'infos à venir</span>
+    Data Rights et FDN ont reçu l'autorisation d'intervenir devant la CEDH en soutien à Privacy International et cinq autres associations.
+    <span class="read-more">En lire plus</span>
 </p>
-</div>
+</a>
 

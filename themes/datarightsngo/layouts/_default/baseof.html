@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="{{ .Lang }}">
-  {{- partial "head.html" . -}}
-  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }} {{ with .File }} id-{{ .TranslationBaseName }}{{ end }}">
-    {{- partial "header.html" . -}}
+  {{- partial "meta-head.html" . -}}
+  <body class="{{ .Params.drngoClass }} lang-{{ .Lang }} {{ if .Params.documentclass }}documentclass-{{ . }}{{ end }} {{ with .File }} id-{{ .File.Dir | replaceRE "/" "--" }}{{ .TranslationBaseName }}{{ end }}">
+    {{- partial "site-head.html" . -}}
     <main class="content">
     {{- block "main" . }}{{- end }}
+    {{ if .Params.drngoShowSubscribe }}
+    {{- partial "subscribe.html" . }}
+    {{ end }}
     </main>
-    {{- partial "footer.html" . -}}
+    {{- partial "site-footer.html" . -}}
   </body>
 </html>

@@ -7,7 +7,7 @@ Build with [Hugo](https://gohugo.io/) and based on [Gitlab Hugo Template](https:
 
 ## Usage
 
-Look at "content/draft.md" for options.
+Edit the website here: [admindrngo.netlify.app](https://admindrngo.netlify.app/)
 
 ## How to contribute?
 

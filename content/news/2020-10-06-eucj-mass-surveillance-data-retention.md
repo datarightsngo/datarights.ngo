@@ -3,9 +3,10 @@ type: pressrelease
 TitleMeta: "Data Rights' statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016"
 drngoClass: news press-release 
 drngoParent: News
-drngoParentUrl: /cases/dataretention/
-title: "Data Rights’ statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016 (6 Oct. 2020) "
-introduction: "EU’s top court paves the way for major reforms of European surveillance laws"
+drngoParentUrl: /news/
+Title: "Data Rights’ statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016"
+Introduction: "EU’s top court paves the way for major reforms of European surveillance laws"
+date: 2020-10-06
 ---
 
 
@@ -19,12 +20,9 @@ introduction: "EU’s top court paves the way for major reforms of European surv
 <p>“<em>Now the French Conseil d’Etat must stop tiptoeing and will have to apply European human rights standards once and for all,</em>” says Lori Roussey, chair of Data Rights.</p>
 </blockquote><p class="part" data-startline="85" data-endline="85">With these rulings, European national authorities must now rethink their approach.</p>
 
-<h5>Read More</h5>
-
-<p>
-<a href="/cases/dataretention/2020-10-eucj-takeaways/">Takeaways from Data Rights on the CJEU rulings “<em>Privacy International</em>” and “<em>La Quadrature du Net, French Data Network et al.</em>”</a>
-</p>
-
-<p class="part" data-startline="87" data-endline="87">To get Data Right’s latest details, follow us directly <a href="https://twitter.com/@dataRights_" target="_blank" rel="noopener">@dataRights_</a> on Twitter.</p>
+<h3>Read More</h3>
 
 
+ - [Timeline of the case since 2015](/cases/dataretention/timeline)
+
+ - [Takeaways from Data Rights on the CJEU rulings “<em>Privacy International</em>” and “<em>La Quadrature du Net, French Data Network et al.</em>”](/cases/dataretention/2020-10-eucj-takeaways)

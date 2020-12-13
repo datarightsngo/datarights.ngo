@@ -3,10 +3,11 @@ type: pressrelease
 TitleMeta: "Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique"
 drngoClass: news press-release
 drngoParent: Actualités
-drngoParentUrl: /fr/cases/dataretention/
-title: "Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique (6 Oct. 2020)"
-introduction: "La plus haute cour de l’UE ouvre la voie à des réformes structurelles des lois de surveillance européennes."
+drngoParentUrl: /fr/news/
+Title: "Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique"
+Introduction: "La plus haute cour de l’UE ouvre la voie à des réformes structurelles des lois de surveillance européennes."
 aliases: /news/2020-10-06-eucj-mass-surveillance-data-retention/fr/
+date: 2020-10-06
 ---
 
 
@@ -21,11 +22,9 @@ aliases: /news/2020-10-06-eucj-mass-surveillance-data-retention/fr/
 <p>«&nbsp;<em>Désormais, le Conseil d’État doit arrêter d’atermoyer et appliquer les normes européennes de protection des droits humains une bonne fois pour toutes</em>&nbsp;» déclare Lori Roussey, qui dirige Data Rights.</p>
 </blockquote><p class="part" data-startline="150" data-endline="150">À la suite de ces décisions de justice, les autorités nationales européennes doivent revoir leurs lois.</p>
 
-<h5>En savoir plus</h5>
+<h3>En savoir plus</h3>
 
-<p>
-<a href="/fr/cases/dataretention/2020-10-eucj-takeaways/">
-Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights
-</a>
-</p>
-<p class="part" data-startline="152" data-endline="152">Pour obtenir les derniers développements de Data rights&nbsp;: suivez nous directement <a href="https://twitter.com/@dataRights_fr" target="_blank" rel="noopener">@dataRights_fr</a> sur Twitter.</p>
+
+ - [Chronologie de l'affaire 2015-2020](/fr/cases/dataretention/timeline)
+
+ - [Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights](/fr/cases/dataretention/2020-10-eucj-takeaways)
