@@ -1,12 +1,11 @@
 ---
 Title: Polina Malaja
 subtitle: Trustee
-cover: <!--StartFragment-->Polina is a policy expert, activist and Free Software
-  enthusiast. Her areas of expertise include the intersection of fundamental
-  rights and digital technology, in connection to digital infrastructure and the
-  Internet Governance. She is a Policy Advisor at CENTR where her work focuses
-  on content liability, cybersecurity, and data protection
-  online.<!--EndFragment-->
+cover: <!--StartFragment-->Polina is a policy expert and Free Software
+  enthusiast. She specialises in the intersection of human rights and digital
+  technology, digital infrastructure and Internet Governance. She is a Policy
+  Advisor at CENTR where her work focuses on content liability, cybersecurity,
+  and data protection online.<!--EndFragment-->
 images:
   - /people/polina.malaja/sepia-sq.jpg
 drngoClass: people bio
