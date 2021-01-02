@@ -13,7 +13,7 @@ Following the Court of Justice of the EU (CJEU) ruling, the case is now back to 
 
 <div class="event-date">Dec. 2014</div>
 
-Following the *Digital Rights* judgment of the CJEU, French Data Network initiates a legal action to enforce European case law in France, where the general retention of electronic communications data (often called meta data) exists since September 2001.
+Following the *Digital Rights* judgment of the CJEU, French Data Network initiates a legal action to enforce European case law in France, where the general retention of electronic communications data (often called meta data) exists since September 2001
 
 ## Request for repeal
 
@@ -77,7 +77,7 @@ Filing of additional observations in the six different procedures opened before 
 
 <div class="event-date">July 26 2018</div>
 
-The French Council of State renders two rulings [1](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000037253929/) & [2](https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037253930&fastReqId=2082517168&fastPos=1), where it suspends its prodeedings and passes on EU law interpretation questions to the Court of Justice of the EU (CJEU), in Luxembourg.
+The French Council of State renders two rulings ([1](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000037253929/) & [2](https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037253930&fastReqId=2082517168&fastPos=1)), by which it suspends its prodeedings and passes on EU law interpretation questions to the Court of Justice of the EU (CJEU), in Luxembourg.
 
 <div class="event-date">Nov. 2018</div>
 
