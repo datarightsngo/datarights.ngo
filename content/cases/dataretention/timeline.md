@@ -50,41 +50,41 @@ With French Data Network, La Quadrature du Net, FFDN, Igwan.net, Privacy Interna
 <div class="event-date">May 6 2016</div>
 
 
-### [Priority Preliminary ruling request on wireless surveillance in France](../../wireless-exception)
+### [Priority Preliminary ruling request on wireless surveillance before the French Constitutional Council](../../wireless-exception)
 
 
-Filing of a Priority Preliminary ruling for the French Constitutional Council (QPC) due to the discovery of a vast legal loophole created in 1991. This loophole meanthad survived the wide ranging 2015 reform and stated that all communications via wireless means would not be granted any of the safeguards created by the 2015 reform. In practice, this meant that most of today's communications (e.g. via wifi, rfid, blouetooth) remained easy to surveil with absolutely no proportionality legal safeguards from abuse. This filing was arguing before the French Constitutional Council that such a provision could simply not be deemed constitutional.
+Filing of a Priority Preliminary ruling for the French Constitutional Council (QPC) due to the discovery of a vast legal loophole created in 1991. This loophole meanthad survived the wide ranging 2015 reform and stated that all communications via wireless means would not be granted any of the safeguards created by the 2015 reform. In practice, this meant that most of today's communications (e.g. via wifi, rfid, blouetooth) remained easy to surveil with absolutely no proportionality legal safeguards from abuse. This filing was arguing before the French Constitutional Council that such a provision could simply not be deemed constitutional. We won the QPC - the vast loophole on wireless communications interception with no oversight is now history.
 
 Procedural detail on QPCs: The QPC is a French Constitutional Law procedure allowing persons involved in a **pending case** to ask the Constitutional Council to assess the constitutionality of laws relating to the case at hand. Here the QPC was made possible as part of the pending case we had started on the Decrees of the Intelligence Law.
 
-<div class="event-date">21 oct. 2016</div>
+<div class="event-date">Oct. 21 2016</div>
 
-### Censure de l’article 24 de la loi Renseignement et retour au Conseil d'État
+### Repeal of article 24 of the Intelligence law and return to the French Council of State 
 
-<div class="event-date">21 déc. 2016</div>
+<div class="event-date">Dec. 21 2016</div>
 
-La Cour de Justice de l'UE rend l'arrêt *Tele2/Watson* et confirme sa jurisprudence *Digital Rights Ireland*. L'arrêt confirme que le droit français n'est pas conforme au droit européen.
+The Court of Justice of the EU renders the *Tele2/Watson* ruling and upholds its *Digital Rights Ireland* one. The ruling confirms that French law does not comply with European law.
 
-<div class="event-date">fév. - nov. 2017</div>
+<div class="event-date">Feb. - Nov. 2017</div>
 
-Dépôts d'observations complémentaires dans les six différentes procédures ouvertes devant le Conseil d'État.
+Filing of additional observations in the six different procedures opened before the Council of State.
 
 <a class="attachment document" href="https://data.datarights.ngo/s/aQHiDTssXkPbqDB">
-<p class="filename">Mémoires et observations au Conseil d'État et à la Cour de Justice de l'UE (2015-2019)
+<p class="filename">Briefs and observations to the Council of State and the Court of Justice of the EU (2015-2019) [FR]
 <span class="filetype dir">dir (12 Mo)</span></p>
 </a>
 
-## Renvoi préjudiciel à la Cour de justice de l'UE
+## Preliminary rulings to the Court of Justice of the EU
 
-<div class="event-date">26 juil. 2018</div>
+<div class="event-date">July 26 2018</div>
 
-Le Conseil d'État [par deux](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000037253929/) [décisions](https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037253930&fastReqId=2082517168&fastPos=1), renvoie l'affaire à Luxembourg, où siège la Cour de justice de l'UE.
+The French Council of State renders two rulings [1](https://www.legifrance.gouv.fr/ceta/id/CETATEXT000037253929/) & [2](https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037253930&fastReqId=2082517168&fastPos=1), where it suspends its prodeedings and passes on EU law interpretation questions to the Court of Justice of the EU (CJEU), in Luxembourg.
 
-<div class="event-date">nov. 2018</div>
+<div class="event-date">Nov. 2018</div>
 
-Dépôts d'observations écrites (affaires C-511/18 et C-512/18)
+The two preliminary rulings become C-511/18 et C-512/18 before the CJEU. We file written observations.
 
-<div class="event-date">9-10 sept. 2019</div>
+<div class="event-date">Sept. 9-10 2019</div>
 
 Audiences de plaidoiries 
 
