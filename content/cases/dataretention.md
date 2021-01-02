@@ -1,5 +1,5 @@
 ---
-TitleMeta:  "Data Retention and Intelligence Law"
+TitleMeta:  "Data Retention and Intelligence Law Cases"
 MetaParent: "Case"
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
@@ -18,4 +18,4 @@ Following the CJEU ruling of “<em>La Quadrature du Net, French Data Network et
       * [article] [Takeaways from Data Rights on the CJEU rulings “<em>Privacy International</em>” and “<em>La Quadrature du Net, French Data Network et al.</em>”](2020-10-eucj-takeaways)
 
 
- - **[Timeline of the case since 2015](timeline)**
+ - **[Timeline of the data retention and Intelligence Law cases since 2015](timeline)**
