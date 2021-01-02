@@ -10,7 +10,6 @@ Introduction: " This legal challenge aims to uphold the case law of the Court of
 
 
 Following the Court of Justice of the EU (CJEU) ruling, the case is now back to the French Council of State (or Conseil d'État).  
-*Details of the case are only available in French. [See how to participate to translations](/action/translate/)*
 
 <div class="event-date">Dec. 2014</div>
 
