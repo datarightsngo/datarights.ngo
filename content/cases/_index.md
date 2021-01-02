@@ -13,9 +13,9 @@ drngoClass: cover cases cover-teufelsberg content-grid
 ## Ongoing cases
 
 <a href="dataretention" id="dataretention" class="case unit">
-<h3>France’s Data Retention Laws and the 2015 Intelligence Act</h3>
+<h3>France’s Intelligence Law Reform of 2015 and General Data Retention Provisions</h3>
 <p>
-    This legal challenge aims to uphold the case law of the Court of Justice of the EU on bulk data retention and real-time analysis in France.
+    In its ruling of October 6 2020 the Court of Justice of the European Union (CJEU) has brought together two of our pending proceedings: the general challenge of bulk data retention and real-time data analysis measures in France, and our vast overarching challenge of the entire Intelligence Law reform of 2015.
     <span class="read-more">Read more</span>
 </p>
 </a>
@@ -24,17 +24,17 @@ drngoClass: cover cases cover-teufelsberg content-grid
 ## Closed cases
 
 <a href="emergency-interceptions" id="emergency-interceptions" class="case unit">
-<h3>France’s real-time interceptions of data under the Emergency State</h3>
+<h3>Real-time interception of data during France's state of emergency </h3>
 <p>
-    The Constitutional Council declared provisions of the French Emergency Act unconstitutional. Data Rights members participated in the case.
+    The Constitutional Council declared provisions of the French Emergency Law unconstitutional. Data Rights members participated in writting and leading the case.
     <span class="read-more">Read more</span>
 </p>
 </a>
 
 <a href="wireless-exception" id="wireless-exception" class="case unit">
-<h3>France’s wireless surveillance exemption loophole</h3>
+<h3>France’s wireless communications surveillance exemption loophole</h3>
 <p>
-    This legal challenge put an end to the loophole created in 1991 which made wireless communications subject to exemptions. Data Rights members participated in the case.
+    This legal challenge before the French Constitutional Council put an end to an extensive loophole created in 1991. This loophole meant that wireless communications (e.g. via wifi, rfid, bluetooth, etc.) could be freely interfered for intelligence purposes with no legal safeguard applicable. Data Rights members participated in writing and leading the case.
     <span class="read-more">Read more</span>
 </p>
 </a>
