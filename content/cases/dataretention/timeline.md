@@ -9,24 +9,24 @@ Introduction: " This legal challenge aims to uphold the case law of the Court of
 ---
 
 
-Following the CJEU ruling, the case is now back to the Conseil d'État in France.  
+Following the Court of Justice of the EU (CJEU) ruling, the case is now back to the Conseil d'État in France.  
 *Details of the case are only available in French. [See how to participate to translations](/action/translate/)*
 
-<div class="event-date">déc. 2014</div>
+<div class="event-date">Dec. 2014</div>
 
-À la suite de l'arrêt *Digital Rights* de la CJUE, French Data Network initie une action pour faire appliquer la jurisprudence européenne en France, où la conservation généralisée des données de communications électroniques est prévue depuis septembre 2001.
+Following the *Digital Rights* judgment of the CJEU, French Data Network initiates a legal action to enforce European case law in France, where the general retention of electronic communications data (often called meta data) exists since September 2001.
 
-## Demande d'abrogation
+## Request for repeal
 
-<div class="event-date">27 avr. 2015</div>
+<div class="event-date">Apr. 27 2015</div>
 
-Alors que le Parlement débat de la Loi Renseignement qui prévoit -- entre autres -- de nouvelles techniques d'exploitation des données de communications, la première étape de cette affaire est de demander au gouvernement l'abrogation des décrets organisant la conservation généralisée des données en France (R.10-13 du code des postes et des communications électroniques et décret 2011-219 d'application de la LCEN).
+While Parliament debates the Intelligence Act which provides - among other things - for new techniques to process communications data, the first step in this case is to request the government for the repeal of the decrees organizing the general retention of data in France (R.10-13 of the French the Postal and Electronic Communications Code and Decree 2011-219 implementing the French Law on confidence in the digital economy (LCEN)).
 
-Les décrets datant de 2006 et 2011, une action dirigée contre eux n'est plus recevable. Cette demande d'abrogation vise donc à ouvrir une voie de droit devant le Conseil d'État pour une action contre la conservation généralisée des données de communications.
+The decrees dating back from 2006 and 2011, an action directed against them is no longer legally allowed. This repeal request therefore aimed to open a judicial remedy before the Council of State for an action against the general retention of communication data (often referred to as metadata).
 
-<div class="event-date">24 juil. 2015</div>
+<div class="event-date">July 24 2015</div>
 
-Promulgation de la loi n<sup>o</sup> 2015-912 relative au renseignement, laquelle prévoit plusieurs décrets d'application qui seront publiés à l'automne et à l'hiver suivants, ouvrant la possibilité de recours devant le Conseil d'État.
+Promulgation of the Intelligence Law (law n<sup>o</sup> 2015-912, later referred to as two laws thanks to our victory on international surveillance provisions), which provides for several implementing decrees which will be published in the following autumn and winter, opening the possibility of appeal before the Council of State.
 
 ## Introductions des recours au Conseil d'État
 
