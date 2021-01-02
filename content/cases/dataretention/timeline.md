@@ -86,20 +86,20 @@ The two preliminary rulings become C-511/18 et C-512/18 before the CJEU. We file
 
 <div class="event-date">Sept. 9-10 2019</div>
 
-Audiences de plaidoiries 
+Hearings in Luxembourg
 
 <a class="attachment document" href="https://data.datarights.ngo/s/aQHiDTssXkPbqDB">
-<p class="filename">Mémoires et observations au Conseil d'État et à la Cour de Justice de l'UE (2015-2019)
+<p class="filename">Briefs and observations to the Council of State and the Court of Justice of the EU (2015-2019) [FR]
 <span class="filetype dir">dir (12 Mo)</span></p>
 </a>
 
-## Arrêt de la Cour de Justice et retour au Conseil d'État
+## CJEU ruling and back to the French Council of State
 
-<div class="event-date">6 oct. 2020</div>
+<div class="event-date">Oct. 6 2020</div>
 
-La Cour de justice de l’Union européenne met en évidence les manquements des lois de surveillance en France, en Belgique et au Royaume-Uni. La plus haute cour de l’UE ouvre ainsi la voie à des réformes structurelles des lois de surveillance européennes. 
+The Court of Justice of the European Union highlighted the failings of surveillance laws in France, Belgium and the United Kingdom. The EU’s highest court is thus paving the way for structural reforms of European surveillance laws.
 
-[Déclaration de Data Rights sur les décisions de la Cour de Justice européenne concernant la «Loi renseignement» française et le «Investigatory Powers Act» britannique](/news/2020-10-06-eucj-mass-surveillance-data-retention)
+[Data Rights’ statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016](/news/2020-10-06-eucj-mass-surveillance-data-retention)
 
 [Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights](../2020-10-eucj-takeaways/)
 
