@@ -5,14 +5,14 @@ Title: Intervention in support of Privacy International against Hacking by State
 description: Details of the intervention by Data Rights at the European Court of
   Human Rights
 Cover: Data Rights and French Data Network were granted the right to intervene
-  at the ECtHR in support of Privacy International and five other NGOs.
+  at the ECtHR in support of Privacy International and five Internet Service Providers (ISPs).
 drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
 ---
 Data Rights (in the name of its funder, Lori Roussey) was admitted to intervene before the European Court of Human Rights (ECtHR) on intelligence services hacking powers to provide the court with legal, political and comparative law arguments. This intervention also evokes the sharing of hacking tools between States.
 
-Context: This case is a direct consequence of the Snowden revelations, where we can see that GCHQ could, inter alia activate a device’s microphone or webcam, identify the location of a device with high-precision, log keystrokes entered into a device, collect login details and passwords for websites and record Internet browsing histories on a device, hide malware installed on a device, with little to no oversight. In 2014, Privacy International (PI) and five other NGOs therefore brought a government hacking case before the Investigatory Powers Tribunal (the UK's jurisdiction on matters of intelligence powers). In 2016, PI brought the case to the European Court of Human Rights. 
+Context: This case is a direct consequence of the Snowden revelations, where we can see that GCHQ could, inter alia activate a device’s microphone or webcam, identify the location of a device with high-precision, log keystrokes entered into a device, collect login details and passwords for websites and record Internet browsing histories on a device and hide malware installed on a device, with little to no oversight. In 2014, Privacy International (PI) and five Internet Service Providers (ISPs) therefore brought a government hacking case before the Investigatory Powers Tribunal (the UK's jurisdiction on matters of intelligence powers). In 2016, PI brought the case to the European Court of Human Rights. 
 
 In 2019 we could intervene. As we had already been closely analysing how the French 2015 intelligence reform had shaped French State hacking powers, together with our extensive experience of French litigation, we were able to draw practical implications for citizens' and companies' rights, in particular the right to effective remedy. The right to effective remedy is paramount in the context of State hacking as it is crucial to have access to fair trials and reparations of the damages experienced (see examples in the intervention, attached below).
 
