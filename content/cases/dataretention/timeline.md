@@ -9,7 +9,7 @@ Introduction: " This legal challenge aims to uphold the case law of the Court of
 ---
 
 
-Following the Court of Justice of the EU (CJEU) ruling, the case is now back to the Conseil d'État in France.  
+Following the Court of Justice of the EU (CJEU) ruling, the case is now back to the French Council of State (or Conseil d'État).  
 *Details of the case are only available in French. [See how to participate to translations](/action/translate/)*
 
 <div class="event-date">Dec. 2014</div>
@@ -22,37 +22,40 @@ Following the *Digital Rights* judgment of the CJEU, French Data Network initiat
 
 While Parliament debates the Intelligence Act which provides - among other things - for new techniques to process communications data, the first step in this case is to request the government for the repeal of the decrees organizing the general retention of data in France (R.10-13 of the French the Postal and Electronic Communications Code and Decree 2011-219 implementing the French Law on confidence in the digital economy (LCEN)).
 
-The decrees dating back from 2006 and 2011, an action directed against them is no longer legally allowed. This repeal request therefore aimed to open a judicial remedy before the Council of State for an action against the general retention of communication data (often referred to as metadata).
+The decrees dating back from 2006 and 2011, an action directed against them is no longer legally allowed. This repeal request therefore aimed to open a judicial remedy before the French Council of State (or Conseil d'État) for an action against the general retention of communication data (often referred to as metadata).
 
 <div class="event-date">July 24 2015</div>
 
-Promulgation of the Intelligence Law (law n<sup>o</sup> 2015-912, later referred to as two laws thanks to our victory on international surveillance provisions), which provides for several implementing decrees which will be published in the following autumn and winter, opening the possibility of appeal before the Council of State.
+Promulgation of the Intelligence Law (law n<sup>o</sup> 2015-912, later referred to as two laws thanks to our victory on international surveillance provisions), which provides for several implementing decrees which will be published in the following autumn and winter, opening the possibility of appeal before the French Council of State.
 
-## Introductions des recours au Conseil d'État
+## Introduction of appeals before the French Council of State
 
-<div class="event-date">1er sep. 2015</div>
+<div class="event-date">Sep. 1st 2015</div>
 
-Dépôt de la requête introductive d'instance au Conseil d'État contre le refus d'abroger les décrets organisant la conservation généralisée des données de communications par les opérateurs en France
+Filing of the request to start the proceedings before the French Council of State against the refusal to repeal the decrees organizing the general storage of communication data (metadata) by operators in France
 
-<div class="event-date">nov. 2015 - jan. 2016</div>
+<div class="event-date">Nov. 2015 - Jan. 2016</div>
 
-Dépôts de cinq requêtes au Conseil d'État contre les décrets d'application de la Loi Renseignement
+Filing of five requests to the French Council of State against the implementing decrees of the Intelligence Law
 
-<div class="event-date">8 fév. 2016</div>
+<div class="event-date">Feb. 8 2016</div>
 
-[Dépôts d'interventions de Privacy International et Center for Democracy and Technology](https://www.privacyinternational.org/legal-action/lqdn-fdn-and-others-v-france)
-
-
-Affaires N<sup>os</sup> : 393099, 394922, 394924, 394925, 397844, 397851
-
-Avec French Data Network, La Quadrature du Net, FFDN, Igwan.net, Privacy International et le Center for Democracy and Technology, et en collaboration avec le cabinet Spinosi & Sureau.
-
-<div class="event-date">6 mai 2016</div>
+[Intervention from Privacy International and Center for Democracy and Technology](https://www.privacyinternational.org/legal-action/lqdn-fdn-and-others-v-france)
 
 
-### [QPC sur la surveillance des communications sans fil en France](../../wireless-exception)
+Cases N<sup>os</sup>: 393099, 394922, 394924, 394925, 397844, 397851
 
-Cette QPC a mis fin au vide juridique créé en 1991 et qui permettait d’exempter la surveillance des communications sans fil de tout cadre légal. 
+With French Data Network, La Quadrature du Net, FFDN, Igwan.net, Privacy International and le Center for Democracy and Technology, together with the collaboration of the Spinosi & Sureau law firm.
+
+<div class="event-date">May 6 2016</div>
+
+
+### [Priority Preliminary ruling request on wireless surveillance in France](../../wireless-exception)
+
+
+Filing of a Priority Preliminary ruling for the French Constitutional Council (QPC) due to the discovery of a vast legal loophole created in 1991. This loophole meanthad survived the wide ranging 2015 reform and stated that all communications via wireless means would not be granted any of the safeguards created by the 2015 reform. In practice, this meant that most of today's communications (e.g. via wifi, rfid, blouetooth) remained easy to surveil with absolutely no proportionality legal safeguards from abuse. This filing was arguing before the French Constitutional Council that such a provision could simply not be deemed constitutional.
+
+Procedural detail on QPCs: The QPC is a French Constitutional Law procedure allowing persons involved in a **pending case** to ask the Constitutional Council to assess the constitutionality of laws relating to the case at hand. Here the QPC was made possible as part of the pending case we had started on the Decrees of the Intelligence Law.
 
 <div class="event-date">21 oct. 2016</div>
 
