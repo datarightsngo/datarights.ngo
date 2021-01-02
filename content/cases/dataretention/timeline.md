@@ -101,6 +101,7 @@ The Court of Justice of the European Union highlighted the failings of surveilla
 
 [Data Rights’ statement on the European Court of Justice's judgements on France's “Loi Renseignement” 2015 and the UK's “Investigatory Powers Act” 2016](/news/2020-10-06-eucj-mass-surveillance-data-retention)
 
-[Les points clefs des décisions de la CJUE «&nbsp;<em>Privacy International</em>&nbsp;» et «&nbsp;<em>La Quadrature du Net, French Data Network et a.</em>&nbsp;» pour Data Rights](../2020-10-eucj-takeaways/)
+[
+Takeaways from Data Rights on the CJEU rulings «&nbsp;<em>Privacy International</em>&nbsp;» and «&nbsp;<em>La Quadrature du Net, French Data Network et al.</em>&nbsp;»](../2020-10-eucj-takeaways/)
 
-À la suite de l’arrêt, l’affaire retourne à nouveau au Conseil d’État français.
+Following the CJEU ruling, the cases come back to the French Council of State, whose proceedings were paused for the preliminary rulings. 
