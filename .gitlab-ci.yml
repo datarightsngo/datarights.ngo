@@ -37,7 +37,7 @@ test:
   stage: test
   script:
   # Change baseurl to allow navigation in test artifacts.
-  - sed -i 's|baseurl = "https://datarights.ngo"|baseurl = "https://datarights.gitlab.io/-/website/-/jobs/'$CI_JOB_ID'/artifacts/html/"|' config.toml 
+  - sed -i 's|baseurl = "https://datarights.ngo"|baseurl = "https://datarights.gitlab.io/-/website/-/jobs/'$CI_JOB_ID'/artifacts/html/"|' config/_default/config.toml 
   # Check version
   - hugo version
   # Generation and checks
