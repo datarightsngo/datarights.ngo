@@ -1,75 +1,78 @@
 ---
-MetaTitle: "Wireless interceptions exception"
-MetaParent: "Case"
-drngoParent: Legal Cases
-drngoParentUrl: /cases/
+MetaParent: Case
+Title: France’s wireless communications surveillance loophole
+Cover: ""
 drngoClass: case timeline
-Title: "France’s wireless surveillance exemption loophole"
-introduction: "This legal challenge put an end to the loophole created in 1991 which made wireless communications subject to exemptions. Data Rights members participated in the case."
+drngoParent: Legal Cases
+MetaTitle: Wireless interceptions exception
+introduction: This legal challenge put an end to the loophole created in 1991
+  which made wireless communications subject to exemptions. Data Rights members
+  participated in the case.
+Introduction: The French Constitutional Council put an end to an extensive
+  loophole covering wireless communications (e.g. via wifi, rfid, bluetooth,
+  etc.). They could be freely interfered for intelligence purposes with no legal
+  safeguard applicable. Data Rights members participated in writing and leading
+  the case.
+drngoParentUrl: /cases/
 ---
+*Details of the case are only available in English and French. [See how to participate to translations](/action/translate/)*
 
+## Priority preliminary ruling request (QPC) on wireless communications surveillance to the French Council of State
 
-*Details of the case are only available in French. [See how to participate to translations](/action/translate/)*
+<div class="event-date">May 6 2016</div>
 
+The QPC is a French Constitutional Law procedure allowing persons involved in a **pending case** to ask the court they are before to suspend the proceedings and pass on an overarching question the Constitutional Council to assess the constitutionality of laws relating to the case at hand. Here the QPC was made possible as part of the pending case we had started before the French Council of State on the Decrees of the Intelligence Law reform of 2015.
 
-## Introduction d'une QPC au Conseil d'État 
+Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services ([as in the case of the fadettes of Le Monde](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne), where phone bills of journalists were intercepted).
 
-<div class="event-date">6 mai 2016</div>
+Cases N<sup>ers</sup>: QPC 2016-590, 394922, 394924, 394925, 397844, 397851
 
-Cette QPC (pour Question prioritaire de constitutionnalité) a été soulevée devant le Conseil d'État à l'occasion des procédures de French Data Network, La Quadrature du Net, FFDN et Igwan contre les décrets de la Loi Renseignement de 2015.
-
-En effet, le Parlement avait reconduit «l'exception hertzienne» introduite en droit français en 1991. À l'époque censée couvrir des communications militaires, l'essor des communications mobiles et des réseaux sans-fil l'a rendu totalement obsolète, disproportionnée et source d'abus par les services de police et renseignement (comme dans [l'affaire des fadettes du Monde](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne)).
-
-Affaires N<sup>os</sup> : QPC 2016-590, 394922, 394924, 394925, 397844, 397851
-
-Avec French Data Network, La Quadrature du Net, FFDN et en collaboration avec le cabinet Spinosi & Sureau.
+Cases gathering non-profit Internet service providers French Data Network, FDN Federation, Igwan.net and  the Quadrature du Net organisation, together with the Spinosi & Sureau law firm.
 
 <a href="https://data.datarights.ngo/s/jdmn3x8oscs97xb/download" class="attachment document">
 <!-- <img src="/assets/image.jpg" alt=" "> -->
-<p class="filename">Mémoire d'introduction de question prioritaire de constitutionnalité
+<p class="filename">QPC Brief for the Council
 <span class="filetype pdf">pdf</span></p>
 </a>
 
-<div class="event-date">29 juin 2016</div>
+<div class="event-date">June 29 2016</div>
 
 <a class="attachment document" href="https://data.datarights.ngo/s/8ksY5azEyFxLq7e/download">
 <!-- <img src="/assets/image.jpg" alt=" "> -->
-<p class="filename">Mémoire en réplique au gouvernement
+<p class="filename">Brief to answer to the French government
 <span class="filetype pdf">pdf</span></p>
 </a>
 
-## Transmission au Conseil Constitutionnel
+## QPC transmission to the French Constitutional Council
 
-<div class="event-date">22 juil. 2016</div>
+<div class="event-date">July 22 2016</div>
 
-Le Conseil d'État [décide qu’il existe un doute sur la constitutionnalité](http://www.conseil-etat.fr/fr/arianeweb/CE/decision/2016-07-22/394922) et transmet au Conseil constitutionnel.
+Based on our briefs the French Council of State [concluded there were indeed doubts on the consitutionality of the provision on wireless communications](https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2016-07-22/394922). The Council of State therefore transmitted our question to the Constitutional Council[](http://www.conseil-etat.fr/fr/arianeweb/CE/decision/2016-07-22/394922).
 
-<div class="event-date">22 août 2016</div>
+<div class="event-date">Aug. 22 2016</div>
 
 <a class="attachment document" href="https://data.datarights.ngo/s/M8wsnrEwXoQcbim/download">
 <!-- <img src="/assets/image.jpg" alt=" "> -->
-<p class="filename">Premières observations
+<p class="filename">First observations brief
 <span class="filetype pdf">pdf</span></p>
 </a>
 
-<div class="event-date">sept. 2016</div>
+<div class="event-date">Sept. 2016</div>
 
 <a class="attachment document" href="https://data.datarights.ngo/s/kjpLotJaSP4SmJ3/download">
 <!-- <img src="/assets/image.jpg" alt=" "> -->
-<p class="filename">Secondes observations
+<p class="filename">Secondes observations brief
 <span class="filetype pdf">pdf</span></p>
 </a>
 
+## Repeal of the intelligence loophole, deemed unconstitutional
 
+<div class="event-date">Oct. 21 2016</div>
 
-## Censure de l'article 24 de la Loi Renseignement 
+The Constitutional Council [declares article 24 of the Intelligence Law contrary to the Declaration of Human and Civil Rights of 1789](https://www.conseil-constitutionnel.fr/decision/2016/2016590QPC.htm). It notes that the “wireless exception” allows the collection of personal data and the interception of communications and that these intelligence measures are not subject “\*to any substantive or procedural conditions\*”and limited by “\*no guarantee\*".
 
-<div class="event-date">21 oct. 2016</div>
+This "\*manifestly disproportionate interference with the right to respect for private life and the secrecy of correspondence\*" is contrary to Article 2 of the Declaration of 1789. That being said, the Council considers that "\*public authorities should not be deprived of any possibility of monitoring wireless transmissions\*" and therefore postponed the effect of its decision to more than a year.
 
-Le Conseil constitutionnel [déclare cet article de la Loi Renseignement contraire à la Déclaration des droits de l'homme et du citoyen de 1789](http://www.conseil-constitutionnel.fr/conseil-constitutionnel/francais/les-decisions/acces-par-date/decisions-depuis-1959/2016/2016-590-qpc/decision-n-2016-590-qpc-du-21-octobre-2016.148047.html). Il relève que l'“exception hertzienne” permet le recueil de données personnelles et l'interception de communications et que ces mesures de renseignement ne sont soumises «*à aucune condition de fond ni de procédure*» et encadrées d'«*aucune garantie*».
+<div class="event-date">Dec. 31 2017</div>
 
-Cette «*atteinte manifestement disproportionnée au droit au respect de la vie privée et au secret des correspondances*» est contraire à l'article 2 de la Déclaration de 1789 mais le Conseil considère qu'il ne faut pas priver « *les pouvoirs publics de toute possibilité de surveillance des transmissions empruntant la voie hertzienne* » et reporte l'effet de sa décision de plus d'un an -- en l'assortissant de manière inédite de certaines garanties, devançant ainsi le rôle du législateur et “prenant la plume”.
-
-<div class="event-date">31 déc. 2017</div>
-
-Date d'effet de l'abrogation.
+Entry into force of the repeal of article 24 of the Intelligence Law.

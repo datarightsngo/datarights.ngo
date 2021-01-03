@@ -1,0 +1,4 @@
+#baseurl = "https://datarights.ngo/"
+baseurl = "https://admindrngo.netlify.app/"
+buildDrafts = true
+buildFuture = true
