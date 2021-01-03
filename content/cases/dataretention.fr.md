@@ -1,12 +1,16 @@
 ---
-TitleMeta: "Conservation des données et Loi renseignement"
-MetaParent: "Affaire"
+MetaParent: Affaire
+drngoParentCategory: Affaires en cours
+TitleMeta: Conservation des données de connexion et Loi renseignement
+Title: Remise en cause du droit français de la conservation des données et de la
+  Loi Renseignement de 2015
+Introduction: Cette action en justice vise à faire appliquer la jurisprudence de
+  la Cour de justice de l'UE sur la conservation généralisée de données
+  de  connexion et l'analyse de celles-ci en temps réel, ainsi que d'autres
+  mesures de la loi relative au renseignement du 24 juillet 2015.
+drngoClass: case
 drngoParent: Affaires en justice
 drngoParentUrl: /cases/
-drngoClass: case 
-Title: "Remise en cause des lois françaises de conservation des données et de surveillance et la loi renseignement de 2015"
-Introduction: "Cette action en justice vise à faire appliquer la jurisprudence de la Cour de justice de l'UE sur la conservation généralisée de données et l'analyse en temps réel."
-drngoParentCategory: "Affaires en cours"
 ---
 
 À la suite de l'arrêt de la CJUE, l'affaire retourne désormais au Conseil d'État français. 
