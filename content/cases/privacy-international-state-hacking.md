@@ -1,14 +1,13 @@
 ---
 TitleMeta: PI State Hacking Case
-Title: Privacy International’s State Hacking Case
-description: Details of the intervention by Data Rights at the European Court of
-  Human Rights
-Cover: Data Rights and French Data Network were granted the right to intervene
-  at the ECtHR in support of Privacy International and five Internet Service Providers (ISPs).
+Title: Privacy International’s state hacking case
+description: Details of the intervention by Data Rights at the European Court of Human Rights
+Cover: Data Rights and French Data Network were granted the right to intervene at the ECtHR in support of Privacy International and five Internet Service Providers (ISPs).
 drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
 ---
+
 Data Rights (in the name of its funder, Lori Roussey) was admitted to intervene before the European Court of Human Rights (ECtHR) on intelligence services hacking powers to provide the court with legal, political and comparative law arguments. This intervention also evokes the sharing of hacking tools between States.
 
 Context: This case is a direct consequence of the Snowden revelations, where we can see that GCHQ could, inter alia activate a device’s microphone or webcam, identify the location of a device with high-precision, log keystrokes entered into a device, collect login details and passwords for websites and record Internet browsing histories on a device and hide malware installed on a device, with little to no oversight. In 2014, Privacy International (PI) and five Internet Service Providers (ISPs) therefore brought a government hacking case before the Investigatory Powers Tribunal (the UK's jurisdiction on matters of intelligence powers). In 2016, PI brought the case to the European Court of Human Rights. 
