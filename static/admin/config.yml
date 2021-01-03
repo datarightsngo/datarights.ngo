@@ -14,7 +14,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -66,7 +66,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -92,7 +92,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -115,7 +115,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
@@ -139,7 +139,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -189,7 +189,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Name', name: 'Title', required: false, widget: 'string' }
       - { label: 'Role', name: 'subtitle', required: false, widget: 'string' }
@@ -220,7 +220,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
@@ -244,7 +244,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
