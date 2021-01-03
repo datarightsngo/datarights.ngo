@@ -7,6 +7,7 @@ drngoParent: Legal Cases
 drngoParentUrl: /cases/
 introduction: The Constitutional Council declared provisions of the French
   Emergency Act unconstitutional. Data Rights members participated in the case.
+drngoParentCategory: "📕 Closed Cases"
 ---
 *Details of the case are only available in English & French. [See how to participate to translations](/action/translate/)*
 

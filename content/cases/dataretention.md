@@ -11,8 +11,8 @@ Introduction: This legal challenge aims to uphold the case law of the Court of
 drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
+drngoParentCategory: "Ongoing Cases"
 ---
-*Details of the case are only available in English & French. [See how to participate to translations](/action/translate/)*
 
 Following the CJEU ruling of “<em>La Quadrature du Net, French Data Network et al.</em>”, our cases are now back to the French Council of State (Conseil d'État).  As the CJEU has joined our data retention and 2015 Intelligence Law cases it is easy to get confused. To ease your overview we have separated our analysis of the CJEU ruling and the general timeline relevant for both cases (mindful that what we call the 2015 Intelligence Law case is itself multiple cases, as we could only file against the Decrees, not the Law itself). 
 

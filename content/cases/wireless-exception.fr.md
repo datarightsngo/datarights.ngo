@@ -6,6 +6,7 @@ drngoParent: Affaires en justice
 drngoParentUrl: /cases/
 Title: "Le vide juridique de la surveillance des communications sans fil en France"
 introduction: "Ce recours a mis fin au vide juridique créé en 1991 et qui permettait d'exempter la surveillance des communications sans fil de tout cadre légal. Des membres de Data Rights ont œuvré à cette affaire."
+drngoParentCategory: "📕 Affaires closes"
 ---
 
 

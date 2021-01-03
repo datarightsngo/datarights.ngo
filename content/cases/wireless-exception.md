@@ -14,6 +14,7 @@ Introduction: The French Constitutional Council put an end to an extensive
   safeguard applicable. Data Rights members participated in writing and leading
   the case.
 drngoParentUrl: /cases/
+drngoParentCategory: "📕 Closed Cases"
 ---
 *Details of the case are only available in English and French. [See how to participate to translations](/action/translate/)*
 
