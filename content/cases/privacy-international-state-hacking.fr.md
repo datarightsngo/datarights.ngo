@@ -8,6 +8,7 @@ Cover: Data Rights et FDN ont reçu l'autorisation d'intervenir devant la CEDH e
 drngoClass: case
 drngoParent: Affaires en justice
 drngoParentUrl: /fr/cases/
+drngoParentCategory: "📕 Affaires closes"
 ---
 Data Rights (par la personne de sa fondatrice, Lori Roussey) a été admise à intervenir devant la Cour européenne des Droits de L'Homme (CEDH), au sujet des conséquences du recours par les services de renseignement au hacking d'équipements, du partage entre services de ces méthodes, et des effets négatifs d'un régime légal qui ne fournit pas de recours effectif aux victimes d'abus.
 

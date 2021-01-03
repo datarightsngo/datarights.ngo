@@ -1,22 +1,20 @@
 ---
 MetaParent: Case
-Title: France’s wireless communications surveillance loophole
-Cover: ""
+drngoParentCategory: 📕 Closed Cases
 drngoClass: case timeline
 drngoParent: Legal Cases
 MetaTitle: Wireless interceptions exception
+Title: France’s wireless communications surveillance loophole
+Cover: ""
 introduction: This legal challenge put an end to the loophole created in 1991
   which made wireless communications subject to exemptions. Data Rights members
   participated in the case.
-Introduction: The French Constitutional Council put an end to an extensive
-  loophole covering wireless communications (e.g. via wifi, rfid, bluetooth,
-  etc.). They could be freely interfered for intelligence purposes with no legal
-  safeguard applicable. Data Rights members participated in writing and leading
-  the case.
+Introduction: This case at the French Constitutional Council put an end to the
+  loophole which, since 1991, had been exempting all wireless communications
+  surveillance of legal safeguards. Data Rights members participated in writing
+  and leading the legal challenge.
 drngoParentUrl: /cases/
 ---
-*Details of the case are only available in English and French. [See how to participate to translations](/action/translate/)*
-
 ## Priority preliminary ruling request (QPC) on wireless communications surveillance to the French Council of State
 
 <div class="event-date">May 6 2016</div>
