@@ -6,8 +6,8 @@ Title: Remise en cause du droit français de la conservation des données et de 
   Loi Renseignement de 2015
 Introduction: Cette action en justice vise à faire appliquer la jurisprudence de
   la Cour de justice de l'UE sur la conservation généralisée de données
-  de  connexion et l'analyse de celles-ci en temps réel, ainsi que d'autres
-  mesures de la loi relative au renseignement du 24 juillet 2015.
+  de  connexion et l'analyse de celles-ci en temps réel (loi relative au
+  renseignement du 24 juillet 2015).
 drngoClass: case
 drngoParent: Affaires en justice
 drngoParentUrl: /cases/
