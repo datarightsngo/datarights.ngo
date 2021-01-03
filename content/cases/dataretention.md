@@ -1,11 +1,12 @@
 ---
-TitleMeta:  "Data Retention and Intelligence Law Cases"
-MetaParent: "Case"
+TitleMeta: Data Retention and Intelligence Law Cases
+MetaParent: Case
+Title: France’s data retention provisions and the 2015 Intelligence Law
+Introduction: This legal challenge aims to uphold the case law of the Court of
+  Justice of the EU on bulk data retention and real-time analysis in France.
+drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
-drngoClass: case 
-Title: "France’s Data Retention Laws and the 2015 Intelligence Law"
-Introduction: "This legal challenge aims to uphold the case law of the Court of Justice of the EU on bulk data retention and real-time analysis in France."
 ---
 
 
