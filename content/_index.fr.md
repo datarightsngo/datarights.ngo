@@ -1,5 +1,4 @@
 ---
-title: "Data Rights"
 drngoClass: "home"
 ---
 
