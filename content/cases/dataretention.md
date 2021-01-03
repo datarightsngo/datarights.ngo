@@ -1,7 +1,11 @@
 ---
-TitleMeta: Data Retention and Intelligence Law Cases
 MetaParent: Case
-Title: France’s data retention provisions and the 2015 Intelligence Law
+TitleMeta: Data Retention and Intelligence Law Cases
+Title: France’s Intelligence Law reform and data retention provisions
+Cover: "In October 2020 the Court of Justice of the European Union (CJEU) has
+  brought together our pending proceedings: the general challenge of bulk data
+  retention and real-time data analysis measures in France, and our challenge of
+  the entire Intelligence Law reform of 2015."
 Introduction: This legal challenge aims to uphold the case law of the Court of
   Justice of the EU on bulk data retention and real-time analysis in France.
 drngoClass: case
