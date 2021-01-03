@@ -1,10 +1,7 @@
 ---
 MetaParent: Case
 Title: France’s wireless communications surveillance loophole
-Cover: The French Constitutional Council put an end to an extensive loophole
-  covering wireless communications (e.g. via wifi, rfid, bluetooth, etc.). They
-  could be freely interfered for intelligence purposes with no legal safeguard
-  applicable. Data Rights members participated in writing and leading the case.
+Cover: ""
 drngoClass: case timeline
 drngoParent: Legal Cases
 MetaTitle: Wireless interceptions exception
