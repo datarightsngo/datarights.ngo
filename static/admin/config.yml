@@ -56,7 +56,6 @@ collections:
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
       - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'cases--dataretention'
@@ -104,7 +103,6 @@ collections:
       - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
   - name: 'about'
@@ -129,7 +127,6 @@ collections:
       - { label: 'Show Prev/Next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'Weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'people'
@@ -159,7 +156,6 @@ collections:
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
       - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'info'
@@ -186,7 +182,6 @@ collections:
       - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
   - name: 'info--data-policy'
@@ -211,6 +206,5 @@ collections:
       - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
