@@ -11,8 +11,8 @@ introduction: This legal challenge put an end to the loophole created in 1991
   participated in the case.
 Introduction: This case at the French Constitutional Council put an end to the
   loophole which, since 1991, had been exempting all wireless communications
-  surveillance of legal safeguards. Data Rights members participated in writing
-  and leading the legal challenge.
+  surveillance of legal safeguards. Data Rights members contributed to the legal
+  challenge.
 drngoParentUrl: /cases/
 ---
 ## Priority preliminary ruling request (QPC) on wireless communications surveillance to the French Council of State
