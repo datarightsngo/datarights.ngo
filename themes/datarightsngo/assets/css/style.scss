@@ -1291,3 +1291,21 @@ body.id-news--_index {
         margin-top: -1.5em;
     }
 } 
+
+/* staging */
+
+body > .netlify-admin {
+    position: fixed;
+    top: 0;
+    right: 5px;
+    margin: 0;
+    padding: 0;
+    a.edit {
+        font-size: 80%;
+        color: white;
+        border-bottom: 2px solid #ccc;
+        background: #999;
+        margin: 0;
+        padding: 5px 15px;
+    }
+}
