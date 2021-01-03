@@ -1,11 +1,12 @@
 ---
-MetaTitle: "Emergency real time interceptions"
-MetaParent: "Case"
+MetaTitle: Emergency real time interceptions
+MetaParent: Case
+Title: Real-time interception of data during France's state of emergency
+drngoClass: case timeline
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
-drngoClass: case timeline
-Title: "France’s real time interceptions of data under the Emergency State"
-introduction: "The Constitutional Council declared provisions of the French Emergency Act unconstitutional. Data Rights members participated in the case."
+introduction: The Constitutional Council declared provisions of the French
+  Emergency Act unconstitutional. Data Rights members participated in the case.
 ---
 
 
