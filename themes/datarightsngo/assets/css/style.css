@@ -11529,6 +11529,10 @@ body > .netlify-admin a {
   color: white;
   text-decoration: underline;
 }
+body > .netlify-admin .info {
+  display: block;
+  margin-right: 80px;
+}
 body > .netlify-admin a.edit {
   position: fixed;
   top: 0;
