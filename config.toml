@@ -1,5 +1,5 @@
-#baseurl = "https://datarights.ngo/"
-baseurl = "https://admindrngo.netlify.app/"
+baseurl = "https://datarights.ngo/"
+#baseurl = "https://admindrngo.netlify.app/" ## use the -b option of hugo server on netlify instead
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
