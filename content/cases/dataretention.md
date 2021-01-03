@@ -1,20 +1,16 @@
 ---
 MetaParent: Case
+drngoParentCategory: Ongoing Cases
 TitleMeta: Data Retention and Intelligence Law Cases
-Title: France’s Intelligence Law reform and data retention provisions
-Cover: "In October 2020 the Court of Justice of the European Union (CJEU) has
-  brought together our pending proceedings: the general challenge of bulk data
-  retention and real-time data analysis measures in France, and our challenge of
-  the entire Intelligence Law reform of 2015."
+Title: France’s Data Retention Law and the 2015 Intelligence Act
+Cover: ""
 Introduction: This legal challenge aims to uphold the case law of the Court of
   Justice of the EU on bulk data retention and real-time analysis in France.
 drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
-drngoParentCategory: "Ongoing Cases"
 ---
-
-Following the CJEU ruling of “<em>La Quadrature du Net, French Data Network et al.</em>”, our cases are now back to the French Council of State (Conseil d'État).  As the CJEU has joined our data retention and 2015 Intelligence Law cases it is easy to get confused. To ease your overview we have separated our analysis of the CJEU ruling and the general timeline relevant for both cases (mindful that what we call the 2015 Intelligence Law case is itself multiple cases, as we could only file against the Decrees, not the Law itself). 
+Following the CJEU ruling of “<em>La Quadrature du Net, French Data Network et al.</em>”, our cases are now back to the French Council of State (Conseil d'État).   
 
 * October 2020:
 
