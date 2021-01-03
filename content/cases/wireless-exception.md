@@ -72,7 +72,7 @@ Based on our briefs the French Council of State [concluded there were indeed dou
 
 <div class="event-date">Oct. 21 2016</div>
 
-The Constitutional Council \[declares article 24 of the Intelligence Law contrary to the Declaration of the Rights of Human and Civil Rights of 1789] (https://www.conseil-constitutionnel.fr/decision/2016/2016590QPC.htm). It notes that the “wireless exception” allows the collection of personal data and the interception of communications and that these intelligence measures are not subject “\*to any substantive or procedural conditions\*”and limited by “\*no guarantee\*".
+The Constitutional Council \[declares article 24 of the Intelligence Law contrary to the Declaration of Human and Civil Rights of 1789](https://www.conseil-constitutionnel.fr/decision/2016/2016590QPC.htm). It notes that the “wireless exception” allows the collection of personal data and the interception of communications and that these intelligence measures are not subject “\*to any substantive or procedural conditions\*”and limited by “\*no guarantee\*".
 
 This "\*manifestly disproportionate interference with the right to respect for private life and the secrecy of correspondence\*" is contrary to Article 2 of the Declaration of 1789. That being said, the Council considers that "\*public authorities should not be deprived of any possibility of monitoring wireless transmissions\*" and therefore postponed the effect of its decision to more than a year.
 
