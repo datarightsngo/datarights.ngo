@@ -15,8 +15,8 @@ introduction: The Constitutional Council declared provisions of the French
 <div class="event-date">Aug. 5 2016</div>
 
 There is no procedural avenue in France that allows a citizen to appeal directly to the Constitutional Council if a law contrary to the Constitution has been promulgated. The steps followed in this case are therefore:\
-1. Asking the government to repeal a regulatory text related to the law contrary to the Constitution (in our case, a decree implementing the Intelligence Law, see example below);
 
+1. Asking the government to repeal a regulatory text related to the law contrary to the Constitution (in our case, a decree implementing the Intelligence Law, see example below);
 2. Await for a negative response or, in the absence of a response, await for the end of the legal period allowing us to deem that the absence of a response constituting an implicit refusal decision.
 
 The government's refusal to repeal a regulatory provision may be the subject of an appeal for “excess of power” before the Council of State.
@@ -57,11 +57,9 @@ The sole purpose of the filing of a case before the Council of State was to refe
 <p class="filename">Memorandum answering the Government's defence
 <span class="filetype pdf">pdf</span></p></a>
 
-## Transmission to the Constitutional Council 
+## Transmission to the Constitutional Council
 
 <div class="event-date">May 2017</div>
-
-https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2017-05-17/405792
 
 The French Council of State [consideres there is a doubt on constitutionality](https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2017-05-17/405792), suspends proceedings and transmits the question to the Constitutional Council. 
 
@@ -81,7 +79,7 @@ The French Council of State [consideres there is a doubt on constitutionality](h
 
 <div class="event-date">Aug. 4 2017</div>
 
-The Constitutional Council \[declares part of the article contrary to the Declaration of Human and Civic Rights of 1789](https://www.conseil-constitutionnel.fr/decision/2017/2017648QPC.htm).
+The Constitutional Council [declares part of the article contrary to the Declaration of Human and Civic Rights of 1789](https://www.conseil-constitutionnel.fr/decision/2017/2017648QPC.htm).
 
 The Council noted that the law extending the state of emergency measures "\*made it possible for a large number of people to be the subject of this \[real-time interception] technique, without their link to the threat necessarily being close\*" without providing for any substantial limitation such as a maximum number of authorisations.
 
