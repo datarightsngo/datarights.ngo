@@ -1,10 +1,11 @@
 ---
 TitleMeta: PI State Hacking Case
-Title: Privacy International’s State Hacking Case
+Title: Privacy International’s state hacking case
 description: Details of the intervention by Data Rights at the European Court of
   Human Rights
 Cover: Data Rights and French Data Network were granted the right to intervene
-  at the ECtHR in support of Privacy International and five Internet Service Providers (ISPs).
+  at the ECtHR in support of Privacy International and five Internet Service
+  Providers (ISPs).
 drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
