@@ -1,6 +1,6 @@
 ---
 TitleMeta: Affaire Privacy International contre R.U.
-Title: Affaire sur le hacking de Privacy International
+Title: Affaire sur le hacking pour l'État, de Privacy International
 description: Détails sur l'intervention de Data Rights à la Cour européenne des
   Droits de l'Homme
 Cover: Data Rights et FDN ont reçu l'autorisation d'intervenir devant la CEDH en
