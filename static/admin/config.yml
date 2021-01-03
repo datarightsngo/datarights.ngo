@@ -1,12 +1,17 @@
 backend:
   name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
+site_url: https://admindrngo.netlify.app
+display_url: https://datarights.ngo
+logo_url: /logo/data-rights.svg
+show_preview_links: true
 media_folder: static/assets/media
 public_folder: /assets/media
 i18n: 
   structure: multiple_files
   locales: [en, fr]
   default_locale: en
+publish_mode: editorial_workflow
 collections:
   - name: 'news'
     label: 'News'
@@ -14,7 +19,7 @@ collections:
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -39,7 +44,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -65,7 +70,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -91,7 +96,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -114,7 +119,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
@@ -138,7 +143,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -162,7 +167,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
@@ -188,7 +193,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Name', name: 'Title', required: false, widget: 'string' }
       - { label: 'Role', name: 'subtitle', required: false, widget: 'string' }
@@ -219,7 +224,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
@@ -243,7 +248,7 @@ collections:
     create: true
     slug: '{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
