@@ -1,13 +1,18 @@
 ---
-MetaTitle: Wireless interceptions exception
 MetaParent: Case
 Title: France’s wireless communications surveillance loophole
 drngoClass: case timeline
 drngoParent: Legal Cases
-drngoParentUrl: /cases/
+MetaTitle: Wireless interceptions exception
 introduction: This legal challenge put an end to the loophole created in 1991
   which made wireless communications subject to exemptions. Data Rights members
   participated in the case.
+Introduction: The French Constitutional Council put an end to an extensive
+  loophole covering wireless communications (e.g. via wifi, rfid, bluetooth,
+  etc.). They could be freely interfered for intelligence purposes with no legal
+  safeguard applicable. Data Rights members participated in writing and leading
+  the case.
+drngoParentUrl: /cases/
 ---
 
 
