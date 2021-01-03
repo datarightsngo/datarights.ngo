@@ -1,4 +1,4 @@
-backend:
+ackend:
   name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
 site_url: https://admindrngo.netlify.app
@@ -34,7 +34,7 @@ collections:
       - { label: 'Parent URL (suggestion: /news/ or /lang-id/news/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'Show entries (suggestion only for index page)', name: 'drngoShowentries', required: false, widget: 'boolean' }
       - { label: 'Show subscribe form', name: 'drngoShowSubscribe', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
+      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, default: "", widget: 'datetime' }
     identifier_field: Title
     sortable_fields: ['date', 'Title', 'TitleMeta']
   - name: 'campaigns'
