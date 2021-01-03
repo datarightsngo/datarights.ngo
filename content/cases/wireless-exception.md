@@ -23,7 +23,7 @@ drngoParentUrl: /cases/
 
 The QPC is a French Constitutional Law procedure allowing persons involved in a **pending case** to ask the court they are before to suspend the proceedings and pass on an overarching question the Constitutional Council to assess the constitutionality of laws relating to the case at hand. Here the QPC was made possible as part of the pending case we had started before the French Council of State on the Decrees of the Intelligence Law reform of 2015.
 
-Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services ([as in the case of the fadettes du Monde \[FR]](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne), where phone bills of journalists were intercepted).
+Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services ([as in the case of the fadettes du Monde](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne) \[FR], where phone bills of journalists were intercepted).
 
 Cases N<sup>ers</sup>: QPC 2016-590, 394922, 394924, 394925, 397844, 397851
 
