@@ -1,11 +1,13 @@
 ---
-MetaTitle: "Wireless interceptions exception"
-MetaParent: "Case"
+MetaTitle: Wireless interceptions exception
+MetaParent: Case
+Title: France’s wireless communications surveillance loophole
+drngoClass: case timeline
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
-drngoClass: case timeline
-Title: "France’s wireless surveillance exemption loophole"
-introduction: "This legal challenge put an end to the loophole created in 1991 which made wireless communications subject to exemptions. Data Rights members participated in the case."
+introduction: This legal challenge put an end to the loophole created in 1991
+  which made wireless communications subject to exemptions. Data Rights members
+  participated in the case.
 ---
 
 
