@@ -26,7 +26,7 @@ drngoParentUrl: /cases/
 
 The QPC is a French Constitutional Law procedure allowing persons involved in a **pending case** to ask the court they are before to suspend the proceedings and pass on an overarching question the Constitutional Council to assess the constitutionality of laws relating to the case at hand. Here the QPC was made possible as part of the pending case we had started before the French Council of State on the Decrees of the Intelligence Law reform of 2015.
 
-Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services (as in \[the case of the fadettes du Monde [FR]](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne), where phone bills of journalists were intercepted).
+Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services (as in [the case of the fadettes du Monde \[FR]](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne), where phone bills of journalists were intercepted).
 
 Cases N<sup>ers</sup>: QPC 2016-590, 394922, 394924, 394925, 397844, 397851
 
@@ -72,7 +72,7 @@ Based on our briefs the French Council of State [concluded there were indeed dou
 
 <div class="event-date">Oct. 21 2016</div>
 
-The Constitutional Council \[declares article 24 of the Intelligence Law contrary to the Declaration of Human and Civil Rights of 1789](https://www.conseil-constitutionnel.fr/decision/2016/2016590QPC.htm). It notes that the “wireless exception” allows the collection of personal data and the interception of communications and that these intelligence measures are not subject “\*to any substantive or procedural conditions\*”and limited by “\*no guarantee\*".
+The Constitutional Council [declares article 24 of the Intelligence Law contrary to the Declaration of Human and Civil Rights of 1789](https://www.conseil-constitutionnel.fr/decision/2016/2016590QPC.htm). It notes that the “wireless exception” allows the collection of personal data and the interception of communications and that these intelligence measures are not subject “\*to any substantive or procedural conditions\*”and limited by “\*no guarantee\*".
 
 This "\*manifestly disproportionate interference with the right to respect for private life and the secrecy of correspondence\*" is contrary to Article 2 of the Declaration of 1789. That being said, the Council considers that "\*public authorities should not be deprived of any possibility of monitoring wireless transmissions\*" and therefore postponed the effect of its decision to more than a year.
 
