@@ -31,7 +31,7 @@ drngoClass: cover cases cover-teufelsberg content-grid
 <a href="wireless-exception" id="wireless-exception" class="case unit">
 <h3>France’s wireless communications surveillance exemption loophole</h3>
 <p>
-    This legal challenge before the French Constitutional Council put an end to an extensive loophole created in 1991. This loophole meant that wireless communications (e.g. via wifi, rfid, bluetooth, etc.) could be freely interfered for intelligence purposes with no legal safeguard applicable. Data Rights members participated in writing and leading the case.
+    The French Constitutional Council repealed an extensive loophole on wireless communications (e.g. via wifi, rfid, bluetooth, etc.). The loophole meant they could be freely interfered for intelligence purposes with no legal safeguard applicable. Data Rights members participated in writing and leading the case.
     <span class="read-more">Read more</span>
 </p>
 </a>
