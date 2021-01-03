@@ -48,7 +48,6 @@ collections:
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
       - { label: 'Category (suggestion: Ongoing Campaigns)', name: 'drngoParentCategory', required: false, widget: 'string' }
-      - { label: 'parent category (suggestion: Team)', name: 'drngoParentCategory', required: false, widget: 'string'}
       - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
       - { label: 'Class (suggestion: campaign)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'Parent (suggestion: Campaigns)', name: 'drngoParent', required: false, widget: 'string' }
