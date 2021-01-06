@@ -18,7 +18,7 @@ Les éléments que Data Rights souhaite porter à la connaissance de la CNIL con
 
  1. Le mandat-type prévoit de demander à la personne concernée de spécifier le responsable de traitement.
 
-    La notion juridique de « responsable de traitement » suppose des connaissances juridiques que n'ont pas nécessairement toutes les personnes concernées. L'identification du ou des responsables de traitement peut également s'avérer fastidieuse et nécessiter des analyses ainsi que des investigations, lesquelles peuvent même être rendues plus difficiles par certaines pratiques des entités traitant les données personnelles. L'écosystème complexe de la publicité en ligne en est une illustration.
+    La notion juridique de « responsable de traitement » suppose des connaissances juridiques que n'ont pas nécessairement toutes les personnes concernées. L'identification du ou des responsables de traitement peut également s'avérer fastidieuse et nécessiter des analyses ainsi que des investigations, lesquelles peuvent même être rendues plus difficiles par certaines pratiques des entités traitant les données personnelles. L'écosystème complexe de la publicité en ligne en est une illustration.
      
     De fait, les personnes concernées soucieuses d'exercer leurs droits ne sont pas toujours capables d'identifier formellement l'entité envers qui l'exercice des droits s'effectue. Cela est d'autant plus vrai lorsque le ou les responsables de traitement pertinents ne facilitent pas d'eux-mêmes l'exercice des droits à la protection des données personnelles. 
      
@@ -31,7 +31,7 @@ Les éléments que Data Rights souhaite porter à la connaissance de la CNIL con
 
     Le mandat-type semble ainsi exiger que chaque droit faisant objet du mandat soit spécifié. Ce formalisme risque de rendre l'exercice des droits moins souple, tandis que les droits à la protection des données s'exercent souvent de concert. Par exemple, l'exercice du droit d'accès peut donner lieu, ensuite, à des demandes d'effacement de données.
     
-    Nous partageons l'objectif que poursuit la nécessité que le mandat ait un objet précis. Toutefois, le recours à tel formalisme ne nous paraît pas y contribuer efficacement. C'est pourquoi il nous semblerait plus opportun de permettre aux mandataires une plus grande flexibilité, en ne spécifiant pas nécessairement chaque droit dans le corps du mandat-type lui-même. À défaut de spécifier précisément et de manière limitative certains droits, le mandat-type pourrait prévoir une formulation plus large telle que « conformément aux instructions données » par exemple sur une interface en ligne mise à disposition par le mandataire. 
+    Nous partageons l'objectif que poursuit la nécessité que le mandat ait un objet précis. Toutefois, le recours à tel formalisme ne nous paraît pas y contribuer efficacement. C'est pourquoi il nous semblerait plus opportun de permettre aux mandataires une plus grande flexibilité, en ne spécifiant pas nécessairement chaque droit dans le corps du mandat-type lui-même. À défaut de spécifier précisément et de manière limitative certains droits, le mandat-type pourrait prévoir une formulation plus large telle que « conformément aux instructions données » par exemple sur une interface en ligne mise à disposition par le mandataire. 
     
     À tout le moins, il nous semblerait utile que la CNIL spécifie que l'absence de respect d'un tel formalisme n'entraîne pas la nullité d'un mandat d'exercice des droits à la protection des données.
 
@@ -50,7 +50,7 @@ Pour ce qui concerne le contenu du mandat, nous renvoyons notamment à notre con
 
  1. Le projet de recommandation de la CNIL rappelle les règles relatives à la vérification de l'identité des demandeurs :
 
-    > « la Commission rappelle que les responsables de traitement auxquels une demande est adressée ne doivent pas procéder à la transmission des données sans s’être assurés au préalable de sa validité. Il leur incombe ainsi de s’assurer de l’identité de la personne concernée et de la véracité du mandat. »
+    > « la Commission rappelle que les responsables de traitement auxquels une demande est adressée ne doivent pas procéder à la transmission des données sans s’être assurés au préalable de sa validité. Il leur incombe ainsi de s’assurer de l’identité de la personne concernée et de la véracité du mandat. »
 
     Nous comprenons que ce passage renvoie implicitement à l'article 3 du mandat-type.
 
@@ -65,9 +65,9 @@ Pour ce qui concerne le contenu du mandat, nous renvoyons notamment à notre con
 
  2. Le projet de recommandation spécifie au point 32 que :
 
-    > « le mandat doit préciser si le mandataire peut être rendu destinataire des données, conformément à l’article 77 du décret. Pour assurer une transmission fluide des données, l’adresse (postale ou électronique) [...]. »
+    > « le mandat doit préciser si le mandataire peut être rendu destinataire des données, conformément à l’article 77 du décret. Pour assurer une transmission fluide des données, l’adresse (postale ou électronique) [...]. »
 
-    Nous souhaiterions suggérer l'ajout de « ou tout autre moyen technique permettant que les données soient reçues et utilisables au plus vite par l'entité destinataire, comme une clef API ou encore une URL. »
+    Nous souhaiterions suggérer l'ajout de « ou tout autre moyen technique permettant que les données soient reçues et utilisables au plus vite par l'entité destinataire, comme une clef API ou encore une URL. »
     
 
 ***
@@ -85,7 +85,7 @@ inbox@datarights.ngo
 
 # Annexe : formulaire de réponse à la consultation
 
-Madame Roussey, Lori
+Madame Roussey, Lori  
 inbox@datarights.ngo
 
 *Vous êtes*
