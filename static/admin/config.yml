@@ -281,6 +281,7 @@ collections:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
+      - { label: 'Date', name: 'date', required: false, widget: 'datetime' }
       - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
