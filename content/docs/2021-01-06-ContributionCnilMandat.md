@@ -5,6 +5,8 @@ aliases: /docs/2021-01-06-ContributionCnilMandat/
 date: 2021-01-06
 ---
 
+*<small>This document is only available in French.</small>*
+
 Data Rights remercie la CNIL d'organiser la présente consultation, particulièrement précieuse pour encourager la mise en œuvre pratique des droits des personnes concernées.
 
 **À propos de la présente contribution** : Data Rights est une organsation non-gouvernementale fondée en 2020, consacrée à donner aux utilisateur⋅ice⋅s, organisations et communautés le pouvoir de maîtriser leurs données. 
