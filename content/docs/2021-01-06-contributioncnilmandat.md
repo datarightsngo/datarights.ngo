@@ -1,5 +1,7 @@
 ---
-Title: 2021-01-06-ContributionCnilMandat
+Title: Contribution de Data Rights à la consultation publique de la CNIL relative à l'exercice des droits via un mandat
+slug: 2021-01-06-ContributionCnilMandat
+date: 2021-01-06
 ---
 
 Data Rights remercie la CNIL d'organiser la présente consultation, particulièrement précieuse pour encourager la mise en œuvre pratique des droits des personnes concernées.
