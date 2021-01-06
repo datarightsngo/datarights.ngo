@@ -1,7 +1,6 @@
 ---
-Title: Contribution de Data Rights à la consultation publique de la CNIL relative à l'exercice des droits via un mandat
+Title: Data Rights contribution to the CNIL's public consultation on data protection rights application via mandates
 slug: 2021-01-06-ContributionCnilMandat
-aliases: /docs/2021-01-06-ContributionCnilMandat/
 date: 2021-01-06
 ---
 
