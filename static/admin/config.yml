@@ -269,3 +269,27 @@ collections:
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
+  - name: 'docs'
+    label: 'Misc Docs'
+    folder: 'content/docs/'
+    create: true
+    slug: '{{slug}}'
+    preview_path: '/docs/{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
+      - { label: 'Title', name: 'Title', required: false, widget: 'string' }
+      - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
+      - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
+      - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
+      - { label: 'Category', name: 'drngoParentCategory', required: false, widget: 'string' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
+      - { label: 'Class', name: 'drngoClass', required: false, widget: 'string' }
+      - { label: 'Parent', name: 'drngoParent', required: false, widget: 'string' }
+      - { label: 'parent url (suggestion: /cases/ or /lang-id/cases/)', name: 'drngoParentUrl', required: false, widget: 'string' }
+      - { label: 'Show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
+      - { label: 'weight', name: 'weight', required: false, widget: 'number' }
+    identifier_field: Title
+    sortable_fields: ['Title', 'TitleMeta', 'date']
