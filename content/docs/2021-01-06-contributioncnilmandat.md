@@ -58,7 +58,7 @@ Pour ce qui concerne le contenu du mandat, nous renvoyons notamment à notre con
 
     À ce sujet, nous souscrivons aux conclusions de la contribution effectuée à l'EDPB concernant l'exercice des droits (section J) :
 
-    Ausloos, Jef and Mahieu, Rene and Veale, Michael, Getting Data Subject Rights Right (December 2019). (2019) 10 JIPITEC 283 https://ssrn.com/abstract=3544173^[À toutes fins de transparence, le co-auteur M. Jef Ausloos est un conseiller de Data Rights]
+    *Ausloos, Jef and Mahieu, Rene and Veale, Michael, Getting Data Subject Rights Right (December 2019). (2019) 10 JIPITEC 283* <https://ssrn.com/abstract=3544173> (À toutes fins de transparence, le co-auteur M. Jef Ausloos est un conseiller de Data Rights)
 
     Il nous semble que les mécanismes de certification et de labélisation de la CNIL auraient un rôle primordial à jouer, afin d'assurer que les processus mis en place par les mandataires respectent le niveau d'exigence de la CNIL, tout en assurant que les responsables de traitement répondent à l'impératif qui est le leur.
 
