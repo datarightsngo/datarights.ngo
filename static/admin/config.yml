@@ -1,18 +1,26 @@
 backend:
   name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
+site_url: https://admindrngo.netlify.app
+display_url: https://datarights.ngo
+logo_url: /logo/data-rights.svg
+show_preview_links: true
 media_folder: static/assets/media
 public_folder: /assets/media
+editor:
+  preview: false
 i18n: 
   structure: multiple_files
   locales: [en, fr]
   default_locale: en
+publish_mode: editorial_workflow
 collections:
   - name: 'news'
     label: 'News'
     folder: 'content/news/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    preview_path: '/news/{{slug}}'
     editor:
       preview: false
     fields:
@@ -29,8 +37,7 @@ collections:
       - { label: 'Parent URL (suggestion: /news/ or /lang-id/news/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'Show entries (suggestion only for index page)', name: 'drngoShowentries', required: false, widget: 'boolean' }
       - { label: 'Show subscribe form', name: 'drngoShowSubscribe', required: false, widget: 'boolean' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
-      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, widget: 'datetime' }
+      - { label: 'Date of scheduled publication', name: 'publishdate', required: false, default: "", widget: 'datetime' }
     identifier_field: Title
     sortable_fields: ['date', 'Title', 'TitleMeta']
   - name: 'campaigns'
@@ -38,17 +45,18 @@ collections:
     folder: 'content/campaigns/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/campaigns/{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
       - { label: 'Category (suggestion: Ongoing Campaigns)', name: 'drngoParentCategory', required: false, widget: 'string' }
-      - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
       - { label: 'Class (suggestion: campaign)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'Parent (suggestion: Campaigns)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /campaigns/ or /lang-id/campaigns/)', name: 'drngoParentUrl', required: false, widget: 'string' }
@@ -56,7 +64,6 @@ collections:
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'cases'
@@ -64,17 +71,18 @@ collections:
     folder: 'content/cases/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/cases/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
       - { label: 'Category (suggestion: Ongoing Cases)', name: 'drngoParentCategory', required: false, widget: 'string' }
-      - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
       - { label: 'Class (suggestion: case)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'Parent (suggestion: Legal Cases)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /cases/ or /lang-id/cases/)', name: 'drngoParentUrl', required: false, widget: 'string' }
@@ -82,7 +90,6 @@ collections:
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'cases--dataretention'
@@ -90,17 +97,18 @@ collections:
     folder: 'content/cases/dataretention/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/cases/dataretention/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
       - { label: 'Date', name: 'date', required: false, widget: 'datetime' }
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
       - { label: 'Class (suggestion: cases article)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'Parent (suggestion: Legal Cases / Data Retention and Intelligence Act)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /cases/dataretention/ or /lang-id/cases/dataretention/)', name: 'drngoParentUrl', required: false, widget: 'string' }
@@ -113,23 +121,23 @@ collections:
     folder: 'content/about/your-data-rights/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/cases/dataretention/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'introduction', required: false, widget: 'markdown' }
       - { label: 'body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', required: false, widget: 'string' }
       - { label: 'class (suggestion: about)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'parent (suggestion: your data rights)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /about/your-data-rights/ or /lang-id/about/your-data-rights/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'showsubscribe', name: 'drngoShowSubcribe', required: false, widget: 'boolean' }
       - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
   - name: 'about'
@@ -137,23 +145,23 @@ collections:
     folder: 'content/about/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/about/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'descrption', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', required: false, widget: 'string' }
       - { label: 'Class (suggestion: about)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'Parent (suggestion: About)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'Parent URL (suggestion: /about/ or /lang-id/about/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'ShowSubscribe (true or false)', name: 'drngoShowSubscribe', required: false, widget: 'boolean' }
       - { label: 'Show Prev/Next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'Weight', name: 'weight', required: false, widget: 'number' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'funding'
@@ -161,17 +169,18 @@ collections:
     folder: 'content/funding/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/funding/{{slug}}'
     editor:
-      preview: true
+      preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'Title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
       - { label: 'Category (suggestion: Ongoing Funding)', name: 'drngoParentCategory', required: false, widget: 'string' }
-      - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
       - { label: 'Class (suggestion: funding)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'Parent (suggestion: Funding)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /funding/ or /lang-id/funding/)', name: 'drngoParentUrl', required: false, widget: 'string' }
@@ -179,7 +188,6 @@ collections:
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'people'
@@ -187,18 +195,19 @@ collections:
     folder: 'content/people/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/people/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Name', name: 'Title', required: false, widget: 'string' }
       - { label: 'Role', name: 'subtitle', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Bio', name: 'cover', required: false, widget: 'string' }
+      - { label: 'Bio', name: 'cover', required: false, widget: 'markdown' }
       - { label: 'Image (suggestion: /people/firstname.lastname/sepia-sq.jpg)', name: 'images', required: false, widget: 'string' }
       - { label: 'Personal website URL', name: 'website', required: false, widget: 'string' }
       - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
       - { label: 'body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'Credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
       - { label: 'class (suggestion: people bio)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'parent category (suggestion: Team)', name: 'drngoParentCategory', required: false, widget: 'string' }
       - { label: 'parent (suggestion: Who We Are)', name: 'drngoParent', required: false, widget: 'string' }
@@ -208,7 +217,6 @@ collections:
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
       - { label: 'Disable Read More?', name: 'drngoNoreadmore', required: false, widget: 'boolean' }
       - { label: 'Disable Info Soon?', name: 'drngoNoredmoreinfosoon', required: false, widget: 'boolean' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: Title
     sortable_fields: ['Title', 'TitleMeta', 'date']
   - name: 'info'
@@ -218,23 +226,23 @@ collections:
       depth: 100
     create: true
     slug: '{{slug}}'
+    preview_path: '/info/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'introduction', required: false, widget: 'markdown' }
       - { label: 'body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', required: false, widget: 'string' }
       - { label: 'class (suggestion: info)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'parent (suggestion: info)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /info/ or /lang-id/info/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'showsubscribe (true or false)', name: 'drngoShowSubcribe', required: false, widget: 'boolean' }
       - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
   - name: 'info--data-policy'
@@ -242,22 +250,47 @@ collections:
     folder: 'content/info/data-policy/'
     create: true
     slug: '{{slug}}'
+    preview_path: '/info/data-policy/{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
       - { label: 'Title', name: 'title', required: false, widget: 'string' }
       - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
-      - { label: 'Cover Text', name: 'cover', required: false, widget: 'string' }
+      - { label: 'Cover Text', name: 'cover', required: false, widget: 'markdown' }
       - { label: 'Introduction', name: 'introduction', required: false, widget: 'markdown' }
       - { label: 'body', name: 'body', required: false, widget: 'markdown' }
-      - { label: 'Credits', name: 'credits', required: false, widget: 'markdown' }
+      - { label: 'Credits', name: 'credits', required: false, widget: 'string' }
       - { label: 'class (suggestion: info)', name: 'drngoClass', required: false, widget: 'string' }
       - { label: 'parent (suggestion: info)', name: 'drngoParent', required: false, widget: 'string' }
       - { label: 'parent url (suggestion: /info/ or /lang-id/info/)', name: 'drngoParentUrl', required: false, widget: 'string' }
       - { label: 'showsubscribe (true or false)', name: 'drngoShowSubcribe', required: false, widget: 'boolean' }
       - { label: 'show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
       - { label: 'weight', name: 'weight', required: false, widget: 'number' }
-      - { label: 'Draft', name: 'draft', required: false, widget: 'boolean' }
     identifier_field: title
     sortable_fields: ['title', 'TitleMeta', 'date']
+  - name: 'docs'
+    label: 'Misc Docs'
+    folder: 'content/docs/'
+    create: true
+    slug: '{{slug}}'
+    preview_path: '/docs/{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Meta Title', name: 'TitleMeta', required: false, widget: 'string' }
+      - { label: 'Title', name: 'Title', required: false, widget: 'string' }
+      - { label: 'Meta Description', name: 'description', required: false, widget: 'string' }
+      - { label: 'Date', name: 'date', required: false, widget: 'datetime' }
+      - { label: 'Cover Text', name: 'Cover', required: false, widget: 'markdown' }
+      - { label: 'Introduction', name: 'Introduction', required: false, widget: 'markdown' }
+      - { label: 'Body', name: 'body', required: false, widget: 'markdown' }
+      - { label: 'Category', name: 'drngoParentCategory', required: false, widget: 'string' }
+      - { label: 'Credits', name: 'Credits', required: false, widget: 'string' }
+      - { label: 'Class', name: 'drngoClass', required: false, widget: 'string' }
+      - { label: 'Parent', name: 'drngoParent', required: false, widget: 'string' }
+      - { label: 'parent url (suggestion: /cases/ or /lang-id/cases/)', name: 'drngoParentUrl', required: false, widget: 'string' }
+      - { label: 'Show prev/next', name: 'drngoShowNextPrev', required: false, widget: 'boolean' }
+      - { label: 'weight', name: 'weight', required: false, widget: 'number' }
+    identifier_field: Title
+    sortable_fields: ['Title', 'TitleMeta', 'date']
