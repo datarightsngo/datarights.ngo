@@ -18,10 +18,11 @@ defaultContentLanguageInSubdir = false
 
 
 [Params]
-  subtitle = "DataRights"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
+  subtitle = "Empowering users, organisations and communities, to control their data."
+  logo = "/apple-touch-icon.png"
+  favicon = "/favicon.ico"
   dateFormat = "2 January 2006"
+  images = ["/assets/data-rights-silo-square.png"]
   commit = false
   rss = true
   comments = false

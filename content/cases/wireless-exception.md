@@ -1,29 +1,27 @@
 ---
 MetaParent: Case
-Title: France’s wireless communications surveillance loophole
-Cover: ""
+drngoParentCategory: 📕 Closed Cases
 drngoClass: case timeline
 drngoParent: Legal Cases
 MetaTitle: Wireless interceptions exception
+Title: France’s wireless communications surveillance loophole
+Cover: ""
 introduction: This legal challenge put an end to the loophole created in 1991
   which made wireless communications subject to exemptions. Data Rights members
   participated in the case.
-Introduction: The French Constitutional Council put an end to an extensive
-  loophole covering wireless communications (e.g. via wifi, rfid, bluetooth,
-  etc.). They could be freely interfered for intelligence purposes with no legal
-  safeguard applicable. Data Rights members participated in writing and leading
-  the case.
+Introduction: This case at the French Constitutional Council put an end to the
+  loophole which, since 1991, had been exempting all wireless communications
+  surveillance of legal safeguards. Data Rights members contributed to the legal
+  challenge.
 drngoParentUrl: /cases/
 ---
-*Details of the case are only available in English and French. [See how to participate to translations](/action/translate/)*
-
 ## Priority preliminary ruling request (QPC) on wireless communications surveillance to the French Council of State
 
 <div class="event-date">May 6 2016</div>
 
 The QPC is a French Constitutional Law procedure allowing persons involved in a **pending case** to ask the court they are before to suspend the proceedings and pass on an overarching question the Constitutional Council to assess the constitutionality of laws relating to the case at hand. Here the QPC was made possible as part of the pending case we had started before the French Council of State on the Decrees of the Intelligence Law reform of 2015.
 
-Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services ([as in the case of the fadettes du Monde](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne) \[FR], where phone bills of journalists were intercepted).
+Indeed, during the intelligence regulation reform of 2015 the Parliament chose to maintain the “wireless exception” introduced in French law in 1991. At the time supposed to cover military communications, the rise of mobile communications and wireless networks made this provision totally obsolete, grossly disproportionate and source of abuse by the police and intelligence services ([as in the case of the fadettes of Le Monde](https://www.franceinter.fr/justice/affaire-des-fadettes-squarcini-condamne), where phone bills of journalists were intercepted).
 
 Cases N<sup>ers</sup>: QPC 2016-590, 394922, 394924, 394925, 397844, 397851
 

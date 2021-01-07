@@ -25,14 +25,14 @@ Gitlab is where developments such as for the website happen.
 </div>
 </a>
 
-<a href="https://admindrngo.netlify.app/admin/#/">
+<a href="https://app.netlify.com/">
 <div class="unit tool gitlab">
 <img src="https://www.netlifycms.org/img/favicon/apple-touch-icon.png"
  alt="" class="logo">
 <h2>Netlify</h2>
-<span class="url">admindrngo.netlify.app</span>
+<span class="url">url confidential</span>
 <p>
-We use Netlify to edit the website.
+We use Netlify to edit the website. If you do not remember the preview/edit URL, look in your web history for netlify.app or ask a member of the team.
 </p>
 </div>
 </a>

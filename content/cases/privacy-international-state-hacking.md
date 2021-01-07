@@ -6,6 +6,7 @@ Cover: Data Rights and French Data Network were granted the right to intervene a
 drngoClass: case
 drngoParent: Legal Cases
 drngoParentUrl: /cases/
+drngoParentCategory: "📕 Closed Cases"
 ---
 
 Data Rights (in the name of its funder, Lori Roussey) was admitted to intervene before the European Court of Human Rights (ECtHR) on intelligence services hacking powers to provide the court with legal, political and comparative law arguments. This intervention also evokes the sharing of hacking tools between States.
